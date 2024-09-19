@@ -1,0 +1,488 @@
+""	"PARTID"	"order"	"item"	"CODE"	"...5"	"...6"	"...7"	"...8"	"...9"	"...10"	"...11"	"...12"	"...13"	"...14"	"...15"	"...16"
+"1"	"acgn001"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"2"	"acgn001"	2	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"3"	"acgn001"	3	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"4"	"acgn001"	4	"Ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"5"	"acgn001"	5	"Salmer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"6"	"acgn002"	1	"At Bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"7"	"acgn002"	2	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"8"	"acgn002"	3	"Slå korsets tegn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"9"	"acgn002"	4	"Missionering"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	"whut"
+"10"	"acgn002"	5	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"11"	"acgn003"	1	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"12"	"acgn003"	2	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"13"	"acgn003"	3	"terapi/tryghed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"14"	"acgn003"	4	"tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"15"	"acgn003"	5	"\"træde ind i de voksnes rækker\""	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"16"	"acgn004"	1	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"17"	"acgn004"	2	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"18"	"acgn004"	3	"selvindsigt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"19"	"acgn004"	4	"forbundethed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"20"	"acgn004"	5	"gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"21"	"acgn005"	1	"krig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	"acgn005"	2	"sammenhold"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"23"	"acgn005"	3	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"24"	"acgn005"	4	"tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"25"	"acgn005"	5	"flotte bygninger"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"26"	"acgn006"	1	"At bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"27"	"acgn006"	2	"Bordbøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"28"	"acgn006"	3	"Gudstjenester"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"29"	"acgn006"	4	"Ramadan"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"30"	"acgn006"	5	"Juleaften"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"31"	"acgn007"	1	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"32"	"acgn007"	2	"dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"33"	"acgn007"	3	"konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"34"	"acgn007"	4	"meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"35"	"acgn007"	5	"be fadervor"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"36"	"acgn008"	1	"commitment"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"37"	"acgn008"	2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"38"	"acgn008"	3	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"39"	"acgn008"	4	"Krig og fred"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"40"	"acgn008"	5	"Historie"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"41"	"acgn009"	1	"Ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"42"	"acgn009"	2	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"43"	"acgn009"	3	"Håb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"44"	"acgn009"	4	"Liv efter døden"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"45"	"acgn009"	5	"Symboler"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"46"	"acgn010"	1	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"47"	"acgn010"	2	"terror"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"48"	"acgn010"	3	"cølibat"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"49"	"acgn010"	4	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"50"	"acgn010"	5	"mad"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"51"	"acgn011"	1	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"52"	"acgn011"	2	"gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"53"	"acgn011"	3	"nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"54"	"acgn011"	4	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"55"	"acgn011"	5	"templer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"56"	"KK001"	1	"At bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"57"	"KK001"	2	"Krystaller"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"58"	"KK001"	3	"Beøsge hellige steder"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"59"	"KK001"	4	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"60"	"KK001"	5	"?"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"61"	"KK002"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"62"	"KK002"	2	"Jul"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"63"	"KK002"	3	"Påske"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"64"	"KK002"	4	"Moske"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"65"	"KK002"	5	"Jesus"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"66"	"KK003"	1	"Vanvid"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"67"	"KK003"	2	"Krig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"68"	"KK003"	3	"Misfortolkning"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"69"	"KK003"	4	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"70"	"KK003"	5	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"71"	"KK004"	1	"Gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"72"	"KK004"	2	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"73"	"KK004"	3	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"74"	"KK004"	4	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"75"	"KK004"	5	"Ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"76"	"KK005"	1	"Ingenting"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"77"	"KK005"	2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"78"	"KK005"	3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"79"	"KK005"	4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"80"	"KK005"	5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"81"	"KK006"	1	"Åndelige tanker"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"82"	"KK006"	2	"Knyttet til kristendom"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"83"	"KK006"	3	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"84"	"KK006"	4	"Overbevisning"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"85"	"KK006"	5	"Noget ud over mig selv"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"86"	"KK007"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"87"	"KK007"	2	"Fejringer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"88"	"KK007"	3	"Buddisme"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"89"	"KK007"	4	"Krig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"90"	"KK007"	5	"Energier"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"91"	"KK008"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"92"	"KK008"	2	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"93"	"KK008"	3	"Præst"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"94"	"KK008"	4	"Højtider"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"95"	"KK008"	5	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"96"	"KK009"	1	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"97"	"KK009"	2	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"98"	"KK009"	3	"Bryllup"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"99"	"KK009"	4	"Barmitzvah"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"100"	"KK009"	5	"Tørklæde"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"101"	"KK010"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"102"	"KK010"	2	"Gå i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"103"	"KK010"	3	"Manifestere"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"104"	"KK010"	4	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"105"	"KK010"	5	"Vielse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"106"	"KK011"	1	"Gå i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"107"	"KK011"	2	"vaske op til et stort spirituelt arrangement, hvilket skulle gøre noget godt for sjælen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"108"	"KK011"	3	"Skrifte"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"109"	"KK011"	4	"Meditere"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"110"	"KK011"	5	"Chante"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"111"	"KK012"	1	"Bekymrende"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"112"	"KK012"	2	"Ikke logisk"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"113"	"KK012"	3	"Vil ikke selv tage ansvar"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"114"	"KK012"	4	"Umoden"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"115"	"KK012"	5	"Kunst"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"116"	"KK013"	1	"Akal"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"117"	"KK013"	2	"Ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"118"	"KK013"	3	"Samfundet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"119"	"KK013"	4	"Barnedåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"120"	"KK013"	5	"Tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"121"	"KK014"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"122"	"KK014"	2	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"123"	"KK014"	3	"Mad"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"124"	"KK014"	4	"Lys"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"125"	"KK014"	5	"Tæpper"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"126"	"lhj001"	1	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"127"	"lhj001"	2	"tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"128"	"lhj001"	3	"meningsløst (for mig)"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"129"	"lhj001"	4	"overtro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"130"	"lhj001"	5	"mangel på videnskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"131"	"lhj002"	1	"fællesskaber"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"132"	"lhj002"	2	"ritualer / traditioner"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"133"	"lhj002"	3	"individualitet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"134"	"lhj002"	4	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"135"	"lhj002"	5	"Risiko for konflikt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"136"	"lhj003"	1	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"137"	"lhj003"	2	"kirke/samling"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"138"	"lhj003"	3	"tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"139"	"lhj003"	4	"fred"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"140"	"lhj003"	5	"ekstremisme"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"141"	"lhj004"	1	"overgang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"142"	"lhj004"	2	"sindsro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"143"	"lhj004"	3	"rutine"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"144"	"lhj004"	4	"tryghed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"145"	"lhj004"	5	"tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"146"	"lhj005"	1	"mentalt helbred"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"147"	"lhj005"	2	"ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"148"	"lhj005"	3	"mindfulness"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"149"	"lhj005"	4	"meningsløst (for mig)"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"150"	"lhj005"	5	"retning"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"151"	"lhj006"	1	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"152"	"lhj006"	2	"ro i sind"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"153"	"lhj006"	3	"styring af grupper/kontrol"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"154"	"lhj006"	4	"fralæggelse af ansvar"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"155"	"lhj006"	5	"uro i verden"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"156"	"lhj007"	1	"dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"157"	"lhj007"	2	"konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"158"	"lhj007"	3	"bryllupper"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"159"	"lhj007"	4	"degravelser"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"160"	"lhj007"	5	"juleevangeliet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"161"	"lhj008"	1	"ritual"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"162"	"lhj008"	2	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"163"	"lhj008"	3	"meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"164"	"lhj008"	4	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"165"	"lhj008"	5	"følelser"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"166"	"lhj009"	1	"Ritualisering"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"167"	"lhj009"	2	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"168"	"lhj009"	3	"Inderlighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"169"	"lhj009"	4	"Hellige tekster"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"170"	"lhj009"	5	"Anti hverdag"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"171"	"lhj010"	1	"ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"172"	"lhj010"	2	"kirkegang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"173"	"lhj010"	3	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"174"	"lhj010"	4	"yoga"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"175"	"lhj010"	5	"sang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"176"	"LM001"	1	"Kors"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"177"	"LM001"	2	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"178"	"LM001"	3	"Ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"179"	"LM001"	4	"Rum"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"180"	"LM001"	5	"Naervaer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"181"	"LM002"	1	"At bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"182"	"LM002"	2	"Laese hellige skrifter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"183"	"LM002"	3	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"184"	"LM002"	4	"Pilgrimsrejse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"185"	"LM002"	5	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"186"	"LM003"	1	"Gaa i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"187"	"LM003"	2	"Overtroisk"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"188"	"LM003"	3	"Overnaturlig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"189"	"LM003"	4	"At tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"190"	"LM003"	5	"Daab, konfirmation, begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"191"	"LM004"	1	"Taende et lys for andre"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"192"	"LM004"	2	"Begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"193"	"LM004"	3	"Slip ballonen loes"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"194"	"LM004"	4	"Mere mellem himmel og jord"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"195"	"LM004"	5	"Tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"196"	"LM005"	1	"Gaa i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"197"	"LM005"	2	"Gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"198"	"LM005"	3	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"199"	"LM005"	4	"Bryllup"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"200"	"LM005"	5	"Begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"201"	"LM006"	1	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"202"	"LM006"	2	"Vielse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"203"	"LM006"	3	"Doeden"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"204"	"LM006"	4	"Himmel og jord soegen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"205"	"LM006"	5	"Gudstjenester"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"206"	"LM007"	1	"Spaadom"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"207"	"LM007"	2	"Tarotkort"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"208"	"LM007"	3	"Serioesitet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"209"	"LM007"	4	"Gaa i moske"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"210"	"LM007"	5	"Sammenkomster"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"211"	"LM008"	1	"For mig er det to forskellige ting"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"212"	"LM008"	2	"Religioese handlinger er det der sker f.eks. i kirker og moskéer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"213"	"LM008"	3	"Spirituelle handlinger er for mig saadan noget med kortloesning eller at nogen fornemmer de doede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"214"	"LM008"	4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"215"	"LM008"	5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"216"	"LM009"	1	"Religion forbinder jeg med tro, at ens hverdag og liv baere praeg af ens tro i forhold til hvilke valg man tager i livet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"217"	"LM009"	2	"Jeg mener ikke at vaere spirituelle en en del af at have en religion, det er tro forskellige ting"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"218"	"LM009"	3	"Religion er en bestemt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"219"	"LM009"	4	"Spirituel er man selv herre over"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"220"	"LM009"	5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"221"	"LM010"	1	"Liturgi"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"222"	"LM010"	2	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"223"	"LM010"	3	"Sakramenterne"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"224"	"LM010"	4	"Folkekirken"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"225"	"LM010"	5	"Spiritualitet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"226"	"LM011"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"227"	"LM011"	2	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"228"	"LM011"	3	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"229"	"LM011"	4	"Hekse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"230"	"LM011"	5	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"231"	"LM012"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"232"	"LM012"	2	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"233"	"LM012"	3	"Aandelighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"234"	"LM012"	4	"Fred/ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"235"	"LM012"	5	"Spritualitet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"236"	"LM013"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"237"	"LM013"	2	"Praester"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"238"	"LM013"	3	"Kulture"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"239"	"LM013"	4	"Misforstaaet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"240"	"LM013"	5	"Misbrugt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"241"	"LM014"	1	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"242"	"LM014"	2	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"243"	"LM014"	3	"Juleaften"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"244"	"LM014"	4	"Gaa i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"245"	"LM014"	5	"Laese i biblen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"246"	"LM015"	1	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"247"	"LM015"	2	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"248"	"LM015"	3	"Boen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"249"	"LM015"	4	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"250"	"LM015"	5	"Alter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"251"	"LM016"	1	"Boen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"252"	"LM016"	2	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"253"	"LM016"	3	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"254"	"LM016"	4	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"255"	"LM016"	5	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"256"	"LM017"	1	"Holisme"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"257"	"LM017"	2	"Faellesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"258"	"LM017"	3	"Guder"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"259"	"LM017"	4	"Ophoejethed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"260"	"LM017"	5	"Indre ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"261"	"LM018"	1	"Ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"262"	"LM018"	2	"Politik"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"263"	"LM018"	3	"Kommunikation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"264"	"LM018"	4	"Kropslighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"265"	"LM018"	5	"Aandelighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"266"	"LM019"	1	"Gudstjeneste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"267"	"LM019"	2	"Sang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"268"	"LM019"	3	"Boen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"269"	"LM019"	4	"Faellesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"270"	"LM019"	5	"Naervaer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"271"	"LM020"	1	"Daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"272"	"LM020"	2	"Helligaand"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"273"	"LM020"	3	"Boen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"274"	"LM020"	4	"Ekstase"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"275"	"LM020"	5	"Faellesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"276"	"mho001"	1	"shakra"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"277"	"mho001"	2	"ayurveda"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"278"	"mho001"	3	"buddhafigurer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"279"	"mho001"	4	"energier"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"280"	"mho001"	5	"gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"281"	"mho002"	1	"bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"282"	"mho002"	2	"gå i kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"283"	"mho002"	3	"gå med kors"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"284"	"mho002"	4	"gå med tørklæde"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"285"	"mho002"	5	"gifte sig med en med samme religion"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"286"	"mho003"	1	"at bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"287"	"mho003"	2	"at læse hellige skrifter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"288"	"mho003"	3	"at indgå i religiøse forsamlinger"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"289"	"mho003"	4	"traditioner"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"290"	"mho003"	5	"at følge regler og normer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"291"	"mho004"	1	"dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"292"	"mho004"	2	"nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"293"	"mho004"	3	"vielse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"294"	"mho004"	4	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"295"	"mho004"	5	"velsignelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"296"	"mho005"	1	"ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"297"	"mho005"	2	"forbundethed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"298"	"mho005"	3	"meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"299"	"mho005"	4	"ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"300"	"mho005"	5	"retræte"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"301"	"mho006"	1	"barmhjertighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"302"	"mho006"	2	"bøn og meditation og empati"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"303"	"mho006"	3	"ansvar for natur og medmennesker"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"304"	"mho006"	4	"sang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"305"	"mho006"	5	"fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"306"	"mho007"	1	"nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"307"	"mho007"	2	"bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"308"	"mho007"	3	"fadervor"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"309"	"mho007"	4	"trosbekendelsen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"310"	"mho007"	5	"overgangsritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"311"	"msc001"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"312"	"msc001"	2	"Sang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"313"	"msc001"	3	"mormoner, religiøse klæder"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"314"	"msc001"	4	"Familie"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"315"	"msc001"	5	"Tradition"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"316"	"msc002"	1	"Bryllup"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"317"	"msc002"	2	"Barnedåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"318"	"msc002"	3	"Begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"319"	"msc002"	4	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"320"	"msc002"	5	"Hannukah"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"321"	"msc003"	1	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"322"	"msc003"	2	"Vantro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"323"	"msc003"	3	"Usikkerhed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"324"	"msc003"	4	"Konspiration"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"325"	"msc003"	5	"Løgne"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"326"	"msc004"	1	"Symbol"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"327"	"msc004"	2	"Kors"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"328"	"msc004"	3	"Krige"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"329"	"msc004"	4	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"330"	"msc005"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"331"	"msc005"	2	"Ydmyghed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"332"	"msc005"	3	"Transparant"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"333"	"msc005"	4	"Sjælelig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"334"	"msc005"	5	"Sjæl"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"335"	"msc006"	1	"Kirkelige handlinger"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"336"	"msc007"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"337"	"msc007"	2	"Cermoni"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"338"	"msc007"	3	"Bryllup"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"339"	"msc007"	4	"Dans"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"340"	"msc007"	5	"Mad"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"341"	"msc008"	1	"Katolicisme"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"342"	"msc008"	2	"Krystaller"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"343"	"msc008"	3	"Åndelige oplevelser"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"344"	"msc008"	4	"Helligånden"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"345"	"msc008"	5	"Faste"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"346"	"msc009"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"347"	"msc009"	2	"Krystaller"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"348"	"msc009"	3	"Kort"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"349"	"msc009"	4	"Jehovas vidner"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"350"	"msc009"	5	"Missionere"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"351"	"msc010"	1	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"352"	"msc010"	2	"Ekstremisme"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"353"	"msc010"	3	"Fællesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"354"	"msc010"	4	"Dans"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"355"	"msc010"	5	"Lettelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"356"	"msr001"	1	"mening"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"357"	"msr001"	2	"sorg"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"358"	"msr001"	3	"debat"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"359"	"msr001"	4	"forskellighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"360"	"msr001"	5	"uforstaaende"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"361"	"msr002"	1	"traditioner"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"362"	"msr002"	2	"alvorlighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"363"	"msr002"	3	"centrering"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"364"	"msr002"	4	"troest"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"365"	"msr002"	5	"tavshed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"366"	"msr003"	1	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"367"	"msr003"	2	"tale"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"368"	"msr003"	3	"faellelsskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"369"	"msr003"	4	"troest"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"370"	"msr003"	5	"tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"371"	"msr004"	1	"bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"372"	"msr004"	2	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"373"	"msr004"	3	"salmer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"374"	"msr004"	4	"ceremonier"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"375"	"msr004"	5	"bibelen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"376"	"msr005"	1	"boen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"377"	"msr005"	2	"aktiv"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"378"	"msr005"	3	"arkitektur"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"379"	"msr005"	4	"plukningsreligion"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"380"	"msr005"	5	"begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"381"	"msr006"	1	"bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"382"	"msr006"	2	"gaa i kirke/ religioes institution"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"383"	"msr006"	3	"moské"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"384"	"msr006"	4	"hellig skrift"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"385"	"msr006"	5	"beklaedning"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"386"	"msr007"	1	"maerke sig selv"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"387"	"msr007"	2	"foele forbindelse til sig selv/noget stoerre"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"388"	"msr007"	3	"en vis ro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"389"	"msr007"	4	"meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"390"	"msr007"	5	"vaere i naturen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"391"	"msr007"	6	"have en foelelse af total afslappethed og bevidsthed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"392"	"msr008"	1	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"393"	"msr008"	2	"daab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"394"	"msr008"	3	"vold"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"395"	"msr008"	4	"skoer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"396"	"msr008"	5	"krig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"397"	"msr009"	1	"ild"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"398"	"msr009"	2	"kram"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"399"	"msr009"	3	"storm"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"400"	"msr009"	4	"kold dukkert"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"401"	"msr009"	5	"den permanente"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"402"	"msr010"	1	"indlevelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"403"	"msr010"	2	"faellesskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"404"	"msr010"	3	"haab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"405"	"msr010"	4	"hengivelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"406"	"msr010"	5	"tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"407"	"msr011"	1	"krystal"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"408"	"msr011"	2	"kors"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"409"	"msr011"	3	"noget med et taeppe/bedetaeppe"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"410"	"msr011"	4	"kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"411"	"msr011"	5	"sidde på en baenk i en kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"412"	"naj001"	1	"Spild af tid"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"413"	"naj001"	2	"Kedsommelighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"414"	"naj001"	3	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"415"	"naj001"	4	"Overtro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"416"	"naj001"	5	"Bedrevidenhed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"417"	"naj002"	1	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"418"	"naj002"	2	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"419"	"naj002"	3	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"420"	"naj002"	4	"Røgelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"421"	"naj002"	5	"Gå caminoen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"422"	"naj003"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"423"	"naj003"	2	"Gud"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"424"	"naj003"	3	"Meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"425"	"naj003"	4	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"426"	"naj003"	5	"Jesus"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"427"	"naj004"	1	"Kirkegang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"428"	"naj004"	2	"Klarsyn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"429"	"naj004"	3	"Næstekærlighed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"430"	"naj005"	1	"Tro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"431"	"naj005"	2	"Videnskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"432"	"naj005"	3	"Overtro"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"433"	"naj005"	4	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"434"	"naj005"	5	"Tvang"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"435"	"naj006"	1	"Religiøs er når der direkte er en religion involveret"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"436"	"naj006"	2	"kirke, moske, synagoge"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"437"	"naj006"	3	"spirituelle handlinger, meditation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"438"	"naj006"	4	"krystaller"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"439"	"naj007"	1	"Kedelig"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"440"	"naj007"	2	"Uvidenskabeligt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"441"	"naj007"	3	"Følelsesbetonet"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"442"	"naj007"	4	"Tilgivelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"443"	"naj007"	5	"Folkekirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"444"	"naj008"	1	"Blasfemi"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"445"	"naj008"	2	"Sekter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"446"	"naj008"	3	"Gode budskaber"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"447"	"naj008"	4	"Svage sjæle"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"448"	"naj008"	5	"Sammenhold"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"449"	"naj009"	1	"Blasfemi"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"450"	"naj009"	2	"Sekter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"451"	"naj009"	3	"Sammenholf"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"452"	"naj009"	4	"Lukkethed"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"453"	"naj009"	5	"Kontrol"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"454"	"naj010"	1	"Symboler"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"455"	"naj010"	2	"Sekt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"456"	"naj010"	3	"Okkult"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"457"	"naj010"	4	"Magi"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"458"	"naj010"	5	"Afrika"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"459"	"naj011"	1	"Nadver"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"460"	"naj011"	2	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"461"	"naj011"	3	"Bryllup"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"462"	"naj011"	4	"Jul"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"463"	"naj011"	5	"Påske"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"464"	"naj012"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"465"	"naj012"	2	"Sekt"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"466"	"naj012"	3	"Jehova"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"467"	"naj012"	4	"Ånds uddrivelser"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"468"	"naj012"	5	"Isis"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"469"	"naj013"	1	"Vejrtrækning"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"470"	"naj013"	2	"Nærvær"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"471"	"naj013"	3	"Tilstede i given situation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"472"	"naj013"	4	"Tanken om noget større"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"473"	"naj013"	5	"Befriende eller lettende i hverdagen"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"474"	"naj014"	1	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"475"	"naj014"	2	"Konfirmation"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"476"	"naj014"	3	"At bede"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"477"	"naj014"	4	"Ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"478"	"naj015"	1	"Kirke"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"479"	"naj015"	2	"Dåb"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"480"	"naj015"	3	"Begravelse"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"481"	"naj015"	4	"Ægteskab"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"482"	"naj015"	5	"Bøn"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"483"	"naj016"	1	"Ritualer"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"484"	"naj016"	2	"Gentagelser"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"485"	"naj016"	3	"Rekvisiter"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"486"	"naj016"	4	"Religiøs ekspert"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"487"	"naj016"	5	"Ofring"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
