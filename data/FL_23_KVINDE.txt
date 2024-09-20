@@ -1,0 +1,475 @@
+""	"PARTID"	"order"	"item"	"CODE"
+"1"	"naj001"	4	"\"Girlpower\""	NA
+"2"	"msr002"	4	"aestetik/skoenhed"	NA
+"3"	"acgn003"	4	"aktivisme"	NA
+"4"	"mho002"	1	"almenmenneskelige dyder og egenskaber"	NA
+"5"	"LM018"	1	"Alt"	NA
+"6"	"msr009"	5	"altseende/altvidende"	NA
+"7"	"naj013"	2	"Amme"	NA
+"8"	"acgn001"	4	"Ansvarlighed"	NA
+"9"	"lhj007"	4	"arrangere"	NA
+"10"	"mho003"	2	"at amme"	NA
+"11"	"KK004"	2	"At elske"	NA
+"12"	"mho003"	1	"at føde børn"	NA
+"13"	"msr011"	3	"at have sex"	NA
+"14"	"acgn011"	4	"at kunne blive gravid og føde"	NA
+"15"	"lhj007"	5	"at kunne tale om følelser"	NA
+"16"	"LM006"	1	"At vaere en god mor"	NA
+"17"	"naj007"	4	"Barndom"	NA
+"18"	"KK004"	6	"Bedre vidende"	NA
+"19"	"mho004"	5	"begrænsende"	NA
+"20"	"msc004"	4	"Behandle andre som man selv ønsker at blive behandlet uanset køn"	NA
+"21"	"naj007"	5	"Beskyttelse"	NA
+"22"	"KK003"	1	"Beskyttende"	NA
+"23"	"naj013"	3	"Bevæge mønster"	NA
+"24"	"msr002"	2	"bloedhed"	NA
+"25"	"lhj003"	4	"bløde/mildhed"	NA
+"26"	"acgn002"	2	"blødhed"	NA
+"27"	"msr008"	3	"boern"	NA
+"28"	"KK012"	1	"Boss ass bitch"	NA
+"29"	"LM009"	2	"Brede egenskaber"	NA
+"30"	"naj006"	2	"Børn"	NA
+"31"	"KK009"	2	"Børn"	NA
+"32"	"lhj006"	2	"børn/frugtbarhed"	NA
+"33"	"msr010"	4	"civiliserende - at kvinder er med til at civilisere den raa del af manden"	NA
+"34"	"msc006"	3	"De kan det samme"	NA
+"35"	"LM002"	4	"Dedikeret"	NA
+"36"	"KK002"	5	"Dem man ikke kan undvære"	NA
+"37"	"naj011"	1	"Det samme som mandlige egenskaber"	NA
+"38"	"lhj003"	2	"det seminine"	NA
+"39"	"acgn002"	4	"Det sociale køn"	NA
+"40"	"msc009"	4	"Detaljeorienteret"	NA
+"41"	"lhj008"	3	"disciplin"	NA
+"42"	"naj008"	1	"Dopamin"	NA
+"43"	"acgn003"	5	"drevet"	NA
+"44"	"LM019"	5	"Droemme"	NA
+"45"	"KK002"	2	"Dygtige"	NA
+"46"	"LM018"	2	"Daarlig loen"	NA
+"47"	"KK001"	5	"Eftertænksom"	NA
+"48"	"msc001"	1	"Ekstra følsom"	NA
+"49"	"LM019"	1	"Elegance"	NA
+"50"	"lhj006"	5	"elegance"	NA
+"51"	"msr009"	4	"elegance"	NA
+"52"	"LM002"	3	"Emotionel intelligens"	NA
+"53"	"acgn005"	1	"emotionelle"	NA
+"54"	"LM012"	1	"Emotionelt arbejde"	NA
+"55"	"LM002"	1	"Empati"	NA
+"56"	"msr011"	1	"empati"	NA
+"57"	"msc005"	1	"Empati"	NA
+"58"	"acgn005"	3	"empatisk"	NA
+"59"	"LM017"	3	"En af snakke med"	NA
+"60"	"LM006"	5	"En man elsker"	NA
+"61"	"msr007"	3	"en vis form for detaljeorienterethed"	NA
+"62"	"msr007"	2	"en vis form for frihed"	NA
+"63"	"LM002"	5	"Engageret"	NA
+"64"	"acgn011"	1	"et konservativt syn"	NA
+"65"	"LM001"	2	"Faellesskab"	NA
+"66"	"LM011"	3	"Faellesskab"	NA
+"67"	"LM015"	4	"Familie"	NA
+"68"	"LM016"	4	"Familie"	NA
+"69"	"naj005"	4	"Familie"	NA
+"70"	"acgn011"	5	"familie"	NA
+"71"	"msr003"	4	"familie"	NA
+"72"	"msc003"	3	"Familie sammenhold"	NA
+"73"	"acgn007"	3	"familien først frem for magt og penge"	NA
+"74"	"KK001"	4	"Familiens samlingspunkt"	NA
+"75"	"mho004"	4	"fastlåst"	NA
+"76"	"mho006"	1	"feminin"	NA
+"77"	"acgn002"	1	"Femininitet"	NA
+"78"	"LM011"	4	"Feminisme"	NA
+"79"	"LM018"	4	"Feminisme"	NA
+"80"	"naj001"	2	"Feminisme"	NA
+"81"	"naj007"	1	"Flid"	NA
+"82"	"LM017"	4	"Flittig"	NA
+"83"	"KK002"	1	"Flot at se på"	NA
+"84"	"LM020"	3	"Foede"	NA
+"85"	"LM001"	3	"Foedsel"	NA
+"86"	"mho004"	2	"fordomsfuldt"	NA
+"87"	"msc001"	2	"Forførende"	NA
+"88"	"LM009"	5	"Forkaerlighed"	NA
+"89"	"naj008"	5	"Forløsning"	NA
+"90"	"acgn008"	2	"fornuft"	NA
+"91"	"lhj003"	5	"forsamlende"	NA
+"92"	"LM017"	5	"Forskellighed"	NA
+"93"	"msc007"	4	"Forskellighed"	NA
+"94"	"msr006"	5	"forstaelse"	NA
+"95"	"mho004"	3	"forudindtaget"	NA
+"96"	"lhj009"	1	"forældet"	NA
+"97"	"mho007"	4	"forældre på lige fod med en mand"	NA
+"98"	"lhj008"	5	"fremskridt"	NA
+"99"	"msr005"	3	"freyja"	NA
+"100"	"naj001"	5	"Frihed"	NA
+"101"	"LM009"	3	"Frihed til selv at bestemme"	NA
+"102"	"KK006"	2	"Fromhed"	NA
+"103"	"acgn008"	4	"frugtbar"	NA
+"104"	"LM016"	2	"Frugtbarhed"	NA
+"105"	"msc008"	5	"Fællesskabende"	NA
+"106"	"acgn009"	2	"færdigheder (kreative)"	NA
+"107"	"naj016"	3	"Føde børn"	NA
+"108"	"naj005"	3	"Fødsel"	NA
+"109"	"naj013"	1	"Fødsel"	NA
+"110"	"KK014"	1	"Fødsel"	NA
+"111"	"msc003"	2	"Fødsler"	NA
+"112"	"KK013"	1	"Fødsler"	NA
+"113"	"naj014"	2	"Følelser"	NA
+"114"	"acgn004"	4	"følelsesliv"	NA
+"115"	"lhj009"	4	"følelsesmøssig intelligente"	NA
+"116"	"KK014"	2	"Følsom"	NA
+"117"	"naj012"	1	"Følsomhed"	NA
+"118"	"mho005"	3	"følsomme"	NA
+"119"	"acgn001"	1	"Få, hvis nogen, er specifikt kvindelige"	NA
+"120"	"mho004"	1	"gammeldags"	NA
+"121"	"acgn004"	1	"gammeldags"	NA
+"122"	"acgn011"	2	"gammeldags"	NA
+"123"	"lhj002"	2	"Gammeldags holdning"	NA
+"124"	"lhj001"	1	"Gammeldags syn på køn"	NA
+"125"	"KK011"	1	"Gammeldags tænkning"	NA
+"126"	"naj009"	4	"Give noget videre"	NA
+"127"	"LM006"	2	"God aegtefaelle"	NA
+"128"	"KK009"	5	"God leder"	NA
+"129"	"mho001"	1	"gode forældre"	NA
+"130"	"LM006"	3	"Goer tilvaerelsen dejlig"	NA
+"131"	"mho001"	5	"graviditet"	NA
+"132"	"mho007"	2	"graviditet"	NA
+"133"	"msc010"	3	"Graviditet"	NA
+"134"	"KK012"	2	"Grin"	NA
+"135"	"KK008"	2	"Handlekraft"	NA
+"136"	"acgn008"	1	"have mange bolde i luften"	NA
+"137"	"LM006"	4	"Hjaelper med at passe hjemmet"	NA
+"138"	"msr005"	4	"hoejskolesangbog"	NA
+"139"	"LM016"	3	"Husarbejde"	NA
+"140"	"LM013"	3	"Husholdning"	NA
+"141"	"acgn011"	3	"husholdning"	NA
+"142"	"msr004"	2	"husholdning"	NA
+"143"	"KK008"	5	"Huslige pligter"	NA
+"144"	"LM012"	4	"Husligt arbejde"	NA
+"145"	"KK014"	5	"Hvid"	NA
+"146"	"KK012"	3	"Hygge"	NA
+"147"	"acgn003"	3	"hygge-agtig"	NA
+"148"	"lhj006"	4	"håndarbejde"	NA
+"149"	"msr004"	3	"haandarbejde"	NA
+"150"	"acgn009"	4	"i kontakt med sine følelser"	NA
+"151"	"acgn007"	5	"i tråd med feminine værdier"	NA
+"152"	"KK006"	4	"Ikke stor forskel på mænd og kvinder"	NA
+"153"	"msc004"	5	"Ingen fordomme"	NA
+"154"	"KK007"	1	"Intellegens"	NA
+"155"	"msr008"	2	"intelligens"	NA
+"156"	"lhj004"	4	"intelligente"	NA
+"157"	"LM012"	3	"Intuition"	NA
+"158"	"msr008"	1	"jeg ved ikke rigtigt hvad der menes"	NA
+"159"	"LM003"	2	"Kaerlighed"	NA
+"160"	"LM007"	5	"Kaerlighed"	NA
+"161"	"LM015"	2	"Kaerlighed"	NA
+"162"	"LM019"	4	"Kaerlighed"	NA
+"163"	"msr001"	2	"kaerlighed"	NA
+"164"	"msr003"	3	"kaerlighed"	NA
+"165"	"naj001"	1	"Kamp for ligestilling"	NA
+"166"	"msr011"	6	"kampgejst"	NA
+"167"	"acgn005"	5	"kan føde"	NA
+"168"	"msc003"	4	"Kan give bryst til nyfødt"	NA
+"169"	"naj009"	1	"Kan multitaske"	NA
+"170"	"LM004"	4	"Kaos"	NA
+"171"	"naj016"	4	"Kloge"	NA
+"172"	"acgn009"	1	"klogskab"	NA
+"173"	"mho001"	3	"kommunikative"	NA
+"174"	"acgn005"	2	"kommunikative"	NA
+"175"	"msr005"	5	"komsammen"	NA
+"176"	"msr010"	2	"konfliktmaeling"	NA
+"177"	"KK009"	1	"Kontroversielt"	NA
+"178"	"LM014"	2	"Kreativ"	NA
+"179"	"lhj010"	5	"kreativitet"	NA
+"180"	"acgn001"	5	"Kreativitet"	NA
+"181"	"msr006"	1	"kreativitet"	NA
+"182"	"msr005"	1	"krig"	NA
+"183"	"lhj002"	3	"kultur vs. natur debat"	NA
+"184"	"msc004"	2	"Kun fantasien sætter grænser"	NA
+"185"	"LM009"	1	"Kvindelige dyder i haandvaerkerbranchen, det er blevet gjort til et mandefag; i dag kommer flere kvinder til"	NA
+"186"	"acgn002"	5	"kvindelist"	NA
+"187"	"msr011"	5	"kvinden som mor/morrollen"	NA
+"188"	"acgn006"	4	"kærlige"	NA
+"189"	"acgn007"	1	"kærlige følelser"	NA
+"190"	"mho007"	3	"kærlighed"	NA
+"191"	"naj002"	2	"Kærlighed"	NA
+"192"	"KK013"	3	"Kærlighed"	NA
+"193"	"KK014"	4	"Kærlighed"	NA
+"194"	"msc002"	3	"Kærlighed"	NA
+"195"	"msc007"	2	"Kærlighed"	NA
+"196"	"LM016"	5	"Lederskab"	NA
+"197"	"naj007"	2	"Ligegyldighed"	NA
+"198"	"naj002"	1	"Ligestilling"	NA
+"199"	"msr010"	3	"livsskabende"	NA
+"200"	"mho001"	2	"loyale"	NA
+"201"	"lhj005"	2	"lytte og forstå"	NA
+"202"	"msc002"	4	"Lyttende"	NA
+"203"	"acgn003"	2	"lyttende"	NA
+"204"	"LM013"	4	"Madlavning"	NA
+"205"	"lhj002"	5	"Madlavning"	NA
+"206"	"KK008"	4	"Madlavning"	NA
+"207"	"KK009"	3	"Madlavning"	NA
+"208"	"msr004"	4	"madlavning"	NA
+"209"	"LM004"	2	"Magt"	NA
+"210"	"acgn004"	3	"mandens blik"	NA
+"211"	"msc006"	1	"Mandlige egenskaber"	NA
+"212"	"msc006"	2	"Mandlige vs kvindelige egenskaber"	NA
+"213"	"msc008"	3	"Mangfoldighed"	NA
+"214"	"lhj005"	5	"menneskelighed"	NA
+"215"	"LM020"	4	"Menstruation"	NA
+"216"	"KK003"	2	"Mental svagere"	NA
+"217"	"naj013"	4	"Mere tilbøjelig til refleksion"	NA
+"218"	"acgn008"	5	"midtpunkt i familien"	NA
+"219"	"LM015"	3	"Mildhed"	NA
+"220"	"KK002"	3	"Mine børns tilblivelse"	NA
+"221"	"LM003"	1	"Moderlig"	NA
+"222"	"acgn007"	2	"moderlig"	NA
+"223"	"msc001"	3	"Moderlige instinkter"	NA
+"224"	"naj007"	3	"Moderlighed"	NA
+"225"	"LM010"	1	"Moderskab"	NA
+"226"	"LM011"	1	"Moderskab"	NA
+"227"	"LM013"	1	"Moderskab"	NA
+"228"	"lhj008"	2	"moderskab"	NA
+"229"	"lhj009"	2	"moderskab"	NA
+"230"	"naj002"	4	"Moderskab"	NA
+"231"	"naj010"	5	"Moderskab"	NA
+"232"	"naj014"	1	"Moderskab"	NA
+"233"	"acgn001"	3	"Moderskab"	NA
+"234"	"KK005"	1	"Moderskab"	NA
+"235"	"KK006"	1	"Moderskab"	NA
+"236"	"KK013"	2	"Moderskab"	NA
+"237"	"msr002"	5	"moderskab"	NA
+"238"	"lhj003"	1	"moderskabet"	NA
+"239"	"lhj004"	2	"modige"	NA
+"240"	"acgn006"	3	"modige"	NA
+"241"	"acgn001"	2	"Modstrider nutiden"	NA
+"242"	"msc003"	1	"Mor"	NA
+"243"	"naj008"	3	"Mor"	NA
+"244"	"KK008"	3	"Mor-rollen"	NA
+"245"	"naj005"	2	"Multitasking"	NA
+"246"	"acgn010"	4	"multitasking"	NA
+"247"	"lhj003"	3	"musikalske"	NA
+"248"	"KK010"	2	"Mægtig"	NA
+"249"	"mho002"	2	NA	NA
+"250"	"mho002"	3	NA	NA
+"251"	"mho002"	4	NA	NA
+"252"	"mho002"	5	NA	NA
+"253"	"mho003"	3	NA	NA
+"254"	"mho003"	4	NA	NA
+"255"	"mho003"	5	NA	NA
+"256"	"mho005"	5	NA	NA
+"257"	"LM005"	1	NA	NA
+"258"	"LM005"	2	NA	NA
+"259"	"LM005"	3	NA	NA
+"260"	"LM005"	4	NA	NA
+"261"	"LM005"	5	NA	NA
+"262"	"LM008"	2	NA	NA
+"263"	"LM008"	3	NA	NA
+"264"	"LM008"	4	NA	NA
+"265"	"LM008"	5	NA	NA
+"266"	"LM012"	5	NA	NA
+"267"	"LM013"	5	NA	NA
+"268"	"LM014"	3	NA	NA
+"269"	"LM014"	4	NA	NA
+"270"	"LM014"	5	NA	NA
+"271"	"lhj001"	2	NA	NA
+"272"	"lhj001"	3	NA	NA
+"273"	"lhj001"	4	NA	NA
+"274"	"lhj001"	5	NA	NA
+"275"	"KK003"	5	NA	NA
+"276"	"KK004"	3	NA	NA
+"277"	"KK004"	4	NA	NA
+"278"	"KK004"	5	NA	NA
+"279"	"KK005"	2	NA	NA
+"280"	"KK005"	3	NA	NA
+"281"	"KK005"	4	NA	NA
+"282"	"KK005"	5	NA	NA
+"283"	"KK011"	3	NA	NA
+"284"	"KK011"	4	NA	NA
+"285"	"KK011"	5	NA	NA
+"286"	"msr008"	4	NA	NA
+"287"	"msr008"	5	NA	NA
+"288"	"LM009"	4	"Naerhed til baade dem man kender og nogle man ikke kender"	NA
+"289"	"LM007"	4	"Naerhed, omsorg"	NA
+"290"	"LM001"	5	"Naervaer"	NA
+"291"	"LM003"	3	"Naervaer"	NA
+"292"	"LM020"	1	"Naervaer"	NA
+"293"	"msr007"	4	"naervaerende"	NA
+"294"	"KK011"	2	"Nedladenhed"	NA
+"295"	"msr010"	5	"noget med at maerke stemninger"	NA
+"296"	"KK001"	2	"Nærvær"	NA
+"297"	"naj010"	2	"Næstekærlighed"	NA
+"298"	"msc005"	4	"Næstekærlighed"	NA
+"299"	"KK013"	5	"Ofrende"	NA
+"300"	"mho006"	3	"omfavnende"	NA
+"301"	"mho007"	1	"omsorg"	NA
+"302"	"LM004"	1	"Omsorg"	NA
+"303"	"LM015"	1	"Omsorg"	NA
+"304"	"LM017"	2	"Omsorg"	NA
+"305"	"LM019"	3	"Omsorg"	NA
+"306"	"LM020"	2	"Omsorg"	NA
+"307"	"lhj002"	4	"Omsorg"	NA
+"308"	"lhj005"	1	"omsorg"	NA
+"309"	"lhj006"	1	"omsorg"	NA
+"310"	"lhj007"	1	"omsorg"	NA
+"311"	"lhj008"	1	"omsorg"	NA
+"312"	"lhj010"	3	"omsorg"	NA
+"313"	"naj002"	5	"Omsorg"	NA
+"314"	"naj010"	1	"Omsorg"	NA
+"315"	"naj012"	2	"Omsorg"	NA
+"316"	"naj016"	1	"Omsorg"	NA
+"317"	"acgn002"	3	"omsorg"	NA
+"318"	"acgn003"	1	"omsorg"	NA
+"319"	"acgn009"	3	"omsorg"	NA
+"320"	"KK001"	1	"Omsorg"	NA
+"321"	"KK006"	5	"Omsorg"	NA
+"322"	"KK007"	2	"Omsorg"	NA
+"323"	"KK008"	1	"Omsorg"	NA
+"324"	"KK009"	4	"Omsorg"	NA
+"325"	"KK013"	4	"Omsorg"	NA
+"326"	"msr001"	1	"omsorg"	NA
+"327"	"msr003"	1	"omsorg"	NA
+"328"	"msr004"	1	"omsorg"	NA
+"329"	"msr006"	2	"omsorg"	NA
+"330"	"msr010"	1	"omsorg"	NA
+"331"	"msr011"	4	"omsorg"	NA
+"332"	"msc002"	2	"Omsorg"	NA
+"333"	"msc007"	1	"Omsorg"	NA
+"334"	"msc009"	1	"Omsorg"	NA
+"335"	"msr002"	3	"omsorg/empati"	NA
+"336"	"msr007"	5	"omsorg/omsorgsfuld"	NA
+"337"	"msc010"	1	"Omsorgsarbejde"	NA
+"338"	"LM014"	1	"Omsorgsfuld"	NA
+"339"	"naj003"	1	"Omsorgsfuld"	NA
+"340"	"KK003"	3	"Omsorgsfuld"	NA
+"341"	"mho005"	4	"omsorgsfulde"	NA
+"342"	"lhj004"	1	"omsorgsfulde"	NA
+"343"	"lhj009"	5	"omsorgsfulde"	NA
+"344"	"mho001"	4	"omsorgsfuldhed"	NA
+"345"	"KK007"	4	"Omstillingsparat"	NA
+"346"	"KK001"	3	"Omtanke"	NA
+"347"	"lhj002"	5	"omvendt mandens"	NA
+"348"	"naj009"	3	"Opdrage"	NA
+"349"	"lhj008"	4	"opdragelse"	NA
+"350"	"msc005"	3	"Opfordrelse"	NA
+"351"	"mho006"	5	"opmærksom"	NA
+"352"	"naj005"	1	"Opvask"	NA
+"353"	"naj015"	1	"Ordenhed"	NA
+"354"	"msc004"	3	"Ordenlige mennesker"	NA
+"355"	"lhj010"	1	"overblik"	NA
+"356"	"naj010"	4	"Overblik"	NA
+"357"	"naj016"	5	"Overblik"	NA
+"358"	"msc010"	2	"Overblik"	NA
+"359"	"LM018"	3	"Overkvalificerede"	NA
+"360"	"acgn010"	5	"overlegen"	NA
+"361"	"KK010"	3	"Overset"	NA
+"362"	"LM004"	3	"Oversigt"	NA
+"363"	"KK007"	3	"Positivitet"	NA
+"364"	"msc003"	5	"Praktisk"	NA
+"365"	"naj006"	3	"Pænt hjem"	NA
+"366"	"lhj005"	4	"pålidelig"	NA
+"367"	"naj002"	3	"Pålidelighed"	NA
+"368"	"LM018"	5	"Rationalitet"	NA
+"369"	"lhj002"	6	"Rengøring"	NA
+"370"	"msc001"	4	"Rengørings freaks"	NA
+"371"	"lhj010"	2	"ro"	NA
+"372"	"naj006"	1	"Ro"	NA
+"373"	"acgn010"	2	"ro"	NA
+"374"	"naj010"	3	"Rummelighed"	NA
+"375"	"mho006"	2	"rummende"	NA
+"376"	"LM001"	1	"Samhoerighed"	NA
+"377"	"mho005"	2	"samlende"	NA
+"378"	"LM003"	4	"Sammenhold"	NA
+"379"	"naj009"	2	"Sammenhold"	NA
+"380"	"KK003"	4	"Sammenhold"	NA
+"381"	"KK014"	3	"Sammenhold"	NA
+"382"	"msr006"	4	"sammenhold"	NA
+"383"	"LM011"	5	"Samvaer"	NA
+"384"	"mho006"	4	"sansende"	NA
+"385"	"LM010"	3	"Seje"	NA
+"386"	"LM010"	5	"Selvstaendighed"	NA
+"387"	"msc008"	4	"Selvstændig"	NA
+"388"	"msc002"	5	"Selvstændighed"	NA
+"389"	"msc007"	3	"Selvstændighed"	NA
+"390"	"naj008"	4	"Sensitive"	NA
+"391"	"msc007"	5	"Sensualitet"	NA
+"392"	"naj008"	2	"Sex"	NA
+"393"	"acgn010"	1	"sex"	NA
+"394"	"lhj006"	6	"sirlighed"	NA
+"395"	"KK010"	1	"Skabende"	NA
+"396"	"LM012"	2	"Skjult/uopdaget arbejde"	NA
+"397"	"msr006"	3	"skoenhed"	NA
+"398"	"msc001"	5	"Skønne"	NA
+"399"	"KK012"	4	"Sladder"	NA
+"400"	"LM010"	4	"Smukke"	NA
+"401"	"acgn006"	5	"smukke"	NA
+"402"	"msr001"	3	"snakke"	NA
+"403"	"LM004"	5	"Snu"	NA
+"404"	"mho005"	1	"sociale"	NA
+"405"	"naj016"	2	"Sociale"	NA
+"406"	"msr009"	2	"soesterskab"	NA
+"407"	"msr002"	1	"soestersolidaritet"	NA
+"408"	"mho007"	5	"solidaritet"	NA
+"409"	"LM008"	1	"Som udgangspunkt kan alle koen det samme"	NA
+"410"	"acgn005"	4	"sproglige"	NA
+"411"	"msr001"	4	"staerk"	NA
+"412"	"LM007"	2	"Staerke"	NA
+"413"	"LM010"	2	"Staerke"	NA
+"414"	"msr007"	1	"stoerre form for faellesskab"	NA
+"415"	"LM002"	2	"Stoette"	NA
+"416"	"msr003"	2	"stoette"	NA
+"417"	"naj006"	4	"Strukturerede"	NA
+"418"	"LM020"	5	"Styrke"	NA
+"419"	"lhj005"	3	"styrke"	NA
+"420"	"lhj009"	3	"styrke"	NA
+"421"	"naj012"	3	"Styrke"	NA
+"422"	"acgn009"	5	"styrke"	NA
+"423"	"msc008"	1	"Styrke"	NA
+"424"	"msc010"	4	"Styrke"	NA
+"425"	"KK012"	5	"Stædighed"	NA
+"426"	"lhj004"	5	"stærke"	NA
+"427"	"acgn006"	1	"stærke"	NA
+"428"	"msc009"	3	"Større overblik"	NA
+"429"	"msr004"	5	"sygepleje"	NA
+"430"	"LM013"	2	"Sygeplejerske"	NA
+"431"	"KK007"	5	"Sødhed"	NA
+"432"	"acgn004"	5	"søsterskab"	NA
+"433"	"naj001"	3	"Søstersolidaritet"	NA
+"434"	"naj009"	5	"Så stod verden ikke hvis der ingen kvinder var"	NA
+"435"	"lhj006"	3	"sårbarhed"	NA
+"436"	"msc008"	2	"Sårbarhed"	NA
+"437"	"lhj007"	2	"tage vare på"	NA
+"438"	"acgn007"	4	"team spirit"	NA
+"439"	"msc005"	5	"Tilgivelse"	NA
+"440"	"msr003"	5	"tilhoersforhold"	NA
+"441"	"KK010"	5	"Trofaste"	NA
+"442"	"LM011"	2	"Tryghed"	NA
+"443"	"lhj002"	1	"Trælse ord, der alligevel kick-starter min hjerne med indlejrede normer"	NA
+"444"	"msc009"	2	"Tænker på andre før en selv"	NA
+"445"	"naj005"	5	"Tålmodighed"	NA
+"446"	"msc002"	1	"Tålmodighed"	NA
+"447"	"msc010"	5	"Tålmodighed"	NA
+"448"	"LM007"	1	"Uafhaengighed"	NA
+"449"	"LM003"	5	"Udholdenhed"	NA
+"450"	"LM019"	2	"Udholdenhed"	NA
+"451"	"msr005"	2	"ulighed"	NA
+"452"	"msr001"	5	"umage"	NA
+"453"	"msr009"	1	"underspillet raastyrke"	NA
+"454"	"LM001"	4	"Undertrykkelse"	NA
+"455"	"acgn004"	2	"undertrykkende"	NA
+"456"	"msr009"	3	"urkraft"	NA
+"457"	"LM016"	1	"Vaere din egen"	NA
+"458"	"LM017"	1	"Vaere menneske"	NA
+"459"	"msr011"	2	"vagina/vulva, kvindeligt koensorgan"	NA
+"460"	"lhj010"	4	"varme"	NA
+"461"	"KK004"	1	"Varme"	NA
+"462"	"LM007"	3	"Vedholdende"	NA
+"463"	"lhj007"	3	"vedligeholde relationer"	NA
+"464"	"msc004"	1	"Vi kan alt"	NA
+"465"	"acgn010"	3	"viden"	NA
+"466"	"KK002"	4	"Vigtig for at vi er her"	NA
+"467"	"acgn006"	2	"vilje"	NA
+"468"	"lhj004"	3	"viser sårbarhed"	NA
+"469"	"KK010"	4	"Værdsat"	NA
+"470"	"msc005"	2	"Ydmyghed"	NA
+"471"	"KK006"	3	"Ydmyghed"	NA
+"472"	"acgn008"	3	"ærlighed"	NA
+"473"	"LM015"	5	"Aabenhed"	NA
+"474"	"LM017"	6	"Aabenhed"	NA

@@ -1,0 +1,517 @@
+""	"PARTID"	"order"	"item"	"CODE"
+"1"	"acgn001"	1	"Ikke så meget positivt for mig"	NA
+"2"	"acgn001"	2	"Styring af mennesker"	NA
+"3"	"acgn001"	3	"Ingen kritisk tænkning"	NA
+"4"	"acgn001"	4	"Også godt for de, der vælger det"	NA
+"5"	"acgn001"	5	"Fortidig"	NA
+"6"	"acgn002"	1	"Arbejde"	NA
+"7"	"acgn002"	2	"Salmer"	NA
+"8"	"acgn002"	3	"Organist"	NA
+"9"	"acgn002"	4	"kulturkristen"	NA
+"10"	"acgn002"	5	"menighedsråd"	NA
+"11"	"acgn003"	1	"gammeldags"	NA
+"12"	"acgn003"	2	"omstillingsparat"	NA
+"13"	"acgn003"	3	"særbehandling"	NA
+"14"	"acgn003"	4	"højtidelig"	NA
+"15"	"acgn003"	5	"tourisme"	NA
+"16"	"acgn004"	1	"institution"	NA
+"17"	"acgn004"	2	"smuk"	NA
+"18"	"acgn004"	3	"rolig"	NA
+"19"	"acgn004"	4	"sammenhold"	NA
+"20"	"acgn004"	5	"sang"	NA
+"21"	"acgn005"	1	"jul"	NA
+"22"	"acgn005"	2	"konfirmation"	NA
+"23"	"acgn005"	3	"påske"	NA
+"24"	"acgn005"	4	"bryllup"	NA
+"25"	"acgn005"	5	"gammelt"	NA
+"26"	"acgn006"	1	"åben for alle"	NA
+"27"	"acgn006"	2	"tro"	NA
+"28"	"acgn006"	3	"stolt"	NA
+"29"	"acgn006"	4	"gammelt"	NA
+"30"	"acgn006"	5	"sammehold"	NA
+"31"	"acgn007"	1	"kristen institution"	NA
+"32"	"acgn007"	2	"forældet /  gammel"	NA
+"33"	"acgn007"	3	"ikke nok inkluderende"	NA
+"34"	"acgn007"	4	"mangler dialog, oplysning til folket"	NA
+"35"	"acgn007"	5	"nødvendig,"	NA
+"36"	"acgn007"	6	"men bør nytænkes"	NA
+"37"	"acgn008"	1	"Tro"	NA
+"38"	"acgn008"	2	"treenighed"	NA
+"39"	"acgn008"	3	"fællesskab"	NA
+"40"	"acgn008"	4	"danmark"	NA
+"41"	"acgn008"	5	"opdragelse"	NA
+"42"	"acgn009"	1	"kultur"	NA
+"43"	"acgn009"	2	"samfund"	NA
+"44"	"acgn009"	3	"kristendom"	NA
+"45"	"acgn009"	4	"konformitet"	NA
+"46"	"acgn009"	5	"jul"	NA
+"47"	"acgn009"	6	"tradition"	NA
+"48"	"acgn010"	1	"skat"	NA
+"49"	"acgn010"	2	"kongehuset"	NA
+"50"	"acgn010"	3	"præst"	NA
+"51"	"acgn010"	4	"DK"	NA
+"52"	"acgn010"	5	"Jesus"	NA
+"53"	"acgn011"	1	"kedelig"	NA
+"54"	"acgn011"	2	"juleaften"	NA
+"55"	"acgn011"	3	"for alle"	NA
+"56"	"acgn011"	4	"og måske for ingen"	NA
+"57"	"acgn011"	5	"tomme kirker"	NA
+"58"	"acgn011"	6	"salmer"	NA
+"59"	"KK001"	1	"Samhørighed"	NA
+"60"	"KK001"	2	"Åben for alle"	NA
+"61"	"KK001"	3	"Traditioner"	NA
+"62"	"KK001"	4	"Ro"	NA
+"63"	"KK001"	5	"Helligt sted"	NA
+"64"	"KK002"	1	"Et samlingspunkt for mange"	NA
+"65"	"KK002"	2	"Holde bryllupper"	NA
+"66"	"KK002"	3	"Noget, som jeg betaler til men ikke bruger"	NA
+"67"	"KK002"	4	"Røde mursten"	NA
+"68"	"KK002"	5	"\"Kan ikke læses\""	NA
+"69"	"KK003"	1	"Gammeldags institution"	NA
+"70"	"KK003"	2	"Traditioner"	NA
+"71"	"KK003"	3	"Dåb"	NA
+"72"	"KK003"	4	"Konfirmation"	NA
+"73"	"KK003"	5	"Bryllup"	NA
+"74"	"KK004"	1	"Høj Kirkemusik - Første del"	NA
+"75"	"KK004"	2	"Orgel - Anden del"	NA
+"76"	"KK004"	3	"Hvide kjoler - Første del"	NA
+"77"	"KK004"	4	"Hvide jakkesæt - Anden del"	NA
+"78"	"KK004"	5	"Dåb"	NA
+"79"	"KK004"	6	"Hårde bænke"	NA
+"80"	"KK004"	7	"Sang"	NA
+"81"	"KK005"	1	"Burde frigøres fra staten"	NA
+"82"	"KK005"	2	"Jeg er medlem fordi begge mine hustruer ønsker det"	NA
+"83"	"KK005"	3	"Har ikke rigtigt noget forhold til den"	NA
+"84"	"KK005"	4	"Kommer i kirke meget sjældent"	NA
+"85"	"KK005"	5	NA	NA
+"86"	"KK006"	1	"Et sted, hvor medlemmerne mødes"	NA
+"87"	"KK006"	2	"Et sted, hvor religiøse handlinger gennemføres"	NA
+"88"	"KK006"	3	"Et sted, der giver klarhed"	NA
+"89"	"KK006"	4	"Gamle sten - Første del"	NA
+"90"	"KK006"	5	"Gamle bygninger - Anden del"	NA
+"91"	"KK006"	6	"Menighedsråd"	NA
+"92"	"KK007"	1	"Dåb"	NA
+"93"	"KK007"	2	"Bryllup"	NA
+"94"	"KK007"	3	"Jul"	NA
+"95"	"KK007"	4	"Begravelse"	NA
+"96"	"KK007"	5	"Penge"	NA
+"97"	"KK008"	1	"Jul"	NA
+"98"	"KK008"	2	"Præster"	NA
+"99"	"KK008"	3	"Bryllup"	NA
+"100"	"KK008"	4	"Konfirmation"	NA
+"101"	"KK008"	5	"Kultur"	NA
+"102"	"KK009"	1	"Kirke"	NA
+"103"	"KK009"	2	"Bryllup"	NA
+"104"	"KK009"	3	"Dåb"	NA
+"105"	"KK009"	4	"Konfirmation"	NA
+"106"	"KK009"	5	"Begravelse"	NA
+"107"	"KK010"	1	"Vielse"	NA
+"108"	"KK010"	2	"Tradition"	NA
+"109"	"KK010"	3	"Jul"	NA
+"110"	"KK010"	4	"Flage"	NA
+"111"	"KK010"	5	"Samfund"	NA
+"112"	"KK011"	1	"Religion"	NA
+"113"	"KK011"	2	"Institution - Første del"	NA
+"114"	"KK011"	3	"kan støtte ved væsentlige livsbegivenheder - Anden del"	NA
+"115"	"KK011"	4	"Har ritualer - Tredje del"	NA
+"116"	"KK011"	5	"Dødsfald - Fjerde del"	NA
+"117"	"KK011"	6	"Støv"	NA
+"118"	"KK011"	7	"Historie"	NA
+"119"	"KK011"	8	"Kultur"	NA
+"120"	"KK012"	1	"Kultur"	NA
+"121"	"KK012"	2	"Begravelser"	NA
+"122"	"KK012"	3	"Skat"	NA
+"123"	"KK012"	4	"Præster"	NA
+"124"	"KK012"	5	"Musik"	NA
+"125"	"KK013"	1	"Tradition"	NA
+"126"	"KK013"	2	"Barnedåb"	NA
+"127"	"KK013"	3	"Kirker"	NA
+"128"	"KK013"	4	"Præster"	NA
+"129"	"KK013"	5	"Sorte præstekjoler"	NA
+"130"	"KK014"	1	"Bryllup"	NA
+"131"	"KK014"	2	"Dåb"	NA
+"132"	"KK014"	3	"Begravelser"	NA
+"133"	"KK014"	4	"Sammenhold"	NA
+"134"	"KK014"	5	"Hvid"	NA
+"135"	"lhj001"	1	"spild af skattepenge"	NA
+"136"	"lhj001"	2	"gammeldags"	NA
+"137"	"lhj001"	3	"ubetydeligt i nutiden"	NA
+"138"	"lhj001"	4	NA	NA
+"139"	"lhj001"	5	NA	NA
+"140"	"lhj002"	1	"fællesskab"	NA
+"141"	"lhj002"	2	"traditioner"	NA
+"142"	"lhj002"	3	"kirke - stat"	NA
+"143"	"lhj002"	4	"uvidenhed/"	NA
+"144"	"lhj002"	5	"klarhed om formålet"	NA
+"145"	"lhj002"	6	"sporup kirke"	NA
+"146"	"lhj003"	1	"traditioner"	NA
+"147"	"lhj003"	2	"højtider"	NA
+"148"	"lhj003"	3	"plads til alle"	NA
+"149"	"lhj003"	4	"præster + relation hertil"	NA
+"150"	"lhj003"	5	"kirkegårde"	NA
+"151"	"lhj004"	1	"konfirmation"	NA
+"152"	"lhj004"	2	"bryllup"	NA
+"153"	"lhj004"	3	"begravelse"	NA
+"154"	"lhj004"	4	"gudstjeneste"	NA
+"155"	"lhj004"	5	"flotte rum"	NA
+"156"	"lhj005"	1	"kristendom"	NA
+"157"	"lhj005"	2	"kirker"	NA
+"158"	"lhj005"	3	"jesus"	NA
+"159"	"lhj005"	4	"helligdage"	NA
+"160"	"lhj005"	5	"medlemskab"	NA
+"161"	"lhj006"	1	"skat"	NA
+"162"	"lhj006"	2	"stort stivt system"	NA
+"163"	"lhj006"	3	"sang"	NA
+"164"	"lhj006"	4	"nødhjælp"	NA
+"165"	"lhj006"	5	NA	NA
+"166"	"lhj007"	1	"min præst"	NA
+"167"	"lhj007"	2	"fællesskab"	NA
+"168"	"lhj007"	3	"ro"	NA
+"169"	"lhj007"	4	"fordybelse"	NA
+"170"	"lhj007"	5	"salmer"	NA
+"171"	"lhj008"	1	"præster"	NA
+"172"	"lhj008"	2	"kirker"	NA
+"173"	"lhj008"	3	"ritual"	NA
+"174"	"lhj008"	4	"dansk institution"	NA
+"175"	"lhj008"	5	"fællesskab"	NA
+"176"	"lhj009"	1	"Institutionaliseret"	NA
+"177"	"lhj009"	2	"højtider"	NA
+"178"	"lhj009"	3	"overgangsritualer"	NA
+"179"	"lhj009"	4	"statsunderstøttet"	NA
+"180"	"lhj009"	5	"varetager navneregistret"	NA
+"181"	"lhj010"	1	"trosfællesskab"	NA
+"182"	"lhj010"	2	"forningsarbejde"	NA
+"183"	"lhj010"	3	"musik"	NA
+"184"	"lhj010"	4	"riutalforvalter"	NA
+"185"	"lhj010"	5	"samlende"	NA
+"186"	"LM001"	1	"Traditioner"	NA
+"187"	"LM001"	2	"Kristendom"	NA
+"188"	"LM001"	3	"Opvoekst"	NA
+"189"	"LM001"	4	"Kultur"	NA
+"190"	"LM001"	5	"Hoejtider"	NA
+"191"	"LM002"	1	"Kort"	NA
+"192"	"LM002"	2	"Daab"	NA
+"193"	"LM002"	3	"Foellesskab"	NA
+"194"	"LM002"	4	"Jul"	NA
+"195"	"LM002"	5	"Bryllup"	NA
+"196"	"LM003"	1	"Sammenhold"	NA
+"197"	"LM003"	2	"Tro"	NA
+"198"	"LM003"	3	"Religion"	NA
+"199"	"LM003"	4	"Salmer"	NA
+"200"	"LM003"	5	"Begravelse"	NA
+"201"	"LM004"	1	"Traditioner"	NA
+"202"	"LM004"	2	"Plads til alle"	NA
+"203"	"LM004"	3	"Gammel kirke"	NA
+"204"	"LM004"	4	"Hellige dage"	NA
+"205"	"LM004"	5	"For baade ny og gammel tro"	NA
+"206"	"LM005"	1	"Gaar noesten aldrig i kirke"	NA
+"207"	"LM005"	2	"Palmer"	NA
+"208"	"LM005"	3	"Proediken"	NA
+"209"	"LM005"	4	"Orgelmusik"	NA
+"210"	"LM005"	5	"Fadervor"	NA
+"211"	"LM006"	1	"Daaben"	NA
+"212"	"LM006"	2	"Konfirmation"	NA
+"213"	"LM006"	3	"Vielse"	NA
+"214"	"LM006"	4	"Begravelse"	NA
+"215"	"LM006"	5	"Gudstjenester"	NA
+"216"	"LM007"	1	"Tro"	NA
+"217"	"LM007"	2	"Troskab"	NA
+"218"	"LM007"	3	"Oegteskab"	NA
+"219"	"LM007"	4	"Gud"	NA
+"220"	"LM007"	5	"Jesus"	NA
+"221"	"LM007"	6	"Daab"	NA
+"222"	"LM008"	1	"Jul"	NA
+"223"	"LM008"	2	"Daab"	NA
+"224"	"LM008"	3	"Konfirmation"	NA
+"225"	"LM008"	4	"Kulturkristen"	NA
+"226"	"LM008"	5	"Begravelse"	NA
+"227"	"LM009"	1	"Danske samfund"	NA
+"228"	"LM009"	2	"Alle kan frit komme i kirke"	NA
+"229"	"LM009"	3	NA	NA
+"230"	"LM009"	4	NA	NA
+"231"	"LM009"	5	NA	NA
+"232"	"LM010"	1	"Tradition"	NA
+"233"	"LM010"	2	"Arbejde"	NA
+"234"	"LM010"	3	"Tiltider kedelig"	NA
+"235"	"LM010"	4	"Brug for fornyelse"	NA
+"236"	"LM010"	5	"Statskirke"	NA
+"237"	"LM011"	1	"Menighed"	NA
+"238"	"LM011"	2	"Proest"	NA
+"239"	"LM011"	3	"Gode sociale tilbud"	NA
+"240"	"LM011"	4	"Gudstjeneste"	NA
+"241"	"LM011"	5	"Kirker"	NA
+"242"	"LM012"	1	"Tryghed"	NA
+"243"	"LM012"	2	"Ro"	NA
+"244"	"LM012"	3	"Kultur"	NA
+"245"	"LM012"	4	"Aktivitet"	NA
+"246"	"LM012"	5	"Fremtid"	NA
+"247"	"LM013"	1	"Kultur"	NA
+"248"	"LM013"	2	"Aaben"	NA
+"249"	"LM013"	3	"Hoejkirkelige"	NA
+"250"	"LM013"	4	"Gamle flotte bygninger"	NA
+"251"	"LM013"	5	"Praestekjoler"	NA
+"252"	"LM014"	1	"Gudstjeneste"	NA
+"253"	"LM014"	2	"Daab"	NA
+"254"	"LM014"	3	"Konfirmation"	NA
+"255"	"LM014"	4	"Doed"	NA
+"256"	"LM014"	5	NA	NA
+"257"	"LM015"	1	"Gudstjeneste"	NA
+"258"	"LM015"	2	"Sjaelesorg"	NA
+"259"	"LM015"	3	"Ritualer"	NA
+"260"	"LM015"	4	"Hjaelp"	NA
+"261"	"LM015"	5	"Medlemstal"	NA
+"262"	"LM016"	1	"Præster"	NA
+"263"	"LM016"	2	"Sammenhold"	NA
+"264"	"LM016"	3	"Daab/"	NA
+"265"	"LM016"	4	"Konfirmation"	NA
+"266"	"LM016"	5	"Spaghetti"	NA
+"267"	"LM016"	6	"Salmer"	NA
+"268"	"LM017"	1	"Sang"	NA
+"269"	"LM017"	2	"Et sted at tænke"	NA
+"270"	"LM017"	3	"Kirkerum"	NA
+"271"	"LM017"	4	"Praester"	NA
+"272"	"LM017"	5	"Konservatisme"	NA
+"273"	"LM018"	1	"Traditioner"	NA
+"274"	"LM018"	2	"Penge"	NA
+"275"	"LM018"	3	"Grundloven"	NA
+"276"	"LM018"	4	"Statsstoette"	NA
+"277"	"LM018"	5	"Kedsommelighed"	NA
+"278"	"LM019"	1	"Boevl"	NA
+"279"	"LM019"	2	"Tradition"	NA
+"280"	"LM019"	3	"Kristendom"	NA
+"281"	"LM019"	4	"Sognegaard"	NA
+"282"	"LM019"	5	"Faellesskab"	NA
+"283"	"LM020"	1	"Mangfoldighed"	NA
+"284"	"LM020"	2	"Praestevirket"	NA
+"285"	"LM020"	3	"Daab"	NA
+"286"	"LM020"	4	"Tradition"	NA
+"287"	"LM020"	5	"Public service"	NA
+"288"	"mho001"	1	"dansk"	NA
+"289"	"mho001"	2	"tradition"	NA
+"290"	"mho001"	3	"bred"	NA
+"291"	"mho001"	4	"men også splittet"	NA
+"292"	"mho001"	5	"tvetydigt hvad \"de\" mener"	NA
+"293"	"mho002"	1	"kalk"	NA
+"294"	"mho002"	2	"konfirmation"	NA
+"295"	"mho002"	3	"tro"	NA
+"296"	"mho002"	4	"frirum"	NA
+"297"	"mho002"	5	"frelse"	NA
+"298"	"mho003"	1	"traditioner"	NA
+"299"	"mho003"	2	"sange"	NA
+"300"	"mho003"	3	"kultur frem for religiøsitet"	NA
+"301"	"mho003"	4	"gammeldags"	NA
+"302"	"mho003"	5	"konservativ"	NA
+"303"	"mho004"	1	"musik"	NA
+"304"	"mho004"	2	"historisk"	NA
+"305"	"mho004"	3	"rammesætning"	NA
+"306"	"mho004"	4	"fællesskab"	NA
+"307"	"mho004"	5	"gentagelse"	NA
+"308"	"mho005"	1	"fællesskab"	NA
+"309"	"mho005"	2	"ritualer"	NA
+"310"	"mho005"	3	"livsovergange"	NA
+"311"	"mho005"	4	"reaktioner"	NA
+"312"	"mho005"	5	NA	NA
+"313"	"mho006"	1	"fællesskab"	NA
+"314"	"mho006"	2	"ritualer"	NA
+"315"	"mho006"	3	"mennesker der søger"	NA
+"316"	"mho006"	4	"traditioner"	NA
+"317"	"mho006"	5	"musik"	NA
+"318"	"mho007"	1	"jesus"	NA
+"319"	"mho007"	2	"kulturkristendom"	NA
+"320"	"mho007"	3	"dåb"	NA
+"321"	"mho007"	4	"konfirmation"	NA
+"322"	"mho007"	5	"Danmark"	NA
+"323"	"msc001"	1	"Salme"	NA
+"324"	"msc001"	2	"Traditoner"	NA
+"325"	"msc001"	3	"Barnedåb"	NA
+"326"	"msc001"	4	"Bryllup"	NA
+"327"	"msc001"	5	"Begravelse"	NA
+"328"	"msc002"	1	"Gudstjenester"	NA
+"329"	"msc002"	2	"Juleaften"	NA
+"330"	"msc002"	3	"Religiøse handlinger"	NA
+"331"	"msc002"	4	"Sammenhold"	NA
+"332"	"msc002"	5	"Kirkeskat"	NA
+"333"	"msc003"	1	"Tro"	NA
+"334"	"msc003"	2	"Højtider"	NA
+"335"	"msc003"	3	"Tradition"	NA
+"336"	"msc003"	4	"Barnedåb"	NA
+"337"	"msc003"	5	"Bryllup"	NA
+"338"	"msc003"	6	"Begravelse"	NA
+"339"	"msc003"	7	"Kirkeskat"	NA
+"340"	"msc004"	1	"Tomme"	NA
+"341"	"msc004"	2	"Dåb"	NA
+"342"	"msc004"	3	"Konfirmation"	NA
+"343"	"msc004"	4	"Indre ro"	NA
+"344"	"msc004"	5	"fredfyldt"	NA
+"345"	"msc004"	6	"Salmer"	NA
+"346"	"msc005"	1	"Fælleskab"	NA
+"347"	"msc005"	2	"Samhørighed"	NA
+"348"	"msc005"	3	"Samvær"	NA
+"349"	"msc005"	4	"Samarbejde"	NA
+"350"	"msc006"	1	"Institution"	NA
+"351"	"msc007"	1	"Konfirmation"	NA
+"352"	"msc007"	2	"Dåb"	NA
+"353"	"msc007"	3	"Bryllup"	NA
+"354"	"msc007"	4	"Betaling"	NA
+"355"	"msc007"	5	"Flugt"	NA
+"356"	"msc008"	1	"Kedelig"	NA
+"357"	"msc008"	2	"Orgel"	NA
+"358"	"msc008"	3	"Trosforladt"	NA
+"359"	"msc008"	4	"Sell out af kernebudskabet"	NA
+"360"	"msc008"	5	"har glemt Jesus"	NA
+"361"	"msc008"	6	"Verdensfjern"	NA
+"362"	"msc009"	1	"Gudstjeneste"	NA
+"363"	"msc009"	2	"Dåb"	NA
+"364"	"msc009"	3	"Konfirmation"	NA
+"365"	"msc009"	4	"Bryllup"	NA
+"366"	"msc009"	5	"Traditioner"	NA
+"367"	"msc010"	1	"Jul"	NA
+"368"	"msc010"	2	"Fælleskab"	NA
+"369"	"msc010"	3	"Salmer"	NA
+"370"	"msc010"	4	"Hygge"	NA
+"371"	"msc010"	5	"Dåb"	NA
+"372"	"msr001"	1	"ældre generationer"	NA
+"373"	"msr001"	2	"meget forskellige praester"	NA
+"374"	"msr001"	3	"spaghetti"	NA
+"375"	"msr001"	4	"overgange"	NA
+"376"	"msr001"	5	"jul"	NA
+"377"	"msr002"	1	"gamle mennesker"	NA
+"378"	"msr002"	2	"konfirmation"	NA
+"379"	"msr002"	3	"begravelse"	NA
+"380"	"msr002"	4	"bryllup"	NA
+"381"	"msr002"	5	"traditioner"	NA
+"382"	"msr002"	6	"salmesang"	NA
+"383"	"msr002"	7	"korsang"	NA
+"384"	"msr002"	8	"faellesspisning"	NA
+"385"	"msr003"	1	"faellesskab"	NA
+"386"	"msr003"	2	"glaede"	NA
+"387"	"msr003"	3	"traditioner"	NA
+"388"	"msr003"	4	"kulturelle faellesskaber"	NA
+"389"	"msr003"	5	"samlingspunkt"	NA
+"390"	"msr004"	1	"daab"	NA
+"391"	"msr004"	2	"kedelige kirker"	NA
+"392"	"msr004"	3	"pia kjaersgaard"	NA
+"393"	"msr004"	4	"df generelt"	NA
+"394"	"msr004"	5	"skat"	NA
+"395"	"msr005"	1	"traditioner"	NA
+"396"	"msr005"	2	"jul"	NA
+"397"	"msr005"	3	"danskhed"	NA
+"398"	"msr005"	4	"politik"	NA
+"399"	"msr005"	5	"bisaettelse"	NA
+"400"	"msr006"	1	"konfirmation"	NA
+"401"	"msr006"	2	"daab"	NA
+"402"	"msr006"	3	"begravelse/"	NA
+"403"	"msr006"	4	"bisaettelse"	NA
+"404"	"msr006"	5	"jul"	NA
+"405"	"msr006"	6	"praest"	NA
+"406"	"msr007"	1	"kristendom"	NA
+"407"	"msr007"	2	"dansk"	NA
+"408"	"msr007"	3	"gud"	NA
+"409"	"msr007"	4	"hvide mennesker"	NA
+"410"	"msr007"	5	"salmer"	NA
+"411"	"msr008"	1	"kristendom"	NA
+"412"	"msr008"	2	"daab"	NA
+"413"	"msr008"	3	"bryllup"	NA
+"414"	"msr008"	4	"begravelse"	NA
+"415"	"msr008"	5	"tradition"	NA
+"416"	"msr009"	1	"holme kirke"	NA
+"417"	"msr009"	2	"kvindelige praester"	NA
+"418"	"msr009"	3	"fordoemmelse"	NA
+"419"	"msr009"	4	"retningslinjer"	NA
+"420"	"msr009"	5	"kulde"	NA
+"421"	"msr010"	1	"musik"	NA
+"422"	"msr010"	2	"kulde"	NA
+"423"	"msr010"	3	"ceremoni"	NA
+"424"	"msr010"	4	"glaede"	NA
+"425"	"msr010"	5	"indlevelse"	NA
+"426"	"msr010"	6	"sorg"	NA
+"427"	"msr011"	1	"kedeligt - selve ordet er kedeligt"	NA
+"428"	"msr011"	2	"kirker i mursten"	NA
+"429"	"msr011"	3	"kedelige kirker i"	NA
+"430"	"msr011"	4	"del af den danske kultur"	NA
+"431"	"msr011"	5	"roed mursten"	NA
+"432"	"msr011"	6	"begravelse"	NA
+"433"	"msr011"	7	"ikke de seje kirker som Domkirken"	NA
+"434"	"naj001"	1	"Dåb"	NA
+"435"	"naj001"	2	"Bryllup"	NA
+"436"	"naj001"	3	"Salmer"	NA
+"437"	"naj001"	4	"Kristendom"	NA
+"438"	"naj001"	5	"Kedsommelighed"	NA
+"439"	"naj002"	1	"Prædiken"	NA
+"440"	"naj002"	2	"Præst"	NA
+"441"	"naj002"	3	"Traditioner"	NA
+"442"	"naj002"	4	"Tro"	NA
+"443"	"naj002"	5	"Livscyklus"	NA
+"444"	"naj003"	1	"Bryllup"	NA
+"445"	"naj003"	2	"dåb"	NA
+"446"	"naj003"	3	"begravelse"	NA
+"447"	"naj003"	4	"konfirmation"	NA
+"448"	"naj003"	5	"Kirkeskat"	NA
+"449"	"naj003"	6	"Kirkeklokker"	NA
+"450"	"naj003"	7	"Bibel"	NA
+"451"	"naj003"	8	"Kirkekor"	NA
+"452"	"naj004"	1	"Samlingssted"	NA
+"453"	"naj004"	2	"Bruger den til højtider"	NA
+"454"	"naj004"	3	"Begravelse"	NA
+"455"	"naj004"	4	"Gode prædikener"	NA
+"456"	"naj005"	1	"Tradition"	NA
+"457"	"naj005"	2	"Dåb"	NA
+"458"	"naj005"	3	"Begravelse"	NA
+"459"	"naj005"	4	"Præst"	NA
+"460"	"naj005"	5	"Samtale"	NA
+"461"	"naj006"	1	"Danmark"	NA
+"462"	"naj006"	2	"Bibelen"	NA
+"463"	"naj006"	3	"Gudstjeneste"	NA
+"464"	"naj006"	4	"Bryllup"	NA
+"465"	"naj006"	5	"Konfirmation"	NA
+"466"	"naj007"	1	"Tradition"	NA
+"467"	"naj007"	2	"Julegudstjenester"	NA
+"468"	"naj007"	3	"Menighedshus"	NA
+"469"	"naj007"	4	"Begravelse"	NA
+"470"	"naj007"	5	"Barnedåb"	NA
+"471"	"naj008"	1	"Blasfemi"	NA
+"472"	"naj008"	2	"Pengesluger"	NA
+"473"	"naj008"	3	"Gode historier"	NA
+"474"	"naj008"	4	"gode budskaber"	NA
+"475"	"naj008"	5	"Fællesskab"	NA
+"476"	"naj008"	6	"Aflastning"	NA
+"477"	"naj009"	1	"Danmark"	NA
+"478"	"naj009"	2	"Danmarkshistorie"	NA
+"479"	"naj009"	3	"Vores fortid"	NA
+"480"	"naj009"	4	"Nutid"	NA
+"481"	"naj009"	5	"Hjælpe til andre"	NA
+"482"	"naj010"	1	"Bygninger"	NA
+"483"	"naj010"	2	"Præst"	NA
+"484"	"naj010"	3	"Nadver"	NA
+"485"	"naj010"	4	"Salmesang"	NA
+"486"	"naj010"	5	"Orgel"	NA
+"487"	"naj011"	1	"Nadver"	NA
+"488"	"naj011"	2	"Bryllup"	NA
+"489"	"naj011"	3	"Barnedåb"	NA
+"490"	"naj011"	4	"Salmer"	NA
+"491"	"naj011"	5	"Præst"	NA
+"492"	"naj012"	1	"Konfirmation"	NA
+"493"	"naj012"	2	"Dåb"	NA
+"494"	"naj012"	3	"Begravelse"	NA
+"495"	"naj012"	4	"Nadver"	NA
+"496"	"naj012"	5	"Jul"	NA
+"497"	"naj013"	1	"Traditioner"	NA
+"498"	"naj013"	2	"Begravelse"	NA
+"499"	"naj013"	3	"Salmer"	NA
+"500"	"naj013"	4	"Præst"	NA
+"501"	"naj013"	5	"Levende lys"	NA
+"502"	"naj014"	1	"Dåb"	NA
+"503"	"naj014"	2	"Vielser"	NA
+"504"	"naj014"	3	"Konfirmationer"	NA
+"505"	"naj014"	4	"Præst"	NA
+"506"	"naj014"	5	"Gudstjenester"	NA
+"507"	"naj015"	1	"Dåb"	NA
+"508"	"naj015"	2	"Ægteskab"	NA
+"509"	"naj015"	3	"Begravelse"	NA
+"510"	"naj015"	4	"Konfirmation"	NA
+"511"	"naj015"	5	"Jul"	NA
+"512"	"naj016"	1	"Højtider"	NA
+"513"	"naj016"	2	"Begivenheder"	NA
+"514"	"naj016"	3	"Hvide kirker"	NA
+"515"	"naj016"	4	"Inkluderende"	NA
+"516"	"naj016"	5	"Rummeligt"	NA

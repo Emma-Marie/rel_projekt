@@ -1,0 +1,509 @@
+""	"PARTID"	"order"	"item"	"clean"
+"1"	"KK002"	2	"\"Kan ikke læses\""	NA
+"2"	"msc007"	2	"1. mosebog"	NA
+"3"	"KK006"	2	"10 bud"	NA
+"4"	"KK006"	1	"Accept af at Jesus har levet"	NA
+"5"	"msc007"	5	"Aflad"	NA
+"6"	"lhj006"	2	"afslappethed"	NA
+"7"	"LM013"	4	"Almisse"	NA
+"8"	"msr007"	4	"ambivalent"	NA
+"9"	"KK009"	3	"Anden del: Eva"	NA
+"10"	"KK006"	5	"Anden del: Smuk kunst"	NA
+"11"	"msc004"	3	"Andre religioner"	NA
+"12"	"LM014"	5	"At forberede sig til det gode"	NA
+"13"	"LM014"	3	"At hjaelpe andre"	NA
+"14"	"KK005"	1	"At prædke kærlighed, men glemme at udøve det"	NA
+"15"	"LM014"	4	"At vaere aerlig"	NA
+"16"	"LM014"	1	"At vaere gode mod andre"	NA
+"17"	"LM009"	4	"At vaere kristen"	NA
+"18"	"LM014"	2	"At vaere taknemmelig"	NA
+"19"	"KK006"	6	"At være lutheraner"	NA
+"20"	"acgn004"	2	"barndom"	NA
+"21"	"msr006"	5	"begravelse"	NA
+"22"	"lhj005"	1	"begrænset tro"	NA
+"23"	"naj003"	1	"Bibel"	NA
+"24"	"naj001"	1	"Bibelen"	NA
+"25"	"naj002"	2	"Bibelen"	NA
+"26"	"naj015"	4	"Bibelen"	NA
+"27"	"msr002"	2	"bibelen"	NA
+"28"	"msr004"	1	"bibelen"	NA
+"29"	"lhj010"	3	"bibelfortællinger"	NA
+"30"	"KK003"	5	"Biblen"	NA
+"31"	"KK007"	1	"Biblen"	NA
+"32"	"KK010"	5	"Biblen"	NA
+"33"	"acgn009"	5	"biblen"	NA
+"34"	"lhj003"	1	"biblen"	NA
+"35"	"lhj009"	2	"biblen"	NA
+"36"	"LM009"	2	"Biblen"	NA
+"37"	"msc009"	5	"Biblen"	NA
+"38"	"LM016"	5	"Boeger"	NA
+"39"	"acgn006"	5	"bordbøn"	NA
+"40"	"naj004"	3	"Brug af kirker"	NA
+"41"	"KK009"	4	"Bryllup"	NA
+"42"	"KK004"	4	"Bøn"	NA
+"43"	"naj001"	3	"Bøn"	NA
+"44"	"naj015"	5	"Bøn"	NA
+"45"	"naj016"	5	"Bøn"	NA
+"46"	"lhj010"	5	"bøn"	NA
+"47"	"msr001"	2	"danmark"	NA
+"48"	"msr011"	3	"danmark"	NA
+"49"	"acgn003"	3	"dansk"	NA
+"50"	"lhj008"	5	"dansk"	NA
+"51"	"lhj002"	2	"de 10 bud = vær en god person"	NA
+"52"	"lhj002"	3	"de 10 bud = vær en god person"	NA
+"53"	"lhj004"	3	"de ti bud"	NA
+"54"	"lhj007"	4	"de ti bud"	NA
+"55"	"KK006"	3	"dejlige salmer"	NA
+"56"	"LM018"	5	"Den der gud"	NA
+"57"	"msr007"	3	"derfor en dissonans"	NA
+"58"	"naj008"	5	"Det er en god historie og der var lavvandet da Jesus gik på vandet"	NA
+"59"	"naj008"	6	"Det er en god historie og der var lavvandet da Jesus gik på vandet"	NA
+"60"	"acgn011"	5	"det nye testamente"	NA
+"61"	"naj007"	4	"Det nye testamente"	NA
+"62"	"msr010"	2	"dogmatik"	NA
+"63"	"acgn010"	5	"drengebørn"	NA
+"64"	"LM017"	4	"Dysterhed"	NA
+"65"	"naj009"	4	"Dåb"	NA
+"66"	"naj011"	4	"Dåb"	NA
+"67"	"naj014"	2	"Dåb"	NA
+"68"	"LM008"	4	"Daab"	NA
+"69"	"lhj005"	3	"dårlige præster"	NA
+"70"	"lhj005"	4	"efterlivet"	NA
+"71"	"mho003"	3	"en opfattet essentialitet"	NA
+"72"	"mho006"	1	"en religion"	NA
+"73"	"mho006"	2	"en trosretning"	NA
+"74"	"KK002"	1	"En trosretning"	NA
+"75"	"msr011"	2	"et kors"	NA
+"76"	"lhj003"	7	"fadervor"	NA
+"77"	"lhj007"	5	"fadervor"	NA
+"78"	"LM003"	5	"Faellesskab"	NA
+"79"	"lhj007"	1	"fejre jul"	NA
+"80"	"lhj007"	3	"fejre pinse"	NA
+"81"	"lhj007"	2	"fejre påske"	NA
+"82"	"lhj001"	3	"fiktion"	NA
+"83"	"mho001"	5	"fluffy begreb"	NA
+"84"	"msr001"	3	"flygtninge"	NA
+"85"	"msc005"	5	"Foldede hænder"	NA
+"86"	"naj007"	5	"Folkekirke"	NA
+"87"	"KK003"	3	"Folkekirken"	NA
+"88"	"KK011"	2	"Folkekirken"	NA
+"89"	"lhj004"	2	"folkekirken"	NA
+"90"	"lhj008"	2	"folkekirken"	NA
+"91"	"LM018"	2	"Folkekirken"	NA
+"92"	"msr002"	6	"folkekirken"	NA
+"93"	"msr009"	1	"folkeskole"	NA
+"94"	"lhj005"	2	"for forkantet"	NA
+"95"	"LM012"	3	"Forbindelse"	NA
+"96"	"LM013"	3	"Fordomme"	NA
+"97"	"naj003"	3	"Fortællinger fra bibelen"	NA
+"98"	"LM015"	1	"Fred"	NA
+"99"	"msr003"	5	"frelse"	NA
+"100"	"KK014"	4	"Frihed"	NA
+"101"	"LM012"	2	"Frihed"	NA
+"102"	"msr004"	5	"frygt"	NA
+"103"	"msr011"	8	"fundamentalistiske grene af kristendom saasom indremission"	NA
+"104"	"acgn001"	5	"Fælles holdepunkt for mange"	NA
+"105"	"mho004"	1	"fællesskab"	NA
+"106"	"naj016"	2	"Fællesskab"	NA
+"107"	"lhj002"	1	"fællesskab"	NA
+"108"	"lhj006"	1	"fællesskab"	NA
+"109"	"lhj008"	3	"fællesskab"	NA
+"110"	"lhj010"	1	"fællesskab"	NA
+"111"	"msc010"	5	"Fællesskab"	NA
+"112"	"lhj001"	4	"fællesskab for de troende"	NA
+"113"	"msc003"	4	"Fællesskab på godt og ondt"	NA
+"114"	"mho001"	2	"føler sig overlegne som trossamfund"	NA
+"115"	"KK009"	2	"Første del: Adam"	NA
+"116"	"KK006"	4	"Første del: Smukke malerier"	NA
+"117"	"acgn004"	5	"gamle venskaber"	NA
+"118"	"LM004"	1	"Gammeldags"	NA
+"119"	"mho001"	3	"gavmild med tid"	NA
+"120"	"msc001"	5	"Glad og triste stunder"	NA
+"121"	"msc001"	6	"Glad og triste stunder"	NA
+"122"	"KK014"	3	"Glæde"	NA
+"123"	"naj008"	1	"Gode budskaber"	NA
+"124"	"KK009"	5	"Gravsten"	NA
+"125"	"naj007"	2	"Grundlag for vores stat"	NA
+"126"	"mho002"	3	"gud"	NA
+"127"	"mho007"	1	"gud"	NA
+"128"	"KK011"	1	"Gud"	NA
+"129"	"acgn005"	2	"gud"	NA
+"130"	"acgn006"	1	"gud"	NA
+"131"	"acgn010"	2	"gud"	NA
+"132"	"naj001"	2	"Gud"	NA
+"133"	"naj012"	3	"Gud"	NA
+"134"	"naj014"	1	"Gud"	NA
+"135"	"naj015"	1	"Gud"	NA
+"136"	"lhj006"	5	"gud"	NA
+"137"	"lhj008"	1	"gud"	NA
+"138"	"msc002"	1	"Gud"	NA
+"139"	"LM001"	3	"Gud"	NA
+"140"	"LM003"	3	"Gud"	NA
+"141"	"LM010"	2	"Gud"	NA
+"142"	"LM016"	1	"Gud"	NA
+"143"	"msr001"	1	"gud"	NA
+"144"	"msr003"	1	"gud"	NA
+"145"	"msc009"	3	"Gud"	NA
+"146"	"LM006"	5	"Gud"	NA
+"147"	"msr008"	1	"gud"	NA
+"148"	"msc008"	3	"Gud, far"	NA
+"149"	"msc008"	4	"Gud, far"	NA
+"150"	"msc008"	6	"Guds rige på jorden"	NA
+"151"	"msr004"	3	"gudstjeneste"	NA
+"152"	"KK010"	2	"Gudstjenester"	NA
+"153"	"KK013"	5	"Guld"	NA
+"154"	"msr008"	4	"hellig"	NA
+"155"	"msc010"	2	"Helligdage"	NA
+"156"	"acgn002"	5	"helligånden"	NA
+"157"	"acgn005"	3	"helligånden"	NA
+"158"	"msc008"	2	"Helligånden"	NA
+"159"	"msr010"	5	"hengivenhed"	NA
+"160"	"KK004"	1	"Hestevogn"	NA
+"161"	"LM002"	3	"Himmel"	NA
+"162"	"KK003"	2	"Historie"	NA
+"163"	"LM007"	3	"Historie"	NA
+"164"	"LM012"	4	"Historie"	NA
+"165"	"LM013"	1	"Historie"	NA
+"166"	"LM016"	3	"Historie"	NA
+"167"	"LM019"	4	"Hjem"	NA
+"168"	"naj008"	4	"Hjælper inden man skal dø"	NA
+"169"	"acgn007"	4	"hjælpsom"	NA
+"170"	"msr008"	5	"hvid"	NA
+"171"	"KK004"	3	"Hvid krave"	NA
+"172"	"msc001"	4	"Højtider"	NA
+"173"	"lhj003"	2	"højtider, dåb, konfirmation, bryllup, begravelse"	NA
+"174"	"lhj003"	3	"højtider, dåb, konfirmation, bryllup, begravelse"	NA
+"175"	"lhj003"	4	"højtider, dåb, konfirmation, bryllup, begravelse"	NA
+"176"	"lhj003"	5	"højtider, dåb, konfirmation, bryllup, begravelse"	NA
+"177"	"lhj003"	6	"højtider, dåb, konfirmation, bryllup, begravelse"	NA
+"178"	"acgn006"	3	"håb"	NA
+"179"	"lhj010"	2	"håb"	NA
+"180"	"msc005"	2	"Håb"	NA
+"181"	"msr011"	4	"ikke foelelsesmaessige ting, men bare symboler. Fx jesus som et symbol, kors og kirke som symbol"	NA
+"182"	"msr011"	5	"ikke foelelsesmaessige ting, men bare symboler. Fx jesus som et symbol, kors og kirke som symbol"	NA
+"183"	"msr011"	6	"ikke foelelsesmaessige ting, men bare symboler. Fx jesus som et symbol, kors og kirke som symbol"	NA
+"184"	"msr011"	7	"ikke foelelsesmaessige ting, men bare symboler. Fx jesus som et symbol, kors og kirke som symbol"	NA
+"185"	"LM003"	2	"Ikke tro"	NA
+"186"	"LM017"	2	"Inderlighed"	NA
+"187"	"acgn001"	2	"Indoktrinering"	NA
+"188"	"LM012"	5	"Interesse"	NA
+"189"	"msc006"	1	"Intet"	NA
+"190"	"KK002"	3	"Jerusalem"	NA
+"191"	"mho002"	2	"jesus"	NA
+"192"	"mho007"	2	"jesus"	NA
+"193"	"KK007"	3	"Jesus"	NA
+"194"	"KK008"	4	"Jesus"	NA
+"195"	"KK013"	2	"Jesus"	NA
+"196"	"acgn002"	1	"jesus"	NA
+"197"	"acgn005"	1	"jesus"	NA
+"198"	"acgn008"	3	"jesus"	NA
+"199"	"acgn009"	2	"jesus"	NA
+"200"	"acgn010"	1	"jesus"	NA
+"201"	"naj013"	1	"Jesus"	NA
+"202"	"naj014"	4	"Jesus"	NA
+"203"	"naj015"	2	"Jesus"	NA
+"204"	"lhj003"	9	"jesus"	NA
+"205"	"lhj004"	1	"jesus"	NA
+"206"	"lhj009"	1	"jesus"	NA
+"207"	"LM002"	1	"Jesus"	NA
+"208"	"LM003"	4	"Jesus"	NA
+"209"	"LM008"	1	"Jesus"	NA
+"210"	"LM010"	3	"Jesus"	NA
+"211"	"LM013"	5	"Jesus"	NA
+"212"	"LM017"	3	"Jesus"	NA
+"213"	"LM019"	5	"Jesus"	NA
+"214"	"LM020"	4	"Jesus"	NA
+"215"	"msr003"	2	"jesus"	NA
+"216"	"msr006"	2	"jesus"	NA
+"217"	"msr008"	2	"jesus"	NA
+"218"	"msr009"	2	"jesus"	NA
+"219"	"msr011"	1	"jesus"	NA
+"220"	"msc002"	5	"Jesus"	NA
+"221"	"msc009"	4	"Jesus"	NA
+"222"	"naj007"	3	"Jesus fødsel"	NA
+"223"	"LM009"	1	"Jesus Kristus"	NA
+"224"	"msc008"	1	"Jesus!"	NA
+"225"	"mho002"	5	"josef"	NA
+"226"	"acgn005"	4	"jul"	NA
+"227"	"naj012"	1	"Jul"	NA
+"228"	"naj014"	5	"Jul"	NA
+"229"	"LM008"	3	"Jul"	NA
+"230"	"msr009"	5	"jul"	NA
+"231"	"lhj002"	4	"Jul og jesus"	NA
+"232"	"lhj002"	5	"Jul og jesus"	NA
+"233"	"msr002"	3	"jul/jesu foedsel"	NA
+"234"	"msr002"	4	"jul/jesu foedsel"	NA
+"235"	"acgn006"	4	"juleaften"	NA
+"236"	"LM015"	5	"Kaerlighed"	NA
+"237"	"LM004"	2	"Kan aendres til egen tro"	NA
+"238"	"msc007"	3	"Katolikker"	NA
+"239"	"KK004"	5	"Kedelige sange"	NA
+"240"	"KK007"	4	"Kirke"	NA
+"241"	"KK008"	1	"Kirke"	NA
+"242"	"KK010"	1	"Kirke"	NA
+"243"	"KK014"	2	"Kirke"	NA
+"244"	"acgn003"	5	"kirke"	NA
+"245"	"naj006"	4	"Kirke"	NA
+"246"	"naj012"	2	"Kirke"	NA
+"247"	"lhj010"	4	"kirke"	NA
+"248"	"msc001"	1	"Kirke"	NA
+"249"	"msc002"	2	"Kirke"	NA
+"250"	"msc010"	3	"Kirke"	NA
+"251"	"LM001"	2	"Kirke"	NA
+"252"	"LM002"	4	"Kirke"	NA
+"253"	"LM011"	2	"Kirke"	NA
+"254"	"LM016"	4	"Kirke"	NA
+"255"	"LM019"	2	"Kirke"	NA
+"256"	"msr001"	4	"kirke"	NA
+"257"	"msr004"	2	"kirke"	NA
+"258"	"naj003"	4	"Kirkegang om søndagen"	NA
+"259"	"LM006"	4	"Kirkelige handlinger"	NA
+"260"	"mho007"	5	"kirkelige ritualer"	NA
+"261"	"naj002"	4	"Kirken"	NA
+"262"	"msc009"	1	"Kirken"	NA
+"263"	"LM010"	4	"Kirken"	NA
+"264"	"KK009"	6	"Kirker"	NA
+"265"	"acgn009"	3	"kirker"	NA
+"266"	"acgn011"	7	"kirker"	NA
+"267"	"naj016"	4	"Kirker"	NA
+"268"	"lhj009"	3	"kirker"	NA
+"269"	"naj009"	3	"Konfirmation"	NA
+"270"	"naj014"	3	"Konfirmation"	NA
+"271"	"LM008"	5	"Konfirmation"	NA
+"272"	"msr006"	4	"konfirmation"	NA
+"273"	"naj003"	2	"Konfirmationsforberedelse"	NA
+"274"	"msr005"	4	"kongefamilien/kongehuset"	NA
+"275"	"msr005"	5	"kongefamilien/kongehuset"	NA
+"276"	"KK012"	4	"Konger"	NA
+"277"	"mho003"	1	"konservativitet"	NA
+"278"	"msc007"	4	"Konservativt"	NA
+"279"	"KK004"	2	"Kors"	NA
+"280"	"KK008"	3	"Kors"	NA
+"281"	"KK013"	3	"Kors"	NA
+"282"	"KK014"	1	"Kors"	NA
+"283"	"acgn009"	1	"kors"	NA
+"284"	"naj010"	5	"Kors"	NA
+"285"	"naj011"	2	"Kors"	NA
+"286"	"naj012"	5	"Kors"	NA
+"287"	"LM002"	2	"Kors"	NA
+"288"	"LM011"	3	"Kors"	NA
+"289"	"msr003"	3	"kors"	NA
+"290"	"acgn002"	2	"korsfæstelse"	NA
+"291"	"KK009"	1	"Korstog"	NA
+"292"	"acgn002"	3	"korstog"	NA
+"293"	"naj009"	5	"Krav"	NA
+"294"	"naj002"	5	"Krig"	NA
+"295"	"naj010"	3	"Krig"	NA
+"296"	"naj016"	3	"Krig"	NA
+"297"	"LM015"	2	"Krig"	NA
+"298"	"msr003"	4	"krig"	NA
+"299"	"LM011"	1	"Kristne"	NA
+"300"	"KK003"	1	"Kultur"	NA
+"301"	"acgn002"	4	"kultur"	NA
+"302"	"lhj001"	2	"kultur"	NA
+"303"	"lhj002"	6	"kultur"	NA
+"304"	"LM001"	5	"Kultur"	NA
+"305"	"LM013"	2	"Kulture"	NA
+"306"	"LM008"	2	"Kulturkristen"	NA
+"307"	"mho007"	4	"kulturkristendom"	NA
+"308"	"KK012"	3	"Kunst"	NA
+"309"	"mho004"	2	"kærlighed"	NA
+"310"	"acgn007"	1	"kærlighed"	NA
+"311"	"acgn008"	2	"kærlighed"	NA
+"312"	"msc005"	3	"Kærlighed"	NA
+"313"	"msr005"	2	"lars albinus"	NA
+"314"	"naj001"	4	"Ligegyldighed"	NA
+"315"	"mho004"	4	"ligeværdighed"	NA
+"316"	"mho001"	1	"lignelser"	NA
+"317"	"acgn010"	3	"luther"	NA
+"318"	"msc003"	5	"Luthers frigørelse fra katolikken for 500 år siden"	NA
+"319"	"KK012"	1	"Magt"	NA
+"320"	"mho002"	4	"maria"	NA
+"321"	"naj003"	5	"Maria"	NA
+"322"	"KK007"	5	"Martin Luther"	NA
+"323"	"msc007"	1	"Martin Luther"	NA
+"324"	"acgn001"	1	"Massekontrol"	NA
+"325"	"lhj009"	4	"medmenneskelighed"	NA
+"326"	"LM019"	3	"Mellemoesten"	NA
+"327"	"mho003"	5	"mellemøsten"	NA
+"328"	"mho003"	4	"men en faktisk stor udvikling fra oprindelig kristendom"	NA
+"329"	"msr007"	2	"men ser også meget undertrykkelse"	NA
+"330"	"msc008"	5	"Menighedfællesskabet"	NA
+"331"	"LM010"	1	"Mig"	NA
+"332"	"LM020"	3	"Modvaegt (til kulturen)"	NA
+"333"	"msr010"	1	"moral"	NA
+"334"	"LM017"	5	"Mosaiker"	NA
+"335"	"msc001"	3	"Moske"	NA
+"336"	"mho005"	3	NA	NA
+"337"	"mho005"	4	NA	NA
+"338"	"mho005"	5	NA	NA
+"339"	"mho006"	3	NA	NA
+"340"	"mho006"	4	NA	NA
+"341"	"mho006"	5	NA	NA
+"342"	"KK005"	2	NA	NA
+"343"	"KK005"	3	NA	NA
+"344"	"KK005"	4	NA	NA
+"345"	"KK005"	5	NA	NA
+"346"	"lhj001"	5	NA	NA
+"347"	"LM005"	2	NA	NA
+"348"	"LM005"	3	NA	NA
+"349"	"LM005"	4	NA	NA
+"350"	"LM005"	5	NA	NA
+"351"	"LM007"	6	NA	NA
+"352"	"LM009"	5	NA	NA
+"353"	"msr007"	5	NA	NA
+"354"	"mho007"	3	"nadver"	NA
+"355"	"acgn005"	5	"nadver"	NA
+"356"	"naj011"	3	"Nadver"	NA
+"357"	"msr002"	5	"naestekaerlighed"	NA
+"358"	"msr010"	3	"naestekaerlighed"	NA
+"359"	"naj009"	2	"Noget at tro på"	NA
+"360"	"LM006"	2	"Noget der er foregaaet - maaske"	NA
+"361"	"msr010"	4	"noget der viser vej"	NA
+"362"	"LM006"	3	"Noget mellem himmel og jord"	NA
+"363"	"msr005"	1	"nye testamente"	NA
+"364"	"naj004"	1	"Nye/gamle testamente"	NA
+"365"	"naj004"	2	"Nye/gamle testamente"	NA
+"366"	"mho005"	1	"næstekærlighed"	NA
+"367"	"acgn011"	4	"næstekærlighed"	NA
+"368"	"naj002"	3	"Næstekærlighed"	NA
+"369"	"naj004"	4	"Næstekærlighed"	NA
+"370"	"naj006"	3	"Næstekærlighed"	NA
+"371"	"naj013"	2	"Næstekærlighed"	NA
+"372"	"naj016"	1	"Næstekærlighed"	NA
+"373"	"lhj003"	8	"næstekærlighed"	NA
+"374"	"lhj004"	4	"næstekærlighed"	NA
+"375"	"LM015"	4	"Omfavnelse"	NA
+"376"	"LM001"	1	"Opvaekst"	NA
+"377"	"LM011"	5	"Organisation"	NA
+"378"	"acgn007"	2	"overbærenhed"	NA
+"379"	"naj005"	2	"Overtro"	NA
+"380"	"msc005"	4	"Patriarkalsk"	NA
+"381"	"KK002"	4	"Paven"	NA
+"382"	"KK013"	4	"Paven"	NA
+"383"	"acgn010"	4	"paven"	NA
+"384"	"lhj004"	5	"paven"	NA
+"385"	"LM002"	5	"Paven"	NA
+"386"	"KK012"	2	"Penge"	NA
+"387"	"LM020"	5	"Pinsekirken"	NA
+"388"	"KK001"	4	"Plads til alle"	NA
+"389"	"naj005"	5	"Pligt"	NA
+"390"	"acgn001"	3	"Politisk magt"	NA
+"391"	"msr006"	1	"praest"	NA
+"392"	"KK008"	5	"Præst"	NA
+"393"	"naj013"	4	"Præst"	NA
+"394"	"msc002"	3	"Præst"	NA
+"395"	"KK002"	5	"Præster"	NA
+"396"	"lhj008"	4	"præster"	NA
+"397"	"msc010"	1	"Påske"	NA
+"398"	"naj010"	4	"Regler"	NA
+"399"	"LM004"	5	"Regler"	NA
+"400"	"KK011"	3	"Religion"	NA
+"401"	"acgn003"	1	"religion"	NA
+"402"	"naj006"	1	"Religion"	NA
+"403"	"naj010"	2	"Religion"	NA
+"404"	"naj011"	5	"Religion"	NA
+"405"	"LM007"	2	"Religion"	NA
+"406"	"LM016"	2	"Religion"	NA
+"407"	"msr009"	3	"retningslinjer"	NA
+"408"	"acgn001"	4	"Retningslinjer for spiritualitet"	NA
+"409"	"LM007"	4	"Rig/fattig"	NA
+"410"	"LM007"	5	"Rig/fattig"	NA
+"411"	"msr009"	4	"roedvin"	NA
+"412"	"msr005"	3	"roskilde domkirke"	NA
+"413"	"KK001"	2	"Salmer"	NA
+"414"	"acgn009"	4	"salmer"	NA
+"415"	"naj008"	3	"Salmer"	NA
+"416"	"msc010"	4	"Salmer"	NA
+"417"	"LM007"	1	"Samfund"	NA
+"418"	"msc002"	4	"Samler"	NA
+"419"	"KK001"	3	"Samlingspunkt"	NA
+"420"	"KK010"	4	"Sammenvær"	NA
+"421"	"LM017"	1	"Sang"	NA
+"422"	"LM018"	3	"Sekter"	NA
+"423"	"msr007"	1	"ser en masse skoenhed i kristendom"	NA
+"424"	"LM015"	3	"Sindsro"	NA
+"425"	"naj005"	4	"Skel"	NA
+"426"	"KK007"	2	"Skærtorsdag"	NA
+"427"	"naj001"	5	"Social kontrol"	NA
+"428"	"lhj002"	7	"sorte kjoler og hvide præstekraver"	NA
+"429"	"lhj002"	8	"sorte kjoler og hvide præstekraver"	NA
+"430"	"acgn004"	3	"spejder"	NA
+"431"	"LM020"	2	"Stridigheder"	NA
+"432"	"acgn007"	5	"større end det enkelte menneske"	NA
+"433"	"naj013"	3	"Synder"	NA
+"434"	"lhj009"	5	"syndsforladelse"	NA
+"435"	"mho002"	1	"søndagsgudstjeneste"	NA
+"436"	"LM018"	1	"Teologer"	NA
+"437"	"LM010"	5	"Teologi"	NA
+"438"	"LM018"	4	"Testamenter"	NA
+"439"	"mho004"	3	"tilgivelse"	NA
+"440"	"mho005"	2	"tilgivelse"	NA
+"441"	"KK012"	5	"Tilgivelse"	NA
+"442"	"naj007"	1	"Tilgivelse"	NA
+"443"	"msc006"	2	"Tomhed"	NA
+"444"	"acgn003"	4	"tradition"	NA
+"445"	"naj005"	3	"Tradition"	NA
+"446"	"lhj001"	1	"tradition"	NA
+"447"	"LM001"	4	"Tradition"	NA
+"448"	"LM004"	4	"Tradition"	NA
+"449"	"LM020"	1	"Tradition"	NA
+"450"	"KK001"	1	"Traditioner"	NA
+"451"	"acgn004"	1	"traditioner"	NA
+"452"	"naj002"	1	"Traditioner"	NA
+"453"	"naj008"	2	"Traditioner"	NA
+"454"	"naj013"	5	"Traditioner"	NA
+"455"	"lhj006"	3	"traditioner"	NA
+"456"	"msc001"	2	"Traditioner"	NA
+"457"	"mho003"	2	"traditionsbunden"	NA
+"458"	"KK010"	3	"Tradtioner"	NA
+"459"	"LM019"	1	"Treenighed"	NA
+"460"	"acgn011"	6	"treenigheden"	NA
+"461"	"msr008"	3	"treenigheden"	NA
+"462"	"KK003"	4	"Tro"	NA
+"463"	"KK008"	2	"Tro"	NA
+"464"	"KK014"	5	"Tro"	NA
+"465"	"acgn003"	2	"tro"	NA
+"466"	"acgn004"	4	"tro"	NA
+"467"	"acgn006"	2	"tro"	NA
+"468"	"acgn008"	1	"tro"	NA
+"469"	"naj005"	1	"Tro"	NA
+"470"	"naj010"	1	"Tro"	NA
+"471"	"naj011"	1	"Tro"	NA
+"472"	"naj015"	3	"Tro"	NA
+"473"	"lhj005"	5	"tro"	NA
+"474"	"msc009"	2	"Tro"	NA
+"475"	"LM003"	1	"Tro"	NA
+"476"	"LM005"	1	"Tro"	NA
+"477"	"LM006"	1	"Tro"	NA
+"478"	"LM012"	1	"Tro"	NA
+"479"	"msr001"	5	"tro"	NA
+"480"	"msc003"	1	"Tro"	NA
+"481"	"msc005"	1	"Tro"	NA
+"482"	"msc004"	2	"Tro på Gud"	NA
+"483"	"msc004"	1	"Tro på Jesus"	NA
+"484"	"acgn011"	1	"tro, håb og kærlighed"	NA
+"485"	"acgn011"	2	"tro, håb og kærlighed"	NA
+"486"	"acgn011"	3	"tro, håb og kærlighed"	NA
+"487"	"mho004"	5	"tryghed"	NA
+"488"	"KK001"	5	"Tryghed"	NA
+"489"	"LM011"	4	"Tryghed"	NA
+"490"	"mho001"	4	"udbredt"	NA
+"491"	"acgn007"	3	"uegoistisk"	NA
+"492"	"naj006"	2	"Ulandshjælp"	NA
+"493"	"msr004"	4	"underdanighed til gud"	NA
+"494"	"msc003"	3	"Underkastelse"	NA
+"495"	"msr002"	1	"undervisning i folkeskolen"	NA
+"496"	"msr005"	6	"uretfaerdighed"	NA
+"497"	"acgn008"	4	"valg at følge"	NA
+"498"	"msc003"	2	"Vantro"	NA
+"499"	"LM004"	3	"Ved at forsvinde"	NA
+"500"	"KK011"	5	"Vend den anden kind til"	NA
+"501"	"KK013"	1	"Vesten"	NA
+"502"	"lhj006"	4	"vesten"	NA
+"503"	"msr006"	3	"vestlige verden"	NA
+"504"	"naj012"	4	"Vikinger"	NA
+"505"	"LM009"	3	"Vor frelsers kirke"	NA
+"506"	"naj009"	1	"Vores lands gundlæggen"	NA
+"507"	"acgn008"	5	"ærlighed"	NA
+"508"	"KK011"	4	"Øje for øje"	NA
