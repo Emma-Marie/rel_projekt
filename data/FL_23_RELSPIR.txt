@@ -4,7 +4,6 @@
 "3"	"acgn001"	3	"Meditation"	"meditation"
 "4"	"acgn001"	4	"Ritualer"	"ritual"
 "5"	"acgn001"	5	"Salmer"	"salmer"
-"6"	"acgn002"	1	"At Bede"	"bøn"
 "7"	"acgn002"	3	"Slå korsets tegn"	"kors"
 "8"	"acgn002"	5	"Meditation"	"meditation"
 "9"	"acgn002"	4	"Missionering"	"missionering"

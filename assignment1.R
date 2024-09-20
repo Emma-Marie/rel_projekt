@@ -36,26 +36,35 @@ FL_23_KRISTEN <- df_function("KRISTEN")
 FL_23_MUSLIM <- df_function("MUSLIM")
 FL_23_VACCINE <- df_function("VACCINE")
 
-#remove column 5-16 from FL_23_RELSPIR - the other data frames looks fine
-View(FL_23_RELSPIR)
-FL_23_RELSPIR <- subset(FL_23_RELSPIR, select = -c(5:16)) # drop column 5 to 16, which contains only NAs and one "whut"
+#remove column 5-16 from FL_23_RELSPIR, which contains only NAs and one "whut" - the other data frames looks fine
+FL_23_RELSPIR <- subset(FL_23_RELSPIR, select = -c(5:16))
+# drop row 6, because it contains a 6th freelist word from one participant, and that wasn't part of the freelist task
+FL_23_RELSPIR <- FL_23_RELSPIR[-c(6), ]
 
 ### save excel data as .txt
-write.table(FL_23_RELSPIR, file = "data/FL_23_RELSPIR.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_MENTSUND, file = "data/FL_23_MENTSUND.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_GUD, file = "data/FL_23_GUD.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_KIRKE, file = "data/FL_23_KIRKE.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_KVINDE, file = "data/FL_23_KVINDE.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_KRISTEN, file = "data/FL_23_KRISTEN.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_MUSLIM, file = "data/FL_23_MUSLIM.txt", sep = "\t", row.names = TRUE, col.names = NA)
-write.table(FL_23_VACCINE, file = "data/FL_23_VACCINE.txt", sep = "\t", row.names = TRUE, col.names = NA)
 
-# save as .csv
-#write.table(df_name, file = "data/FL_23_RELSPIR.csv", sep = "\t", row.names = TRUE, col.names = NA)
+save_df <- function(dat){
+  # Collect the original name
+  originalName <- deparse(substitute(dat))
+  # assign name to data
+  assign(originalName, dat)
+  # save data frame with the right name
+  write.table(dat, file = paste0("data/",originalName, ".txt"), sep = "\t", row.names = TRUE, col.names = NA)
+  # Uncomment the line below to save as .csv file
+  #write.table(dat, file = paste0("data/",originalName, ".csv"), sep = "\t", row.names = TRUE, col.names = NA)
+}
+
+# use function to save data frames as .txt
+save_df(FL_23_RELSPIR)
+save_df(FL_23_MENTSUND)
+save_df(FL_23_GUD)
+save_df(FL_23_KIRKE)
+save_df(FL_23_KVINDE)
+save_df(FL_23_KRISTEN)
+save_df(FL_23_MUSLIM)
+save_df(FL_23_VACCINE)
 
 ########### Code the data! #############
-
-## Merge data sets
 
 ### Reshape data to long format - just for fun :-)
 unique(FL_23_RELSPIR$CODE) # see all unique values in the column "item" - there is 205!
@@ -102,6 +111,24 @@ mr2 <- merge(mr1, FL3, by = c("PARTID", "order"),
 # inspect the merged data frame
 View(mr2)
 
- # remove column 3 and 6 because they are unnecessary
-mr2_clean <- subset(mr2, select = -c(3, 6, 9))
-View(mr2_clean)
+### Clean data
+
+# remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
+mr2 <- subset(mr2, select = -c(3, 6, 9))
+View(test_mr2)
+
+# Use AnthroTools to scan and correct mundane mistakes in data
+#mr2_clean <- CleanFreeList(mr2) # DOESN'T WORK!!
+
+#########################################################
+
+### Frequency distribution plot
+
+# create a participant-by-item presence matrix
+mr2.bin <- FreeListTable(mr2, CODE = "CODE",
+                         Order = "order",
+                         Subj = "PARTID",
+                         tableType = "PRESENCE")
+
+
+
