@@ -93,29 +93,29 @@ FL6 <- read.delim("data/FL_23_KRISTEN.txt")
 FL7 <- read.delim("data/FL_23_MUSLIM.txt")
 FL8 <- read.delim("data/FL_23_VACCINE.txt")
 
-mr1 <- merge(FL1, FL2, by = c("PARTID", "order"),
+merge_FL1 <- merge(FL1, FL2, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-mr2 <- merge(mr1, FL3, by = c("PARTID", "order"),
+merge_FL2 <- merge(mr1, FL3, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#mr3 <- merge(mr2, FL4, by = c("PARTID", "order"),
+#merge_FL3 <- merge(mr2, FL4, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#mr4 <- merge(mr3, FL5, by = c("PARTID", "order"),
+#merge_FL4 <- merge(mr3, FL5, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#mr5 <- merge(mr4, FL6, by = c("PARTID", "order"),
+#merge_FL5 <- merge(mr4, FL6, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#mr6 <- merge(mr5, FL7, by = c("PARTID", "order"),
+#merge_FL6 <- merge(mr5, FL7, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#mr7 <- merge(mr6, FL8, by = c("PARTID", "order"),
+#merge_FL7 <- merge(mr6, FL8, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
 
 # inspect the merged data frame
-View(mr2)
+View(merge_FL2)
 
-### Clean data
+### Clean merged data
 
 # remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
-mr2 <- subset(mr2, select = -c(3, 6, 9))
-View(test_mr2)
+merge_FL2 <- subset(merge_FL2, select = -c(3, 6, 9))
+View(merge_FL2)
 
 # Use AnthroTools to scan and correct mundane mistakes in data
 #mr2_clean <- CleanFreeList(mr2) # DOESN'T WORK!!
@@ -124,11 +124,43 @@ View(test_mr2)
 
 ### Frequency distribution plot
 
-# create a participant-by-item presence matrix
-mr2.bin <- FreeListTable(mr2, CODE = "CODE",
-                         Order = "order",
-                         Subj = "PARTID",
-                         tableType = "PRESENCE")
+# create a participant-by-item presence matrix for the data set
+freq_plot <- function(dat){
+  FL.bin <- FreeListTable(dat, CODE = "CODE",
+                          Order = "order",
+                          Subj = "PARTID",
+                          tableType = "PRESENCE")
+  SUM <- colSums(FL.bin[,2:ncol(FL.bin)]) # take the sum of each column (frequency of participants who listed each item)
+  FREQ <- data.frame(SUM) # turn into data frame
+  newdata <- FREQ[order(-FREQ$SUM),,drop = F] # sort the sums from most to least frequent
+  barplot(newdata$SUM, names.arg = rownames(newdata), las = 2, ylab = "Frequency of words", main = "Frequency analysis 'religion and spirituality'", col = "pink")
+  
+  # save plot as ong
+  originalName <- deparse(substitute(dat))# Collect the original name
+  assign(originalName, dat) # assign name to data
+  png(file = paste0("fig_output/",originalName, "_freqplot.png"),
+      width=600, height=350)
+  
+  # create the frequency bar plot
+  FL.bin <- FreeListTable(dat, CODE = "CODE",
+                          Order = "order",
+                          Subj = "PARTID",
+                          tableType = "PRESENCE")
+  SUM <- colSums(FL.bin[,2:ncol(FL.bin)]) # take the sum of each column (frequency of participants who listed each item)
+  FREQ <- data.frame(SUM) # turn into data frame
+  newdata <- FREQ[order(-FREQ$SUM),,drop = F] # sort the sums from most to least frequent
+  barplot(newdata$SUM, names.arg = rownames(newdata), las = 2, ylab = "Frequency of words", main = "Frequency analysis", col = "pink")
+  
+  dev.off() # the plot is done and saved after this line
+}
 
+# making plots of the data
+freq_plot(FL_23_RELSPIR)
+freq_plot(FL_23_MENTSUND)
+freq_plot(FL_23_GUD)
+
+# how to plot the proportions of each item instead (just another way of making the bar plot)
+n <- length(unique(FL.bin$Subject))
+barplot(newdata$SUM/n, names.arg = rownames(newdata), las = 2, ylim = c(0, 0.5))
 
 
