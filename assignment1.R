@@ -93,31 +93,30 @@ FL6 <- read.delim("data/FL_23_KRISTEN.txt")
 FL7 <- read.delim("data/FL_23_MUSLIM.txt")
 FL8 <- read.delim("data/FL_23_VACCINE.txt")
 
-merge_FL1 <- merge(FL1, FL2, by = c("PARTID", "order"),
+merge_1 <- merge(FL1, FL2, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-merge_FL2 <- merge(mr1, FL3, by = c("PARTID", "order"),
+merge_2 <- merge(merge_1, FL3, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#merge_FL3 <- merge(mr2, FL4, by = c("PARTID", "order"),
+#merge_3 <- merge(merge_2, FL4, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#merge_FL4 <- merge(mr3, FL5, by = c("PARTID", "order"),
+#merge_4 <- merge(merge_3, FL5, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#merge_FL5 <- merge(mr4, FL6, by = c("PARTID", "order"),
+#merge_5 <- merge(merge_4, FL6, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#merge_FL6 <- merge(mr5, FL7, by = c("PARTID", "order"),
+#merge_6 <- merge(merge_5, FL7, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
-#merge_FL7 <- merge(mr6, FL8, by = c("PARTID", "order"),
+#merge_7 <- merge(merge_6, FL8, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
 
 # Clean merged data
 # remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
-merge_FL2 <- subset(merge_FL2, select = -c(3, 6, 9))
-View(merge_FL2)
+merge_2 <- subset(merge_2, select = -c(3, 6, 9))
+View(merge_2)
 
 # Use AnthroTools to scan and correct mundane mistakes in data
 #mr2_clean <- CleanFreeList(mr2) # DOESN'T WORK!!
 
 #########################################################
-
 ### Frequency distribution plot
 
 # create a participant-by-item presence matrix for the data set
@@ -188,5 +187,27 @@ GUD_sal <- item_saliens(FL_23_GUD)
 # in other words: the items with the highest item salience score are often also the items, which are mentioned the most across the sample. 
 # calculated  with the concept of Smith's S.
 
+cul_sal <- function(dat){
+  FL.S <- CalculateSalience(dat,
+                            CODE = "CODE",
+                            Salience = "Salience", # adds column with salience score to the data
+                            Subj = "PARTID",
+                            Order = "order")
+  SAL.tab <- SalienceByCode(FL.c,
+                            CODE = "CODE",
+                            Salience = "Salience",
+                            Subj = "PARTID",
+                            GROUPING = "Grouping", # allows us to calculate salience acros multiple groups
+                            dealWithDoubles = "MAX")
+  # Subsetting (to retrieve only a subset of the data) data and removing missing cases (NAs)
+  labs <- c("PARTID", "order", "CODE", "Salience", "Grouping") # create vector of variable names
+  FL.sub <- SAL.tab[labs] # subsetting the variables
+  FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
+}
 
+###OBS OVENSTÅENDE VIRKER IKKE!!!
 
+# Use function to calculate cultural salience 
+RELSPIR_culsal <- cul_sal(FL_23_RELSPIR)
+MENTSUND_culsal <- cul_sal(FL_23_MENTSUND)
+GUD_culsal <- cul_sal(FL_23_MENTSUND)
