@@ -1,4 +1,6 @@
-######## ASSIGNMENT 1 ########
+#########################################################
+################### ASSIGNMENT 1 #######################
+#########################################################
 
 ### Description: CODE, LOAD, AND SAVE FREE-LIST DATA: Using data from last year’s course, practice coding, loading, and saving free-list data.
 
@@ -17,12 +19,12 @@ library(readxl)
 
 ### Read free-list data
 
-excel_sheets("data/Projekt_FL_23.xlsx") # see name of the sheets in the excel file
-
+# OBS: my data file has a "_" more in the name than the one Ben sent us (so it's the same data, but with different name)
+excel_sheets("data/Projekt_FL_23_.xlsx") # see name of the sheets in the excel file
 
 # load all the individual sheets in the excel file and turn into data.frame
 df_function <- function(sheetname) { # create a function with the name df_function
-  xlsx_file <- read_excel("data/Projekt_FL_23.xlsx", sheet = sheetname, na = "NA") # load the excel sheet 
+  xlsx_file <- read_excel("data/Projekt_FL_23_.xlsx", sheet = sheetname, na = "NA") # load the excel sheet 
   as.data.frame(xlsx_file) # turn into data frame
 }
 
@@ -38,8 +40,6 @@ FL_23_VACCINE <- df_function("VACCINE")
 
 #remove column 5-16 from FL_23_RELSPIR, which contains only NAs and one "whut" - the other data frames looks fine
 FL_23_RELSPIR <- subset(FL_23_RELSPIR, select = -c(5:16))
-# drop row 6, because it contains a 6th freelist word from one participant, and that wasn't part of the freelist task
-FL_23_RELSPIR <- FL_23_RELSPIR[-c(6), ]
 
 ### save excel data as .txt
 
@@ -108,11 +108,7 @@ merge_FL2 <- merge(mr1, FL3, by = c("PARTID", "order"),
 #merge_FL7 <- merge(mr6, FL8, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
 
-# inspect the merged data frame
-View(merge_FL2)
-
-### Clean merged data
-
+# Clean merged data
 # remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
 merge_FL2 <- subset(merge_FL2, select = -c(3, 6, 9))
 View(merge_FL2)
@@ -162,5 +158,35 @@ freq_plot(FL_23_GUD)
 # how to plot the proportions of each item instead (just another way of making the bar plot)
 n <- length(unique(FL.bin$Subject))
 barplot(newdata$SUM/n, names.arg = rownames(newdata), las = 2, ylim = c(0, 0.5))
+
+#########################################################
+################### ASSIGNMENT 2 #######################
+#########################################################
+
+### Item salience ###
+# item salience = the order in which items are listed gives us a sense of how accesible or cognitively salient items are for individuals. 
+
+item_saliens <- function(dat){
+  FL.S <- CalculateSalience(dat,
+                    CODE = "CODE",
+                    Salience = "Salience", # adds column with salience score to the data
+                    Subj = "PARTID",
+                    Order = "order")
+  # Subsetting (to retrieve only a subset of the data) data and removing missing cases (NAs)
+  labs <- c("PARTID", "order", "CODE", "Salience") # create vector of variable names
+  FL.sub <- FL.S[labs] # subsetting the variables
+  FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
+}
+
+# use function to find item saliences
+RELSPIR_sal <- item_saliens(FL_23_RELSPIR)
+MENTSUND_sal <- item_saliens(FL_23_MENTSUND)
+GUD_sal <- item_saliens(FL_23_GUD)
+
+### Cultural salience ###
+# cultural salience = items mentally represented relationships are often predicted by how many other minds share those items.
+# in other words: the items with the highest item salience score are often also the items, which are mentioned the most across the sample. 
+# calculated  with the concept of Smith's S.
+
 
 
