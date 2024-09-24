@@ -98,18 +98,17 @@ merge_1 <- merge(FL1, FL2, by = c("PARTID", "order"),
 merge_2 <- merge(merge_1, FL3, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
 #merge_3 <- merge(merge_2, FL4, by = c("PARTID", "order"),
-             all.x = TRUE, all.y = TRUE)
+#             all.x = TRUE, all.y = TRUE)
 #merge_4 <- merge(merge_3, FL5, by = c("PARTID", "order"),
-             all.x = TRUE, all.y = TRUE)
+#             all.x = TRUE, all.y = TRUE)
 #merge_5 <- merge(merge_4, FL6, by = c("PARTID", "order"),
-             all.x = TRUE, all.y = TRUE)
+#             all.x = TRUE, all.y = TRUE)
 #merge_6 <- merge(merge_5, FL7, by = c("PARTID", "order"),
-             all.x = TRUE, all.y = TRUE)
+#             all.x = TRUE, all.y = TRUE)
 #merge_7 <- merge(merge_6, FL8, by = c("PARTID", "order"),
-             all.x = TRUE, all.y = TRUE)
+#             all.x = TRUE, all.y = TRUE)
 
-# Clean merged data
-# remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
+# Clean: remove column 3 and 6 because they are unnecessary - ONLY do this if it isn't removed already!!!
 merge_2 <- subset(merge_2, select = -c(3, 6, 9))
 View(merge_2)
 
@@ -175,39 +174,42 @@ item_saliens <- function(dat){
   labs <- c("PARTID", "order", "CODE", "Salience") # create vector of variable names
   FL.sub <- FL.S[labs] # subsetting the variables
   FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
-}
+  return(FL.c) # return the FL.c value to be used when calculating the cultural salience later.
+  }
 
-# use function to find item saliences
 RELSPIR_sal <- item_saliens(FL_23_RELSPIR)
+View(RELSPIR_sal)
 MENTSUND_sal <- item_saliens(FL_23_MENTSUND)
 GUD_sal <- item_saliens(FL_23_GUD)
 
-### Cultural salience ###
+##### Cultural salience/Smiths S #####
 # cultural salience = items mentally represented relationships are often predicted by how many other minds share those items.
 # in other words: the items with the highest item salience score are often also the items, which are mentioned the most across the sample. 
-# calculated  with the concept of Smith's S.
 
 cul_sal <- function(dat){
-  FL.S <- CalculateSalience(dat,
-                            CODE = "CODE",
-                            Salience = "Salience", # adds column with salience score to the data
-                            Subj = "PARTID",
-                            Order = "order")
+ FL.c <- item_saliens(dat) # use the item_salience function from before
   SAL.tab <- SalienceByCode(FL.c,
-                            CODE = "CODE",
-                            Salience = "Salience",
-                            Subj = "PARTID",
-                            GROUPING = "Grouping", # allows us to calculate salience acros multiple groups
-                            dealWithDoubles = "MAX")
-  # Subsetting (to retrieve only a subset of the data) data and removing missing cases (NAs)
-  labs <- c("PARTID", "order", "CODE", "Salience", "Grouping") # create vector of variable names
-  FL.sub <- SAL.tab[labs] # subsetting the variables
-  FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
+                                CODE = "CODE",
+                                Salience = "Salience",
+                                Subj = "PARTID",
+                                #GROUPING = "Grouping", # allows us to calculate salience across multiple groups --> DOESN't WORK WITH THIS LINE UNCOMENTET!
+                                dealWithDoubles = "MAX")
+  SAL.tab[order(-SAL.tab$SmithsS),, drop = F] # sorting the SmithsS values in the table --> but not necessary (FLowerPlot sorts as well)
+  return(SAL.tab) # return to use in flower plot function
 }
 
-###OBS OVENSTÅENDE VIRKER IKKE!!!
-
-# Use function to calculate cultural salience 
 RELSPIR_culsal <- cul_sal(FL_23_RELSPIR)
 MENTSUND_culsal <- cul_sal(FL_23_MENTSUND)
 GUD_culsal <- cul_sal(FL_23_MENTSUND)
+
+# create flower plot
+flo_plot <- function(dat, item){
+  SAL.tab <- cul_sal(dat)
+  originalName <- deparse(substitute(dat))# Collect the original name
+  assign(originalName, dat) # assign name to data
+  FlowerPlot(SAL.tab, item)
+}
+
+flo_plot(FL_23_RELSPIR, "rel/spir")
+flo_plot(FL_23_MENTSUND, "mentsund")
+flo_plot(FL_23_GUD, "gud")
