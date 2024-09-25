@@ -28,15 +28,9 @@ df_function <- function(sheetname) { # create a function with the name df_functi
   as.data.frame(xlsx_file) # turn into data frame
 }
 
-# run function on all the sheets
 FL_23_RELSPIR <- df_function("RELSPIR")
 FL_23_MENTSUND <- df_function("MENTSUND")
 FL_23_GUD <- df_function("GUD")
-FL_23_KIRKE <- df_function("KIRKE")
-FL_23_KVINDE <- df_function("KVINDE")
-FL_23_KRISTEN <- df_function("KRISTEN")
-FL_23_MUSLIM <- df_function("MUSLIM")
-FL_23_VACCINE <- df_function("VACCINE")
 
 #remove column 5-16 from FL_23_RELSPIR, which contains only NAs and one "whut" - the other data frames looks fine
 FL_23_RELSPIR <- subset(FL_23_RELSPIR, select = -c(5:16))
@@ -50,19 +44,13 @@ save_df <- function(dat){
   assign(originalName, dat)
   # save data frame with the right name
   write.table(dat, file = paste0("data/",originalName, ".txt"), sep = "\t", row.names = TRUE, col.names = NA)
-  # Uncomment the line below to save as .csv file
-  #write.table(dat, file = paste0("data/",originalName, ".csv"), sep = "\t", row.names = TRUE, col.names = NA)
+  #write.table(dat, file = paste0("data/",originalName, ".csv"), sep = "\t", row.names = TRUE, col.names = NA) # save as .csv file
 }
 
 # use function to save data frames as .txt
 save_df(FL_23_RELSPIR)
 save_df(FL_23_MENTSUND)
 save_df(FL_23_GUD)
-save_df(FL_23_KIRKE)
-save_df(FL_23_KVINDE)
-save_df(FL_23_KRISTEN)
-save_df(FL_23_MUSLIM)
-save_df(FL_23_VACCINE)
 
 ########### Code the data! #############
 
@@ -87,11 +75,11 @@ View(RELSPIR_long)
 FL1 <- read.delim("data/FL_23_RELSPIR.txt")
 FL2 <- read.delim("data/FL_23_MENTSUND.txt")
 FL3 <- read.delim("data/FL_23_GUD.txt")
-FL4 <- read.delim("data/FL_23_KIRKE.txt")
-FL5 <- read.delim("data/FL_23_KVINDE.txt")
-FL6 <- read.delim("data/FL_23_KRISTEN.txt")
-FL7 <- read.delim("data/FL_23_MUSLIM.txt")
-FL8 <- read.delim("data/FL_23_VACCINE.txt")
+#FL4 <- read.delim("data/FL_23_KIRKE.txt")
+#FL5 <- read.delim("data/FL_23_KVINDE.txt")
+#FL6 <- read.delim("data/FL_23_KRISTEN.txt")
+#FL7 <- read.delim("data/FL_23_MUSLIM.txt")
+#FL8 <- read.delim("data/FL_23_VACCINE.txt")
 
 merge_1 <- merge(FL1, FL2, by = c("PARTID", "order"),
              all.x = TRUE, all.y = TRUE)
@@ -129,7 +117,7 @@ freq_plot <- function(dat){
   newdata <- FREQ[order(-FREQ$SUM),,drop = F] # sort the sums from most to least frequent
   barplot(newdata$SUM, names.arg = rownames(newdata), las = 2, ylab = "Frequency of words", main = "Frequency analysis 'religion and spirituality'", col = "pink")
   
-  # save plot as ong
+  # save plot as png
   originalName <- deparse(substitute(dat))# Collect the original name
   assign(originalName, dat) # assign name to data
   png(file = paste0("fig_output/",originalName, "_freqplot.png"),
@@ -162,7 +150,6 @@ barplot(newdata$SUM/n, names.arg = rownames(newdata), las = 2, ylim = c(0, 0.5))
 #########################################################
 
 ### Item salience ###
-# item salience = the order in which items are listed gives us a sense of how accesible or cognitively salient items are for individuals. 
 
 item_saliens <- function(dat){
   FL.S <- CalculateSalience(dat,
@@ -174,17 +161,12 @@ item_saliens <- function(dat){
   labs <- c("PARTID", "order", "CODE", "Salience") # create vector of variable names
   FL.sub <- FL.S[labs] # subsetting the variables
   FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
-  return(FL.c) # return the FL.c value to be used when calculating the cultural salience later.
+  return(FL.c) # return the FL.c value to be used when calculating the cultural salience later
   }
 
 RELSPIR_sal <- item_saliens(FL_23_RELSPIR)
-View(RELSPIR_sal)
-MENTSUND_sal <- item_saliens(FL_23_MENTSUND)
-GUD_sal <- item_saliens(FL_23_GUD)
 
 ##### Cultural salience/Smiths S #####
-# cultural salience = items mentally represented relationships are often predicted by how many other minds share those items.
-# in other words: the items with the highest item salience score are often also the items, which are mentioned the most across the sample. 
 
 cul_sal <- function(dat){
  FL.c <- item_saliens(dat) # use the item_salience function from before
@@ -193,18 +175,16 @@ cul_sal <- function(dat){
                                 Salience = "Salience",
                                 Subj = "PARTID",
                                 #GROUPING = "Grouping", # allows us to calculate salience across multiple groups --> DOESN't WORK WITH THIS LINE UNCOMENTET!
-                                dealWithDoubles = "MAX")
+                                dealWithDoubles = "MAX") # handles when on person list the same item several times, and only takes the highest salient value of the item
   SAL.tab[order(-SAL.tab$SmithsS),, drop = F] # sorting the SmithsS values in the table --> but not necessary (FLowerPlot sorts as well)
   return(SAL.tab) # return to use in flower plot function
 }
 
 RELSPIR_culsal <- cul_sal(FL_23_RELSPIR)
-MENTSUND_culsal <- cul_sal(FL_23_MENTSUND)
-GUD_culsal <- cul_sal(FL_23_MENTSUND)
 
 # create flower plot
 flo_plot <- function(dat, item){
-  SAL.tab <- cul_sal(dat)
+  SAL.tab <- cul_sal(dat) # use cul_sal function on data
   originalName <- deparse(substitute(dat))# Collect the original name
   assign(originalName, dat) # assign name to data
   FlowerPlot(SAL.tab, item)
