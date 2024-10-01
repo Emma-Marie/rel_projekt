@@ -193,3 +193,5 @@ flo_plot <- function(dat, item){
 flo_plot(FL_23_RELSPIR, "rel/spir")
 flo_plot(FL_23_MENTSUND, "mentsund")
 flo_plot(FL_23_GUD, "gud")
+
+
