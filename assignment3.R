@@ -22,28 +22,22 @@ library(readxl)
 
 # load data (which I saved as .txt in assignment 1, and therefore the loaded data is a data.frame)
 RelSpir <- read.delim("data/FL_23_RELSPIR.txt") 
+RelSpir <- na.omit(RelSpir) # remove NA values
 
-# calculate item salience (from assignment 2)
-item_saliens <- function(dat){
-  FL.S <- CalculateSalience(dat,
-                            CODE = "CODE",
-                            Salience = "Salience", # adds column with salience score to the data
-                            Subj = "PARTID",
-                            Order = "order")
-  # Subsetting (to retrieve only a subset of the data) data and removing missing cases (NAs)
-  labs <- c("PARTID", "order", "CODE", "Salience") # create vector of variable names
-  FL.sub <- FL.S[labs] # subsetting the variables
-  FL.c <- FL.sub[complete.cases(FL.sub), ] # takes only ROWS (hence the placement of the comma AFTER "complete.cases(FL.sub)") without NAs
-  return(FL.c) # return the FL.c value to be used when calculating the cultural salience later
-}
+# turn into table - OBS: tableType can be changed (see pp 48)
+rs_table <- FreeListTable(RelSpir, CODE = "CODE", Salience = "Salience", Subj = "PARTID", Order = "order", tableType = "HIGHEST_RANK") 
+rs_table$Subject <- NULL # delete ID's column, so it isn't interpreted as a variable by R
 
-rs_sal <- item_saliens(RelSpir)
-View(rs_sal)
+# Distance matrix
+rs.dist <- dist(t(rs_table)) # Euclidian distance
+EuDistRS <- cmdscale(rs.dist, k = 2) # k is number of dimensions.
 
-# turn into table
-rs_table <- FreeListTable(rs_sal, CODE = "CODE", Salience = "Salience", Subj = "PARTID", tableType = "PRESENCE") # tableType can be changed (see pp 48)
-View(rs_table)
+# plot the distances spatially in coordinate system
+par(mar =c(4, 4, 1, 1)) # set plot margins
+plot(EuDistRS, xlab = "Dimension 1", ylab = "Dimension 2", type = "n") # type = "n" removes the dots
+text(EuDistRS[, 1], EuDistRS[, 2], labels = colnames(rs_table), cex = 0.8)# add column names as labels. "cex" adjusts the size of the text
 
-### multi-dimensional scaling (MIDS) with free-list dara
-
-
+# Plot the distances --> a dendrogram
+hc <- hclust(rs.dist) # hierarchical clustering -> needed to make the CODE item names be on the dendogram and not the row names (participant names)
+par(mar =c(0, 2, 2, 0)) # set plot margins
+plot(hc, labels = colnames(rs_table)) # set column names (which is the CODE item names) as the words in the dendogram
