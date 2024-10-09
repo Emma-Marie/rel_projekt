@@ -58,7 +58,7 @@ d.bin <- apply(d.tab, 2, function(x) ifelse (x > 0, 1, 0)) # recode
 d.corr <- crossprod(d.bin) # corespondance matrix
 diag(d.corr) <- 0 # make the diagonals 0s
 
-# network of free-list co-occurences
+# network of free-list co-occurrences
 library(igraph)#install.packages("igraph")
 network <- graph_from_adjacency_matrix(d.corr, mode = "undirected")
 plot(network)

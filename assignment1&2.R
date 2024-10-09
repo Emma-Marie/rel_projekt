@@ -31,7 +31,8 @@ df_function <- function(sheetname) { # create a function with the name df_functi
 FL_23_RELSPIR <- df_function("RELSPIR")
 FL_23_MENTSUND <- df_function("MENTSUND")
 FL_23_GUD <- df_function("GUD")
-
+#check file
+View(FL_23_RELSPIR)
 #remove column 5-16 from FL_23_RELSPIR, which contains only NAs and one "whut" - the other data frames looks fine
 FL_23_RELSPIR <- subset(FL_23_RELSPIR, select = -c(5:16))
 
@@ -55,7 +56,7 @@ save_df(FL_23_GUD)
 ########### Code the data! #############
 
 ### Reshape data to long format - just for fun :-)
-unique(FL_23_RELSPIR$CODE) # see all unique values in the column "item" - there is 205!
+unique(FL_23_RELSPIR$CODE) # see all unique values in the column "item" - there is 46!
 
 RELSPIR_wide <- reshape(FL_23_RELSPIR,
                   timevar = "order", 
