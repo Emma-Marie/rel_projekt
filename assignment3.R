@@ -74,5 +74,64 @@ plot(network)# Add labels
 #network <- graph_from_adjacency_matrix(d.corr_top, mode = "undirected")
 #plot(network, vertex.label = top_items)# Add labels for the top 30 items
 
+################# chapter 4 #####################
+# load data (from last year)
+d <- read.delim("data/FL_23_RELSPIR.txt")
+
+# create presence/absence table (participant-by-item matrix)
+M <- FreeListTable(d, CODE = "CODE", Salience = "Salience", Subj = "PARTID", tableType = "PRESENCE")
+
+View(M) # checking table --> the Subjects has its own column
+M$Subject <- NULL # delete subjects column, so it isn't interpreted as a variable by R
+
+
+### Conceptual overlap across domains --> Jaccard's similarity index ###
+# define jaccard function
+jaccard <- function(var1, var2){
+  var1 <- as.numeric(var1) # I have added this, because of error
+  var2 <- as.numeric(var2) # I have added this, because of error
+  sums <- rowSums(cbind(var1, var2), na.rm = T)
+  similarity <- length(sums[sums==2])
+  total <- length(sums[sums==1]) + similarity
+  similarity/total
+}
+
+# define jaccmat function, which is used to run jaccard() over the presence/absence table using a for loop
+jaccmat <- function(M){
+  newmat <- matrix(NA, ncol = ncol(M), nrow = ncol(M)) # create empty square matrix with same number of rows and columns as M
+  for (i in seq_along(M)){ # apply jaqqard() to all combinations of variables in M
+    for (j in seq_along(M)){
+      newmat[i, j] <- jaccard(M[, i], M[, j])
+      colnames(newmat) <- colnames(M)
+      rownames(newmat) <- colnames(M)
+    }
+  }
+  newmat <- round(newmat, 2) # round the numbers to two decimals (my addition)
+  return(data.frame(newmat)) # return a data frame og the Jaccard matrix
+}
+
+# run function on data
+jacM <- jaccmat(M)
+View(jacM)
+
+### Intragroup sharing and variation --> CSD (Cognitive sharing and organization) ###
+
+CSD <- function(MM, TT, N){ # create function that produces data frame including DSC and Q calculations
+  numerator <- MM - TT
+  CC <- MM/N
+  CSD <- numerator/(MM - MM * N)
+  Q <- CSD * CC
+  return(data.frame(CSD = CSD, Q = Q, C = CC))
+}
+
+# extract necessary values from free-list data
+data <- d
+MM <- length(table(data$CODE)) # word bank size
+TT <- sum(table(data$CODE)) # includes repeats
+N <- length(unique(data$PARTID)) # sample size
+
+# run function
+CSD(MM, TT, N)
+
 
 
