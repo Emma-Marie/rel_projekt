@@ -19,7 +19,7 @@ apply(d, 2, min, na.rm = T)
 apply(d[,76:140], 2, min, na.rm = T)
 apply(d[,76:140], 2, mean, na.rm = T)
 par(mfrow = c(8, 8))
-# create hustogram of 
+# create histogram of 
 apply(d[,76:140], 2, hist, na.rm = T)
 
 # plot with dots
