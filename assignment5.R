@@ -34,8 +34,6 @@ print(name_counts)
 total_sum <- sum(name_counts) # ass all occurrences together
 print(total_sum)
 
-sum(d$STUDENT)
-
 ### Investigate AGE - the independent variable ###
 statinfo(d$ALDER)
 
@@ -66,11 +64,13 @@ relsub <- d[labs] # subtract the religiosity data
 relsubs <- relsub[complete.cases(relsub),] # delete missing values
 alpha.fun(relsubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(relsub) # check reliability if items are dropped
-alpha(relsub, check.keys = T) # reverse code items, so a score of 2 becomes -2, and 1 becomes -1 (right?)
+alpha(relsub, check.keys = T) # reverse code items with negative loadings, so 2 becomes -2 and 1 becomes -1 (right?)
 
 # investigating the distribution of religiosity scores on selected data
 d$relig <- d$REL76 + d$REL100 + d$REL133 # example --> add the scores of the scale questions, you need for your project
+par(mar = c(3, 4, 2, 1)) # set margins for plot
 hist(d$relig, main  ="Distribution of religiousity", xlab = "Religiosity score") # plot distribution
+
 
 ### other descriptions of sample and variables ###
 
@@ -89,7 +89,6 @@ d.r$UDDANN[which(d.r$UDDANN == "10+")] <- 10
 d.r$UDDANN[which(d.r$UDDANN == "18-20")] <- 18
 
 d.r$UDDANN <- as.numeric(d.r$UDDANN) # turn numeric
-
 statinfo(d.r$UDDANN) # describe years of education --> relevant?
 
 ## Religious upbringing
@@ -140,13 +139,24 @@ df_kon <- data.frame(Kon = c("Female", "Male", "Other"),
                      Count = c(female, male, other)) # create data frame
 print(df_kon)
 
-# Bar plot
-barplot(df_kon$Count, names.arg = df_kon$Kon,
-        main = "Gender distribution",
-        xlab = "gender", ylab = "number",
-        col = c("coral", "coral2", "coral3"),
-        ylim = c(0, max(df_kon$Count) + 10)) # ajust y-axis after the frequencies
+## Mental health
+# Calculate Cronbach's alpha on mental health questions
+str(d.r, list.len = ncol(d.r)) # line necessary?
+labs_ment <- c("BEKYMFYS", "BEKYMMENT", "PLADSFREM", "HELB", "LSTAND", "BESVAER", "RASTLOS", "ENSOM", "ALSYG", "POSITIV", "DEPRI") # create object of variable names to capture the mental health questions
+mentsub <- d.r[labs_ment] # subtract the religiosity data
+mentsubs <- mentsub[complete.cases(mentsub),] # delete missing values
+alpha.fun(mentsubs, 0.95) # run our function calculating Cronbach's alpha 
+alpha(mentsub) # check reliability if items are dropped 
 
-# Should I maybe save d.r as .txt, to be used as data for the statistics etc. in another script? 
-# So I have a cleaning/description script and a main script?
+# plot mental health scores
+par(mar = c(3, 4, 2, 1)) # set margins for plot
+d.r$mental <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$PLADSFREM + d.r$HELB + d.r$LSTAND + d.r$BESVAER + d.r$RASTLOS + d.r$ENSOM + d.r$ALSYG + d.r$POSITIV + d.r$DEPRI
+#d.r$mental <- d.r$BEKYMMENT + d.r$BESVAER + d.r$RASTLOS + d.r$ENSOM + d.r$ALSYG + d.r$POSITIV + d.r$DEPRI
+hist(d.r$mental, main  ="Distribution of mental health", xlab = "Mental health score", col = "pink") # plot distribution
+
+# more descriptions on mental health
+statinfo(d.r$mental)
+
+# Save cleaned data in data frame as .txt
+write.table(d.r, file = paste0("data/dat_survey_cleaned.txt"), sep = "\t", row.names = TRUE, col.names = NA)
 
