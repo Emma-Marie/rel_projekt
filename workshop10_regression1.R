@@ -7,7 +7,7 @@ d <- data.frame(y, x) # create data frame
 
 (m1 <- lm(y ~ x, data = d)) # calculate intercept and slope (the coefficients) for linear regression
 summary(m1)
-confint(m1) # calculate 95% confidence intervals for both intercept and slope.
+confint(m1) # calculate 95% confidence intervals for both intercept and slope. 
 
 ## Calculations step-by-step
 d$xd <- x - mean(x) # deviance of x
@@ -127,7 +127,7 @@ UL <- confint(m3)[,2]
 LS <- est-LL
 US <- UL-est
 
-par(mar = c(4, 5, 1, 1))
+par(mar = c(4, 4, 1, 1))
 plot(est, x, pch = 16, xlim = c(-2, 7), ylim = c(0.5, 4), 
      xlab = NA, 
      ylab = NA, yaxt = "n", frame.plot = F)
