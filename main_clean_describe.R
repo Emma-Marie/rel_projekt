@@ -28,6 +28,11 @@ statinfo <- function(x){
 
 ### Investigate AGE - the independent variable ###
 statinfo(d$ALDER)
+summary(d$ALDER) # median at age 28
+
+pdf(file = "fig_output/age_distribution.pdf", width = 4, height = 4)
+barplot(table(d$ALDER), main = "Age distribution", xlab = "Age", ylim = c(0,20), col = "cadetblue") # plot age
+dev.off()
 
 ####### investigate sample generally
 
@@ -116,12 +121,11 @@ par(mar = c(3, 4, 2, 1)) # set margins for plot
 d.r$HELSCOR <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$HELB + d.r$LSTAND + d.r$ALSYG # create column of health scores
 hist(d.r$HELSCOR, main  ="Distribution of mental health", xlab = "Mental health score", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
-# Investigate connection between health and religiousity
+# Investigate connection between health and religiosity
 
 plot(jitter(HELSCOR, factor = 1) ~ RELSCOR, data = d.r,
      xlab = "relscore", ylab = "helscore",
      pch = 21, col = "blue")
-
 
 labs_ment <- c("BEKYMFYS", "BEKYMMENT", "LSTAND", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
 mentsub <- d.r[labs_ment] # subtract the religiosity data

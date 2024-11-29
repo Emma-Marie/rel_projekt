@@ -45,7 +45,7 @@ set.seed(666)
 mycol1 <-  ("white")
 mycol2 <- ("khaki") 
 mycol3 <- ("lavender")
-mycol4 <- ("cadetblue3")
+mycol4 <- ("pink")
 
 fd <- function(n, beta) {
   e_rel <- rnorm(n, 0, 1) # noise
@@ -56,8 +56,8 @@ fd <- function(n, beta) {
   SEX <- rbinom(n, 1, .5) # sex
   AGE <- rnorm(n, 0, 1)
   ECO <- AGE * beta + SEX * beta + e_eco
-  HEL <- AGE * beta + ECO * beta + e_hel
-  REL <- AGE * beta + HEL * beta + SEX * beta + ECO * beta + e_rel # religiosity
+  HEL <- - AGE * beta + ECO * beta + e_hel
+  REL <- AGE * beta - HEL * beta - SEX * beta - ECO * beta + e_rel
   
   df <- data.frame(AGE, ECO, SEX, HEL, REL)
   open0 <- coef(lm(REL ~ AGE, dat = df))[2]
@@ -80,7 +80,7 @@ par(mfrow = c(2, 1), mar = c(2, 1, 1, 1))
 pdf(file = "fig_output/simulation.pdf", width = 5, height = 3)
 
 plot(NA, xlab = NA, ylab = "", 
-     xlim = c(0.3, 1.3), 
+     xlim = c(0, 1.3), 
      ylim = c(0, 13), 
      cex.lab = 1.3, yaxt = 'n')
 polygon(densop0, col = mycol1) # open0
@@ -94,16 +94,16 @@ legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ Eco", "+ Hel"),
 
 dev.off()
 
-###### Linear regression #####
-#############################
+###### Linear regression ######
+###############################
 
 ### Linear regression
 y <- d.r$RELSCOR
 x1 <- d.r$ALDER
 x1.c <- d.r$ALDER-mean(d.r$ALDER) # centralized age
 x2 <- d.r$KON
-x3 <- d.r$HELSCOR
-x4 <- d.r$ECO
+x3 <- d.r$ECO
+x4 <- d.r$HELSCOR
 d1 <- data.frame(y, x1, x2, x3, x4)
 
 # the models
@@ -154,3 +154,24 @@ axis(2, at = x, labels = labs, las = 2, cex.axis = 0.8)
 #mtext("Estimate", 1, padj = 3, cex = 0.8)
 
 dev.off()
+
+
+# Discussion --> correlation between age and religious upbringing?
+
+x <- d.r$ALDER
+y <- d.r$OPREL
+
+# the models
+(model1 <- lm(y ~ x, data = d.r)) # rel ~ age
+
+# plot effect of age on religiosity
+par(mar = c(4, 4, 1, 1), mfrow = c(1, 1))
+plot(y ~ x, data = d.r, main = "age ~ religios upbringing",
+     ylab = "Religiosity score", xlab = "Age",
+     xlim = c(10, 90), ylim = c(-0.5, 1.5),
+     pch = 21, col = "skyblue4" )
+abline(model1) # draw linear model rel ~ age
+
+
+
+

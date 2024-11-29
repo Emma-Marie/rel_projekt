@@ -10,7 +10,6 @@ library("devtools")
 library(AnthroTools)
 library(readxl) 
 
-
 # load all the individual sheets in the excel file and turn into data.frame
 df_function <- function(sheetname) { # create a function with the name df_function
   xlsx_file <- read_excel("data/DATA_24_cleaning.xlsx", sheet = sheetname, na = "NA") # load the excel sheet 
@@ -20,7 +19,6 @@ df_function <- function(sheetname) { # create a function with the name df_functi
 # load FL data
 FL_REL <- df_function("RELIGIOSITET")
 FL_SPIR <- df_function("SPIRITUALITET")
-FL_GOD <- df_function("GUD")
 
 ### save excel data as .txt
 save_df <- function(dat){
@@ -35,7 +33,6 @@ save_df <- function(dat){
 # use function to save data frames as .txt
 save_df(FL_REL)
 save_df(FL_SPIR)
-save_df(FL_GOD)
 
 ### Frequency plot ### 
 
@@ -72,7 +69,6 @@ freq_plot <- function(dat){
 # plot and save
 freq_plot(FL_REL)
 freq_plot(FL_SPIR)
-freq_plot(FL_GOD)
 
 ### Flower plot ###
 
@@ -122,10 +118,6 @@ pdf(file = "fig_output/flowerplot_spir.pdf", width = 4, height = 4)
 flo_plot(FL_SPIR, "spir")
 dev.off()
 
-# plot and save for god
-pdf(file = "fig_output/flowerplot_god.pdf", width = 4, height = 4)
-flo_plot(FL_GOD, "god")
-dev.off()
 
 ### Cluster dendogram ###
 
