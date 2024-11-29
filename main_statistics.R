@@ -43,9 +43,9 @@ dev.off()
 set.seed(666)
 # set colour scheme
 mycol1 <-  ("white")
-mycol2 <- ("khaki") 
-mycol3 <- ("lavender")
-mycol4 <- ("pink")
+mycol2 <- ("cadetblue2") 
+mycol3 <- ("lightblue2")
+mycol4 <- ("skyblue4")
 
 fd <- function(n, beta) {
   e_rel <- rnorm(n, 0, 1) # noise
@@ -80,7 +80,7 @@ par(mfrow = c(2, 1), mar = c(2, 1, 1, 1))
 pdf(file = "fig_output/simulation.pdf", width = 5, height = 3)
 
 plot(NA, xlab = NA, ylab = "", 
-     xlim = c(0, 1.3), 
+     xlim = c(0, 1.4), 
      ylim = c(0, 13), 
      cex.lab = 1.3, yaxt = 'n')
 polygon(densop0, col = mycol1) # open0
@@ -171,7 +171,4 @@ plot(y ~ x, data = d.r, main = "age ~ religios upbringing",
      xlim = c(10, 90), ylim = c(-0.5, 1.5),
      pch = 21, col = "skyblue4" )
 abline(model1) # draw linear model rel ~ age
-
-
-
 

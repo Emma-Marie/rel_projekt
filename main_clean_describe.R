@@ -98,8 +98,8 @@ alpha(relscor)
 d.r$RELSCOR <- d$REL72 + d$REL85 + d$REL94 + d$REL106 + d$REL108 + d$REL113 # create new column with REL-scores
 
 # plot histogram
-pdf(file = "fig_output/rel_histogram.pdf", width = 4, height = 4)
-hist(d.r$RELSCOR, xlab = "Religiosity score", ylab = "Number of participants", main = "Religiousity distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue") # plot rel scores
+pdf(file = "fig_output/rel_distribution.pdf", width = 4, height = 4)
+hist(d.r$RELSCOR, xlab = "Religiosity score", ylab = "Number of participants", main = "Religiosity distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue") # plot rel scores
 dev.off()
 
 ##### other descriptions of sample and variables #####
@@ -116,16 +116,11 @@ mentsubs <- mentsub[complete.cases(mentsub),] # delete missing values
 alpha.fun(mentsubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(mentsub) # check reliability if items are dropped 
 
-# plot mental health scores
-par(mar = c(3, 4, 2, 1)) # set margins for plot
-d.r$HELSCOR <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$HELB + d.r$LSTAND + d.r$ALSYG # create column of health scores
-hist(d.r$HELSCOR, main  ="Distribution of mental health", xlab = "Mental health score", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
-
 # Investigate connection between health and religiosity
 
 plot(jitter(HELSCOR, factor = 1) ~ RELSCOR, data = d.r,
      xlab = "relscore", ylab = "helscore",
-     pch = 21, col = "blue")
+     pch = 21, col = "darkblue")
 
 labs_ment <- c("BEKYMFYS", "BEKYMMENT", "LSTAND", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
 mentsub <- d.r[labs_ment] # subtract the religiosity data
@@ -137,7 +132,7 @@ labs_eco <- c("BEKYMJOB", "BEKYMLIV") # create object of variable names to captu
 ecosub <- d.r[labs_eco] # subtract the religiosity data
 ecosubs <- ecosub[complete.cases(ecosub),] # delete missing values
 
-# Calculate Cronbach's alpha on income questions
+# Cronbach's alpha on income questions
 alpha.fun(ecosubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(ecosub) # check reliability if items are dropped 
 
@@ -150,7 +145,14 @@ hist(d.r$ECO, main  ="Distribution of worry about economy", xlab = "Ecomony worr
 par(mar = c(4, 4, 2, 1)) # set margins for plot
 plot(jitter(ECO, factor = 1) ~ RELSCOR, data = d.r,
      xlab = "relscore", ylab = "income worry",
-     pch = 21, col = "blue")
+     pch = 21, col = "darkblue")
+
+
+########################################################
+##### For the free list script ####
+# create new age variable to differentiate between "young" and "older"
+d.r$UNG[d.r$ALDER <= 28] <- 0
+d.r$UNG[d.r$ALDER > 28] <- 1
 
 ########################################################
 
