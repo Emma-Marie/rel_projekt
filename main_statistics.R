@@ -40,7 +40,7 @@ dev.off()
 ###### Simulation ########
 ###########################
 
-set.seed(666)
+#set.seed(666)
 # set colour scheme
 mycol1 <-  ("white")
 mycol2 <- ("cadetblue2") 
@@ -106,19 +106,18 @@ x3 <- d.r$ECO
 x4 <- d.r$HELSCOR
 d1 <- data.frame(y, x1, x2, x3, x4)
 
-# the models
-(m0 <- lm(y ~ x1, data = d.r)) # rel ~ age
-(m1 <- lm(y ~ x1 + x2, data = d.r)) # rel ~ age + sex
-(m2 <- lm(y ~ x1 + x2 + x3, data = d.r)) # rel ~ age + sex + health
-(mc <- lm(y ~ x1 + x2 + x3 + x4, data = d.r)) # rel ~ age + sex + health + income
-
-# the same models but with centralized age
-(m0.c <- lm(y ~ x1.c, data = d.r))
-(m1.c <- lm(y ~ x1.c + x2, data = d.r))
-(m2.c <- lm(y ~ x1.c + x2 + x3, data = d.r))
-(mc.c <- lm(y ~ x1.c + x2 + x3 + x4, data = d.r))
+# the models (with centralized age)
+(m0 <- lm(y ~ x1.c, data = d.r))
+(m1 <- lm(y ~ x1.c + x2, data = d.r))
+(m2 <- lm(y ~ x1.c + x2 + x3, data = d.r))
+(mc <- lm(y ~ x1.c + x2 + x3 + x4, data = d.r))
 
 summary(mc)
+
+# get confidence intervals
+confint(m0)
+confint(m1)
+confint(m2)
 confint(mc)
 
 # plot effect of age on religiosity
@@ -151,12 +150,11 @@ arrows(x0 = est - LS, y0 = x, x1 = est + US, y1 = x,
        code = 3, angle = 90, length = 0.05)
 abline(v = 0, lty = 2)  # Lodret linje ved 0
 axis(2, at = x, labels = labs, las = 2, cex.axis = 0.8)
-#mtext("Estimate", 1, padj = 3, cex = 0.8)
 
 dev.off()
 
 
-# Discussion --> correlation between age and religious upbringing?
+# Discussion: correlation between age and religious upbringing?
 
 x <- d.r$ALDER
 y <- d.r$OPREL

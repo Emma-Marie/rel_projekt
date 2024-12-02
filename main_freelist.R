@@ -38,15 +38,27 @@ surv_dat <- read.delim("data/dat_survey_cleaned.txt")
 surv_dat[1] <- NULL # remove first column with row number
 
 # Merge survey and FL data by "PARTID"
-
 merge_rel <- merge(surv_dat, FL_REL, by = "PARTID",
-                 all.x = TRUE, all.y = TRUE)
-
+                   all.x = TRUE, all.y = TRUE)
 merge_spir <- merge(surv_dat, FL_SPIR, by = "PARTID",
-                 all.x = TRUE, all.y = TRUE)
+                    all.x = TRUE, all.y = TRUE)
 
-# WHY ARE THERE NAs in the UNG column?????
-merge_spir$UNG
+# divide data into young and "old"
+rel_y <- subset(merge_rel, UNG == 0)
+rel_o <- subset(merge_rel, UNG == 1)
+spir_y <- subset(merge_spir, UNG == 0)
+spir_o <- subset(merge_spir, UNG == 1)
+
+# check length of data sets to get feeling of the volume of free list data 
+# --> data set for younger are much larger than  data set for older, even though the difference in number of participants
+# in the two groups don't differ that much
+
+table(surv_dat$UNG) # 119 of total participants are 0 and 102 are 1
+
+length(rel_y$UNG) # 274
+length(rel_o$UNG) # 146
+length(spir_y$UNG) # 271
+length(spir_o$UNG) # 142
 
 ########################################
 
@@ -91,10 +103,6 @@ item_saliens <- function(dat){
   return(FL.c) # return the FL.c value to be used when calculating the cultural salience later
 }
 
-# use function to get a salience column
-FL_REL_sal <- item_saliens(FL_REL)
-FL_SPIR_sal <- item_saliens(FL_SPIR)
-
 # function to calculate cultural salience
 cul_sal <- function(dat){
   FL.c <- item_saliens(dat) # use the item_salience function from before
@@ -102,7 +110,7 @@ cul_sal <- function(dat){
                             CODE = "CODE",
                             Salience = "Salience",
                             Subj = "PARTID",
-                            #GROUPING = "Grouping", # allows us to calculate salience across multiple groups
+                            #GROUPING = "UNG", # allows us to calculate salience across multiple groups
                             dealWithDoubles = "MAX") # handles when on person list the same item several times, and only takes the highest salient value of the item
   SAL.tab[order(-SAL.tab$SmithsS),, drop = F] # sorting the SmithsS values in the table --> but not necessary (FLowerPlot sorts as well)
   return(SAL.tab) # return to use in flower plot function
@@ -123,15 +131,24 @@ flo_plot <- function(dat, item){
 }
 
 # plot and save
-flo_plot(FL_REL, "rel") # religiosity data
-flo_plot(FL_SPIR, "spir") # spirituality data
+#flo_plot(FL_REL, "rel_all") # religiosity, all ages
+flo_plot(rel_y, "rel_y") # religiosity, < 28 years
+flo_plot(rel_o, "rel_o") # religiosity, > 28 years
+#flo_plot(FL_SPIR, "spir_all") # spirituality, all ages
+flo_plot(spir_y, "spir_y") # spirituality, < 28 years
+flo_plot(spir_o, "spir_o") # spirituality, > 28 years
 
 
 ### Cluster dendogram ###
 
 # Create function to create and save cluster dendogram
 clust_dendo <- function(dat, item){
-  FL.c <- CleanFreeList(dat, deleteDoubleCode = T, ejectBadSubj = T, # clean bad doubles and PARTIDs
+  
+  # run item salience function
+  dat_sal <- item_saliens(dat)
+  
+  # clean bad doubles and PARTIDs
+  FL.c <- CleanFreeList(dat_sal, deleteDoubleCode = T, ejectBadSubj = T, 
                             Order = "order", Subj = "PARTID")
   # turn into table
   FL_table <- FreeListTable(FL.c, CODE = "CODE", Salience = "Salience", Subj = "PARTID", Order = "order", tableType = "HIGHEST_RANK") 
@@ -152,15 +169,22 @@ clust_dendo <- function(dat, item){
   }
 
 # Create dendograms
-clust_dendo(FL_REL_sal, "religion")
-clust_dendo(FL_SPIR_sal, "spirituality")
+#clust_dendo(FL_REL, "rel_all") # religiosity, all ages
+clust_dendo(rel_y, "rel_y") # religiosity, < 28 years
+clust_dendo(rel_o, "rel_o") # religiosity, > 28 years
+#clust_dendo(FL_SPIR, "spir_all") # spirituality, all ages
+clust_dendo(spir_y, "spir_y") # spirituality, < 28 years
+clust_dendo(spir_o, "spir_o") # spirituality, > 28 years
 
 ### Conceptual network and co-occurence matrix ###
 
 # create matrix
 concept_net <- function(dat, item){
+  # run item salience function
+  dat_sal <- item_saliens(dat)
+  
   labs <- c("PARTID", "CODE") 
-  d <- dat[labs]
+  d <- dat_sal[labs]
   d.tab <- table(d[1:2]) # make a table of frequencies
   
   # re-code all frequencies <1 to 1 (relevant when same participant lists the same item more than once)
@@ -186,6 +210,10 @@ concept_net <- function(dat, item){
 }
 
 # Create conceptual network plots
-concept_net(FL_REL_sal, "religion")
-concept_net(FL_SPIR_sal, "spirituality")
+#concept_net(FL_REL, "rel_all") # religiosity, all ages
+concept_net(rel_y, "rel_y") # religiosity, < 28 years
+concept_net(rel_o, "rel_o") # religiosity, > 28 years
+#concept_net(FL_SPIR, "spir_all") # spirituality, all ages
+concept_net(spir_y, "spir_y") # spirituality, < 28 years
+concept_net(spir_o, "spir_o") # spirituality, > 28 years
 
