@@ -43,6 +43,8 @@ merge_rel <- merge(surv_dat, FL_REL, by = "PARTID",
 merge_spir <- merge(surv_dat, FL_SPIR, by = "PARTID",
                     all.x = TRUE, all.y = TRUE)
 
+View(merge_rel)
+
 # divide data into young and "old"
 rel_y <- subset(merge_rel, UNG == 0)
 rel_o <- subset(merge_rel, UNG == 1)
@@ -55,7 +57,7 @@ spir_o <- subset(merge_spir, UNG == 1)
 
 table(surv_dat$UNG) # 119 of total participants are 0 and 102 are 1
 
-length(rel_y$UNG) # 274
+length(rel_y$UNG) # 274 rows
 length(rel_o$UNG) # 146
 length(spir_y$UNG) # 271
 length(spir_o$UNG) # 142
@@ -169,10 +171,10 @@ clust_dendo <- function(dat, item){
   }
 
 # Create dendograms
-#clust_dendo(FL_REL, "rel_all") # religiosity, all ages
+clust_dendo(FL_REL, "rel_all") # religiosity, all ages
 clust_dendo(rel_y, "rel_y") # religiosity, < 28 years
 clust_dendo(rel_o, "rel_o") # religiosity, > 28 years
-#clust_dendo(FL_SPIR, "spir_all") # spirituality, all ages
+clust_dendo(FL_SPIR, "spir_all") # spirituality, all ages
 clust_dendo(spir_y, "spir_y") # spirituality, < 28 years
 clust_dendo(spir_o, "spir_o") # spirituality, > 28 years
 

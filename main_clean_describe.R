@@ -11,7 +11,6 @@ library(AnthroTools)
 
 # load raw data
 d <- read.table("data/RawProjektData.txt")
-
 d.r <- d # create new object containing data in order to be able to clean data
 
 # create function for information about observations with numeric values
@@ -141,12 +140,11 @@ par(mar = c(4, 4, 2, 1)) # set margins for plot
 d.r$ECO <- d.r$BEKYMJOB + d.r$BEKYMLIV # create column of income scores
 hist(d.r$ECO, main  ="Distribution of worry about economy", xlab = "Ecomony worry", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
-# Investigate connection between income (worry) and religiousity
+# Investigate connection between income (worry) and religiosity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
 plot(jitter(ECO, factor = 1) ~ RELSCOR, data = d.r,
      xlab = "relscore", ylab = "income worry",
      pch = 21, col = "darkblue")
-
 
 ########################################################
 ##### For the free list script ####
