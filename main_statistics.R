@@ -18,22 +18,23 @@ d.r[1] <- NULL # remove first column with row number
 pdf(file = "fig_output/DAG.pdf", width = 4, height = 4)
 
 plot(dagitty('dag {
-bb="0,0,1,1"
-AGE [exposure,pos="0.262,0.346"]
-ECO [adjusted,pos="0.458,0.136"]
-HEL [adjusted,pos="0.459,0.579"]
-REL [outcome,pos="0.672,0.346"]
-SEX [adjusted,pos="0.653,0.097"]
-AGE -> ECO
-AGE -> HEL
-AGE -> REL
-ECO -> HEL
-ECO -> REL
-HEL -> REL
-SEX -> ECO
-SEX -> REL
+  bb="0,0,1,1"
+  "Health insecurity" [pos="0.481,0.593"]
+  "Material insecurity" [pos="0.491,0.230"]
+  Age [exposure,pos="0.347,0.429"]
+  Religiosity [outcome,pos="0.646,0.417"]
+  Sex [pos="0.649,0.232"]
+  "Material insecurity" -> "Health insecurity"
+  "Health insecurity" -> Religiosity
+  "Material insecurity" -> Religiosity
+  Age -> "Health insecurity"
+  Age -> "Material insecurity"
+  Age -> Religiosity
+  Sex -> "Material insecurity"
+  Sex -> Religiosity
 }
-           ')) 
+'))
+
 
 dev.off()
 
@@ -50,20 +51,22 @@ mycol4 <- ("skyblue4")
 fd <- function(n, beta) {
   e_rel <- rnorm(n, 0, 1) # noise
   e_hel <- rnorm(n, 0, 1)
-  e_eco <- rnorm(n, 0, 1)
+  e_mat <- rnorm(n, 0, 1)
   e_sex <- rnorm(n, 0, 1)
   e_age <- rnorm(n, 0, 1) 
   SEX <- rbinom(n, 1, .5) # sex
   AGE <- rnorm(n, 0, 1)
-  ECO <- AGE * beta + SEX * beta + e_eco
-  HEL <- - AGE * beta + ECO * beta + e_hel
-  REL <- AGE * beta - HEL * beta - SEX * beta - ECO * beta + e_rel
+  HEL <- AGE * beta + e_hel
+  MAT <- - AGE * beta - SEX * beta + HEL * beta + e_mat 
+  #MAT <- - AGE * beta - SEX * beta + e_mat 
+  #HEL <- AGE * beta + MAT * beta + e_hel
+  REL <- AGE * beta + HEL * beta - SEX * beta + MAT * beta + e_rel
   
-  df <- data.frame(AGE, ECO, SEX, HEL, REL)
+  df <- data.frame(AGE, MAT, SEX, HEL, REL)
   open0 <- coef(lm(REL ~ AGE, dat = df))[2]
   open1 <- coef(lm(REL ~ AGE + SEX, dat = df))[2]
-  open2 <- coef(lm(REL ~ AGE + SEX + HEL, dat = df))[2]
-  closed <- coef(lm(REL ~ AGE + SEX + HEL + ECO, dat = df))[2]
+  open2 <- coef(lm(REL ~ AGE + SEX + MAT, dat = df))[2]
+  closed <- coef(lm(REL ~ AGE + SEX + MAT + HEL, dat = df))[2]
   return(c(open0, open1, open2, closed))
 }
 
@@ -88,7 +91,7 @@ polygon(densop1, col = mycol2) # open1
 polygon(densop2, col = mycol3) # open2
 polygon(densco1, col = mycol4) # closed
 abline(v = 0.5, lty = 2)
-legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ Eco", "+ Hel"), 
+legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ mat", "+ Hel"), 
        fill = c(mycol1, mycol2, mycol3, mycol4), 
        cex = .8, horiz = F, bty = T, inset = c(0.03, 0.15))
 
@@ -102,8 +105,8 @@ y <- d.r$RELSCOR
 x1 <- d.r$ALDER
 x1.c <- d.r$ALDER-mean(d.r$ALDER) # centralized age
 x2 <- d.r$KON
-x3 <- d.r$ECO
-x4 <- d.r$HELSCOR
+x3 <- d.r$ECO # material insecurity
+x4 <- d.r$HELSCOR # health insecurity
 d1 <- data.frame(y, x1, x2, x3, x4)
 
 # the models (with centralized age)
@@ -126,7 +129,7 @@ plot(y ~ x1, data = d1, main = "Religiosity ~ age",
      ylab = "Religiosity score", xlab = "Age",
      xlim = c(10, 90), ylim = c(-13, 13),
      pch = 21, col = "skyblue4" )
-abline(m0) # draw linear model rel ~ age
+abline(mc) # draw linear model rel ~ age
 
 ## UI-Plot for the variables (uncertainty interval)
 labs <- c("(Intercept)", "ALDER", "KON", "HELSCO", "ECO")
@@ -169,4 +172,3 @@ plot(y ~ x, data = d.r, main = "age ~ religios upbringing",
      xlim = c(10, 90), ylim = c(-0.5, 1.5),
      pch = 21, col = "skyblue4" )
 abline(model1) # draw linear model rel ~ age
-

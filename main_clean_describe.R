@@ -48,7 +48,7 @@ d.r$UDDANN[which(d.r$UDDANN == "10+")] <- 10
 d.r$UDDANN[which(d.r$UDDANN == "18-20")] <- 18
 
 d.r$UDDANN <- as.numeric(d.r$UDDANN) # turn numeric
-statinfo(d.r$UDDANN) # describe years of education --> relevant?
+statinfo(d.r$UDDANN)
 
 ## Religious upbringing
 no <- sum(d.r$OPREL == 0, na.rm = TRUE)
@@ -70,7 +70,7 @@ df_kon <- data.frame(Kon = c("Female", "Male", "Other"),
 print(df_kon)
 
 
-### Investigate RELIGIOUSITY - the dependent variable ###
+### Investigate RELIGIOUSITY (the dependent variable) ###
 
 # function to calculate the Cronbach's alpha
 alpha.fun <- function(data, interval){
@@ -101,49 +101,48 @@ pdf(file = "fig_output/rel_distribution.pdf", width = 4, height = 4)
 hist(d.r$RELSCOR, xlab = "Religiosity score", ylab = "Number of participants", main = "Religiosity distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue") # plot rel scores
 dev.off()
 
+#######################################################
 ##### other descriptions of sample and variables #####
 
-## Mental health
+### Mental health
 table(d.r$HELB) # check values
 d.r$HELB[which(d.r$HELB == "0.2")] <- 0 # replaces invalid value
 
-labs_ment <- c("BEKYMFYS", "BEKYMMENT", "LSTAND", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
-mentsub <- d.r[labs_ment] # subtract the religiosity data
+labs_ment <- c("BEKYMFYS", "BEKYMMENT", "DEPRI", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
+mentsub <- d.r[labs_ment] # subtract the health data
 mentsubs <- mentsub[complete.cases(mentsub),] # delete missing values
 
 # Calculate Cronbach's alpha on mental health questions
 alpha.fun(mentsubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(mentsub) # check reliability if items are dropped 
 
-# Investigate connection between health and religiosity
+d.r$HELSCOR <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$DEPRI + d.r$ALSYG + d.r$HELB # create new column with health insecurity scores
+
+# Investigate connection between health insecurity and religiosity
 
 plot(jitter(HELSCOR, factor = 1) ~ RELSCOR, data = d.r,
-     xlab = "relscore", ylab = "helscore",
+     xlab = "Religiosity", ylab = "Health insecurity",
      pch = 21, col = "darkblue")
 
-labs_ment <- c("BEKYMFYS", "BEKYMMENT", "LSTAND", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
-mentsub <- d.r[labs_ment] # subtract the religiosity data
-mentsubs <- mentsub[complete.cases(mentsub),] # delete missing values
+### Material insecurity
 
-## Income
-
-labs_eco <- c("BEKYMJOB", "BEKYMLIV") # create object of variable names to capture the income questions
-ecosub <- d.r[labs_eco] # subtract the religiosity data
+labs_eco <- c("BEKYMJOB", "BEKYMLIV", "LSTAND") # create object of variable names to capture material insecurity
+ecosub <- d.r[labs_eco] # subtract the material insecurity data
 ecosubs <- ecosub[complete.cases(ecosub),] # delete missing values
 
-# Cronbach's alpha on income questions
+# Cronbach's alpha on material insecurity 
 alpha.fun(ecosubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(ecosub) # check reliability if items are dropped 
 
-# plot economy
+# plot material insecurity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
-d.r$ECO <- d.r$BEKYMJOB + d.r$BEKYMLIV # create column of income scores
-hist(d.r$ECO, main  ="Distribution of worry about economy", xlab = "Ecomony worry", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
+d.r$ECO <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND# create column of income scores
+hist(d.r$ECO, main  ="Material insecurity of participants", xlab = "Material insecurity", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
-# Investigate connection between income (worry) and religiosity
+# Investigate connection between material insecurity and religiosity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
 plot(jitter(ECO, factor = 1) ~ RELSCOR, data = d.r,
-     xlab = "relscore", ylab = "income worry",
+     xlab = "Religiosity", ylab = "Material insecurity",
      pch = 21, col = "darkblue")
 
 ########################################################

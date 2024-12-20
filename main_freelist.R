@@ -43,24 +43,21 @@ merge_rel <- merge(surv_dat, FL_REL, by = "PARTID",
 merge_spir <- merge(surv_dat, FL_SPIR, by = "PARTID",
                     all.x = TRUE, all.y = TRUE)
 
-View(merge_rel)
-
 # divide data into young and "old"
 rel_y <- subset(merge_rel, UNG == 0)
 rel_o <- subset(merge_rel, UNG == 1)
 spir_y <- subset(merge_spir, UNG == 0)
 spir_o <- subset(merge_spir, UNG == 1)
 
-# check length of data sets to get feeling of the volume of free list data 
-# --> data set for younger are much larger than  data set for older, even though the difference in number of participants
-# in the two groups don't differ that much
-
+# check length of data sets to get feeling of the volume of free list data
 table(surv_dat$UNG) # 119 of total participants are 0 and 102 are 1
 
 length(rel_y$UNG) # 274 rows
 length(rel_o$UNG) # 146
 length(spir_y$UNG) # 271
 length(spir_o$UNG) # 142
+# NB: Data set for younger are much larger than  data set for older, even though the difference 
+# in the number of participants in the two groups don't differ that much.
 
 ########################################
 
@@ -112,7 +109,7 @@ cul_sal <- function(dat){
                             CODE = "CODE",
                             Salience = "Salience",
                             Subj = "PARTID",
-                            #GROUPING = "UNG", # allows us to calculate salience across multiple groups
+                            #GROUPING
                             dealWithDoubles = "MAX") # handles when on person list the same item several times, and only takes the highest salient value of the item
   SAL.tab[order(-SAL.tab$SmithsS),, drop = F] # sorting the SmithsS values in the table --> but not necessary (FLowerPlot sorts as well)
   return(SAL.tab) # return to use in flower plot function
@@ -133,10 +130,8 @@ flo_plot <- function(dat, item){
 }
 
 # plot and save
-#flo_plot(FL_REL, "rel_all") # religiosity, all ages
 flo_plot(rel_y, "rel_y") # religiosity, < 28 years
 flo_plot(rel_o, "rel_o") # religiosity, > 28 years
-#flo_plot(FL_SPIR, "spir_all") # spirituality, all ages
 flo_plot(spir_y, "spir_y") # spirituality, < 28 years
 flo_plot(spir_o, "spir_o") # spirituality, > 28 years
 
@@ -165,18 +160,18 @@ clust_dendo <- function(dat, item){
   # plot and save as pdf
   pdf(file = paste0("fig_output/dendogram_",item,".pdf"),width=4, height=3)
   par(mar =c(0, 2, 2, 0)) # plot margins
-  plot(hc_FL, labels = colnames(FL_table), main = paste0("Cluster dendogram: ", item)) # set CODE item names as words in the dendogram
+  plot(hc_FL, labels = colnames(FL_table), main = paste0(item)) # set CODE item names as words in the dendogram
   
   dev.off()
   }
 
 # Create dendograms
-clust_dendo(FL_REL, "rel_all") # religiosity, all ages
-clust_dendo(rel_y, "rel_y") # religiosity, < 28 years
-clust_dendo(rel_o, "rel_o") # religiosity, > 28 years
-clust_dendo(FL_SPIR, "spir_all") # spirituality, all ages
-clust_dendo(spir_y, "spir_y") # spirituality, < 28 years
-clust_dendo(spir_o, "spir_o") # spirituality, > 28 years
+clust_dendo(rel_y, "rel_young") # religiosity, < 28 years
+clust_dendo(rel_o, "rel_older") # religiosity, > 28 years
+clust_dendo(spir_y, "spir_young") # spirituality, < 28 years
+clust_dendo(spir_o, "spir_older") # spirituality, > 28 years
+clust_dendo(merge_rel, "all_rel")
+clust_dendo(merge_spir, "all_spir")
 
 ### Conceptual network and co-occurence matrix ###
 
@@ -194,7 +189,6 @@ concept_net <- function(dat, item){
   d.corr <- crossprod(d.bin)
   diag(d.corr) <- 0
   
-  
   # save plot as pdf
   pdf(file = paste0("fig_output/network_",item,".pdf"),width=4, height=3)
   
@@ -202,7 +196,7 @@ concept_net <- function(dat, item){
   network <- graph_from_adjacency_matrix(d.corr, mode = "undirected")
   # plot
   par(mar = c(2, 1, 2, 1), mfrow = c(1, 1))
-  plot(network, main = paste0("Conceptual network: ", item),
+  plot(network, main = paste0(item),
        vertex.color = "lavender",
        vertex.frame.color = "darkblue", # Border color
        vertex.label.color = "black", # label color
@@ -212,10 +206,7 @@ concept_net <- function(dat, item){
 }
 
 # Create conceptual network plots
-#concept_net(FL_REL, "rel_all") # religiosity, all ages
-concept_net(rel_y, "rel_y") # religiosity, < 28 years
-concept_net(rel_o, "rel_o") # religiosity, > 28 years
-#concept_net(FL_SPIR, "spir_all") # spirituality, all ages
-concept_net(spir_y, "spir_y") # spirituality, < 28 years
-concept_net(spir_o, "spir_o") # spirituality, > 28 years
-
+concept_net(rel_y, "rel_young") # religiosity, < 28 years
+concept_net(rel_o, "rel_older") # religiosity, > 28 years
+concept_net(spir_y, "spir_young") # spirituality, < 28 years
+concept_net(spir_o, "spir_older") # spirituality, > 28 years
