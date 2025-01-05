@@ -10,8 +10,6 @@ library(dagitty)
 # load cleaned data
 d.r <- read.delim("data/dat_survey_cleaned.txt")
 d.r[1] <- NULL # remove first column with row number
-
-
 ###### DAG ########
 ####################
 
@@ -24,7 +22,7 @@ plot(dagitty('dag {
   Age [exposure,pos="0.347,0.429"]
   Religiosity [outcome,pos="0.646,0.417"]
   Sex [pos="0.649,0.232"]
-  "Material insecurity" -> "Health insecurity"
+  "Health insecurity" -> "Material insecurity"
   "Health insecurity" -> Religiosity
   "Material insecurity" -> Religiosity
   Age -> "Health insecurity"
@@ -41,8 +39,7 @@ dev.off()
 ###### Simulation ########
 ###########################
 
-#set.seed(666)
-# set colour scheme
+# set color scheme
 mycol1 <-  ("white")
 mycol2 <- ("cadetblue2") 
 mycol3 <- ("lightblue2")
@@ -58,8 +55,6 @@ fd <- function(n, beta) {
   AGE <- rnorm(n, 0, 1)
   HEL <- AGE * beta + e_hel
   MAT <- - AGE * beta - SEX * beta + HEL * beta + e_mat 
-  #MAT <- - AGE * beta - SEX * beta + e_mat 
-  #HEL <- AGE * beta + MAT * beta + e_hel
   REL <- AGE * beta + HEL * beta - SEX * beta + MAT * beta + e_rel
   
   df <- data.frame(AGE, MAT, SEX, HEL, REL)
@@ -102,11 +97,10 @@ dev.off()
 
 ### Linear regression
 y <- d.r$RELSCOR
-x1 <- d.r$ALDER
 x1.c <- d.r$ALDER-mean(d.r$ALDER) # centralized age
-x2 <- d.r$KON
-x3 <- d.r$ECO # material insecurity
-x4 <- d.r$HELSCOR # health insecurity
+x2 <- d.r$KON.r
+x3 <- d.r$HELSCOR # health insecurity
+x4 <- d.r$MAT # material insecurity
 d1 <- data.frame(y, x1, x2, x3, x4)
 
 # the models (with centralized age)
@@ -132,7 +126,7 @@ plot(y ~ x1, data = d1, main = "Religiosity ~ age",
 abline(mc) # draw linear model rel ~ age
 
 ## UI-Plot for the variables (uncertainty interval)
-labs <- c("(Intercept)", "ALDER", "KON", "HELSCO", "ECO")
+labs <- c("(Intercept)", "ALDER", "KON", "HELSCO", "MAT")
 x <- seq(1, length(labs), by = 1)
 
 est <- coef(mc)  # coefficients
@@ -156,9 +150,9 @@ axis(2, at = x, labels = labs, las = 2, cex.axis = 0.8)
 
 dev.off()
 
+##############################################
 
 # Discussion: correlation between age and religious upbringing?
-
 x <- d.r$ALDER
 y <- d.r$OPREL
 

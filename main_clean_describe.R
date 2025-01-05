@@ -35,31 +35,12 @@ dev.off()
 
 ####### investigate sample generally
 
-### Education 
-str(d.r$UDDANN) # values are characters, but needs to me numerical
-unique(d.r$UDDANN) # look for the errors
-
-# replace words etc. with correct numbers
-d.r$UDDANN[which(d.r$UDDANN == "18 folkeskole/gymnasium/universitet")] <- 18
-d.r$UDDANN[which(d.r$UDDANN == "12 aar mindst")] <- 12
-d.r$UDDANN[which(d.r$UDDANN == "18,5")] <- 18.5
-d.r$UDDANN[which(d.r$UDDANN == "16,5")] <- 16.5
-d.r$UDDANN[which(d.r$UDDANN == "10+")] <- 10
-d.r$UDDANN[which(d.r$UDDANN == "18-20")] <- 18
-
-d.r$UDDANN <- as.numeric(d.r$UDDANN) # turn numeric
-statinfo(d.r$UDDANN)
-
 ## Religious upbringing
 no <- sum(d.r$OPREL == 0, na.rm = TRUE)
 yes <- sum(d.r$OPREL == 1, na.rm = TRUE)
 df_oprel <- data.frame(upbringrel = c("no", "yes"),
                        Count = c(no, yes)) # create data frame
 print(df_oprel)
-
-## Years in big city 10,000+ citizens
-d.r$BY <- as.numeric(d.r$BY) # turn numeric
-statinfo(d.r$BY) # use function to describe
 
 ## Gender
 female <- sum(d.r$KON == 0)
@@ -92,9 +73,12 @@ alpha.fun <- function(data, interval){
 # Cronsbach's alpha on religiosity questions
 rel_labs <- c("REL72", "REL85", "REL94", "REL106", "REL108", "REL113") # our chosen religiosity questions
 relscor <- d[rel_labs]
-alpha(relscor)
+alpha(relscor) # Cronbachs alpha
+relscor <- na.omit(relscor) # remove rows with NA
+alpha.fun(relscor, 0.95) # get 95% CI for Cronbachs alpha
 
-d.r$RELSCOR <- d$REL72 + d$REL85 + d$REL94 + d$REL106 + d$REL108 + d$REL113 # create new column with REL-scores
+# create new column with religiosity scores
+d.r$RELSCOR <- d$REL72 + d$REL85 + d$REL94 + d$REL106 + d$REL108 + d$REL113 
 
 # plot histogram
 pdf(file = "fig_output/rel_distribution.pdf", width = 4, height = 4)
@@ -118,32 +102,19 @@ alpha(mentsub) # check reliability if items are dropped
 
 d.r$HELSCOR <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$DEPRI + d.r$ALSYG + d.r$HELB # create new column with health insecurity scores
 
-# Investigate connection between health insecurity and religiosity
-
-plot(jitter(HELSCOR, factor = 1) ~ RELSCOR, data = d.r,
-     xlab = "Religiosity", ylab = "Health insecurity",
-     pch = 21, col = "darkblue")
-
 ### Material insecurity
-
-labs_eco <- c("BEKYMJOB", "BEKYMLIV", "LSTAND") # create object of variable names to capture material insecurity
-ecosub <- d.r[labs_eco] # subtract the material insecurity data
-ecosubs <- ecosub[complete.cases(ecosub),] # delete missing values
+labs_mat <- c("BEKYMJOB", "BEKYMLIV", "LSTAND") # create object of variable names to capture material insecurity
+matsub <- d.r[labs_mat] # subtract the material insecurity data
+matsubs <- matsub[complete.cases(matsub),] # delete missing values
 
 # Cronbach's alpha on material insecurity 
-alpha.fun(ecosubs, 0.95) # run our function calculating Cronbach's alpha 
-alpha(ecosub) # check reliability if items are dropped 
+alpha.fun(matsubs, 0.95) # run our function calculating Cronbach's alpha 
+alpha(matsub) # check reliability if items are dropped 
 
 # plot material insecurity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
-d.r$ECO <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND# create column of income scores
-hist(d.r$ECO, main  ="Material insecurity of participants", xlab = "Material insecurity", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
-
-# Investigate connection between material insecurity and religiosity
-par(mar = c(4, 4, 2, 1)) # set margins for plot
-plot(jitter(ECO, factor = 1) ~ RELSCOR, data = d.r,
-     xlab = "Religiosity", ylab = "Material insecurity",
-     pch = 21, col = "darkblue")
+d.r$MAT <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND# create column of income scores
+hist(d.r$MAT, main  ="Material insecurity of participants", xlab = "Material insecurity", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
 ########################################################
 ##### For the free list script ####
