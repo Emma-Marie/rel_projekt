@@ -45,26 +45,30 @@ mycol2 <- ("cadetblue2")
 mycol3 <- ("lightblue2")
 mycol4 <- ("skyblue4")
 
+set.seed(666)
 fd <- function(n, beta) {
   e_rel <- rnorm(n, 0, 1) # noise
   e_hel <- rnorm(n, 0, 1)
   e_mat <- rnorm(n, 0, 1)
   e_sex <- rnorm(n, 0, 1)
   e_age <- rnorm(n, 0, 1) 
-  SEX <- rbinom(n, 1, .5) # sex
+  SEX <- rbinom(n, 1, .5)
   AGE <- rnorm(n, 0, 1)
+  
   HEL <- AGE * beta + e_hel
   MAT <- - AGE * beta - SEX * beta + HEL * beta + e_mat 
   REL <- AGE * beta + HEL * beta - SEX * beta + MAT * beta + e_rel
   
   df <- data.frame(AGE, MAT, SEX, HEL, REL)
-  open0 <- coef(lm(REL ~ AGE, dat = df))[2]
-  open1 <- coef(lm(REL ~ AGE + SEX, dat = df))[2]
-  open2 <- coef(lm(REL ~ AGE + SEX + MAT, dat = df))[2]
-  closed <- coef(lm(REL ~ AGE + SEX + MAT + HEL, dat = df))[2]
+  # models
+  open0 <- coef(lm(REL ~ AGE, dat = df))[2] # age as only variable
+  open1 <- coef(lm(REL ~ AGE + SEX, dat = df))[2] # sex added as control variable
+  open2 <- coef(lm(REL ~ AGE + SEX + HEL, dat = df))[2] # sex and hel added
+  closed <- coef(lm(REL ~ AGE + SEX + HEL + MAT, dat = df))[2] # sex, mat and hel added
   return(c(open0, open1, open2, closed))
 }
 
+# the process is repeated 1000 times and the koefficients saved
 sim1 <- data.frame(t(replicate(1000, fd(1000, .5))))
 names(sim1) <- c("open0", "open1", "open2", "controlled")
 
@@ -86,7 +90,7 @@ polygon(densop1, col = mycol2) # open1
 polygon(densop2, col = mycol3) # open2
 polygon(densco1, col = mycol4) # closed
 abline(v = 0.5, lty = 2)
-legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ mat", "+ Hel"), 
+legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ hel", "+ mat"), 
        fill = c(mycol1, mycol2, mycol3, mycol4), 
        cex = .8, horiz = F, bty = T, inset = c(0.03, 0.15))
 
@@ -103,7 +107,7 @@ x3 <- d.r$HELSCOR # health insecurity
 x4 <- d.r$MAT # material insecurity
 d1 <- data.frame(y, x1, x2, x3, x4)
 
-# the models (with centralized age)
+# the models
 (m0 <- lm(y ~ x1.c, data = d.r))
 (m1 <- lm(y ~ x1.c + x2, data = d.r))
 (m2 <- lm(y ~ x1.c + x2 + x3, data = d.r))
@@ -124,6 +128,7 @@ plot(y ~ x1, data = d1, main = "Religiosity ~ age",
      xlim = c(10, 90), ylim = c(-13, 13),
      pch = 21, col = "skyblue4" )
 abline(mc) # draw linear model rel ~ age
+
 
 ## UI-Plot for the variables (uncertainty interval)
 labs <- c("(Intercept)", "ALDER", "KON", "HELSCO", "MAT")

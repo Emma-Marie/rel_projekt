@@ -124,16 +124,16 @@ flo_plot <- function(dat, item){
   SAL.tab <- cul_sal(dat) # use cul_sal function on data
   
   # plot
-  par(mar = c(0, 0, 0, 0), mfrow = c(1, 1))
+  par(mar = c(0, 0, 0, 0), mfrow = c(1, 1), cex = 0.8)
   FlowerPlot(SAL.tab, item)
   dev.off()
 }
 
 # plot and save
-flo_plot(rel_y, "rel_y") # religiosity, < 28 years
-flo_plot(rel_o, "rel_o") # religiosity, > 28 years
-flo_plot(spir_y, "spir_y") # spirituality, < 28 years
-flo_plot(spir_o, "spir_o") # spirituality, > 28 years
+flo_plot(rel_y, "rel young") # religiosity, < 28 years
+flo_plot(rel_o, "rel old") # religiosity, > 28 years
+flo_plot(spir_y, "spir young") # spirituality, < 28 years
+flo_plot(spir_o, "spir old") # spirituality, > 28 years
 
 
 ### Cluster dendogram ###
@@ -206,7 +206,7 @@ concept_net <- function(dat, item){
 }
 
 # Create conceptual network plots
-concept_net(rel_y, "rel_young") # religiosity, < 28 years
-concept_net(rel_o, "rel_older") # religiosity, > 28 years
-concept_net(spir_y, "spir_young") # spirituality, < 28 years
-concept_net(spir_o, "spir_older") # spirituality, > 28 years
+concept_net(rel_y, "Religiosity young") # religiosity, < 28 years
+concept_net(rel_o, "Religiosity old") # religiosity, > 28 years
+concept_net(spir_y, "Spirituality young") # spirituality, < 28 years
+concept_net(spir_o, "Spirituality old") # spirituality, > 28 years
