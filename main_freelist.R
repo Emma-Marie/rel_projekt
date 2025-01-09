@@ -33,6 +33,7 @@ save_df <- function(dat){
 save_df(FL_REL)
 save_df(FL_SPIR)
 
+######## Merge data ##############################
 # load cleaned survey data
 surv_dat <- read.delim("data/dat_survey_cleaned.txt")
 surv_dat[1] <- NULL # remove first column with row number
@@ -59,9 +60,7 @@ length(spir_o$UNG) # 142
 # NB: Data set for younger are much larger than  data set for older, even though the difference 
 # in the number of participants in the two groups don't differ that much.
 
-########################################
-
-### Frequency plot ### 
+############# Frequency plot ###########################
 
 # create a participant-by-item presence matrix for the data set
 freq_plot <- function(dat, item){
@@ -86,7 +85,7 @@ freq_plot <- function(dat, item){
 freq_plot(FL_REL, "religion")
 freq_plot(FL_SPIR, "spirituality")
 
-### Flower plot ###
+######## Flower plot ########
 
 # function to calculate item salience
 item_saliens <- function(dat){
@@ -136,7 +135,7 @@ flo_plot(spir_y, "spir young") # spirituality, < 28 years
 flo_plot(spir_o, "spir old") # spirituality, > 28 years
 
 
-### Cluster dendogram ###
+####### Cluster dendogram #######
 
 # Create function to create and save cluster dendogram
 clust_dendo <- function(dat, item){
@@ -173,7 +172,7 @@ clust_dendo(spir_o, "spir_older") # spirituality, > 28 years
 clust_dendo(merge_rel, "all_rel")
 clust_dendo(merge_spir, "all_spir")
 
-### Conceptual network and co-occurence matrix ###
+####### Conceptual network and co-occurence matrix #######
 
 # create matrix
 concept_net <- function(dat, item){

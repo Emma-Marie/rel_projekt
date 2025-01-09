@@ -36,8 +36,9 @@ plot(dagitty('dag {
 
 dev.off()
 
-###### Simulation ########
-###########################
+#############################################
+###### Simulation - RELIGIOSITY ############
+#############################################
 
 # set color scheme
 mycol1 <-  ("white")
@@ -95,9 +96,9 @@ legend(1.1, 13, legend = c("~ Age", "+ Sex", "+ hel", "+ mat"),
        cex = .8, horiz = F, bty = T, inset = c(0.03, 0.15))
 
 dev.off()
-
-###### Linear regression ######
-###############################
+#############################################
+###### Linear regression - RELIGIOSITY ######
+#############################################
 
 ### Linear regression
 y <- d.r$RELSCOR
@@ -140,7 +141,7 @@ UL <- confint(mc)[, 2]  # upper boundary
 LS <- est - LL  # length to the left
 US <- UL - est  # length to the right
 
-pdf(file = "fig_output/boxplot.pdf", width = 4, height = 4)
+pdf(file = "fig_output/uiplot_rel.pdf", width = 4, height = 4)
 
 par(mar = c(4, 5, 2, 1))  # plot margins
 plot(est, x, pch = 16, 
@@ -155,19 +156,85 @@ axis(2, at = x, labels = labs, las = 2, cex.axis = 0.8)
 
 dev.off()
 
-##############################################
 
+###############################################################
 # Discussion: correlation between age and religious upbringing?
+##############################################################
+
+## Religious upbringing
+no <- sum(d.r$OPREL == 0, na.rm = TRUE)
+yes <- sum(d.r$OPREL == 1, na.rm = TRUE)
+df_oprel <- data.frame(upbringrel = c("no", "yes"),
+                       Count = c(no, yes)) # create data frame
+print(df_oprel)
+
 x <- d.r$ALDER
 y <- d.r$OPREL
 
 # the models
-(model1 <- lm(y ~ x, data = d.r)) # rel ~ age
+(model1 <- lm(y ~ x, data = d.r)) # age ~ rel upbringing
 
-# plot effect of age on religiosity
+# plot effect of upbringing on religiosity
 par(mar = c(4, 4, 1, 1), mfrow = c(1, 1))
 plot(y ~ x, data = d.r, main = "age ~ religios upbringing",
      ylab = "Religiosity score", xlab = "Age",
      xlim = c(10, 90), ylim = c(-0.5, 1.5),
      pch = 21, col = "skyblue4" )
 abline(model1) # draw linear model rel ~ age
+
+
+##############################################
+###### Linear regression - SPIRITUALITY ######
+#############################################
+
+### Linear regression
+y_spir <- d.r$SPIRSCOR
+d2 <- data.frame(y_spir, x1, x2, x3, x4)
+
+# the models
+(m0_spir <- lm(y_spir ~ x1.c, data = d.r))
+(m1_spir <- lm(y_spir ~ x1.c + x2, data = d.r))
+(m2_spir <- lm(y_spir ~ x1.c + x2 + x3, data = d.r))
+(mc_spir <- lm(y_spir ~ x1.c + x2 + x3 + x4, data = d.r))
+
+summary(mc_spir)
+
+# get confidence intervals
+confint(m0_spir)
+confint(m1_spir)
+confint(m2_spir)
+confint(mc_spir)
+
+# plot effect of age on spirituality
+par(mar = c(4, 4, 1, 1), mfrow = c(1, 1))
+plot(y_spir ~ x, data = d2, main = "Spirituality ~ age",
+     ylab = "Spirituality score", xlab = "Age",
+     xlim = c(10, 90), ylim = c(-13, 13),
+     pch = 21, col = "skyblue4" )
+abline(mc_spir) # draw linear model rel ~ age
+
+## UI-Plot for the variables (uncertainty interval)
+labs <- c("(Intercept)", "ALDER", "KON", "HELSCO", "MAT")
+x <- seq(1, length(labs_spir), by = 1)
+
+est <- coef(mc_spir)  # coefficients
+LL <- confint(mc_spir)[, 1]  # lower boundary
+UL <- confint(mc_spir)[, 2]  # upper boundary
+LS <- est - LL  # length to the left
+US <- UL - est  # length to the right
+
+pdf(file = "fig_output/uiplot_spir.pdf", width = 4, height = 4)
+
+par(mar = c(4, 5, 2, 1))  # plot margins
+plot(est, x, pch = 16, 
+     xlim = c(min(LL) - 1, max(UL) + 1),  # dynamic x-axis
+     ylim = c(0.5, length(labs) + 0.5),  # dynamic y-axis
+     xlab = "Estimate", 
+     ylab = "", yaxt = "n", frame.plot = FALSE)
+arrows(x0 = est - LS, y0 = x, x1 = est + US, y1 = x, 
+       code = 3, angle = 90, length = 0.05)
+abline(v = 0, lty = 2)  # Lodret linje ved 0
+axis(2, at = x, labels = labs, las = 2, cex.axis = 0.8)
+
+dev.off()
+

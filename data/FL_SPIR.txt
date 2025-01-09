@@ -1,325 +1,325 @@
-""	"PARTID"	"order"	"item"	"CODE_evj"	"CODE"	"CODE.H"	"CODE.S"	"...8"	"emma_hans"	"yy"	"yn"	"ny"	"nn"	"...14"	"...15"	"Hans"	"...17"	"...18"
-"1"	"rse008"	4	"accept"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	"y"	"n"	NA
-"2"	"sh006"	5	"afslappet"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	"Emma"	"y"	"162"	"90"	252
-"3"	"evj002"	4	"alternativer"	"misc"	"individual"	"beliefs"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	"n"	"7"	"32"	39
-"4"	"hkp008"	2	"alternativt"	"misc"	"individual"	"beliefs"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"5"	"sh006"	2	"asien"	"places"	"places"	"characteristics"	"places"	NA	NA	"x"	NA	NA	NA	"n"	"291"	NA	NA	NA
-"6"	"mgs015"	2	"astrologi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	"po"	"0.66666666666666663"	NA	NA	NA
-"7"	"mgs017"	5	"astrologi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	"pc"	"16.853438197470506"	NA	NA	NA
-"8"	"mgs005"	4	"aura"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	"kappa"	"1.0210259332506508"	NA	NA	NA
-"9"	"atoe007"	5	"aura"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"10"	"sh004"	2	"aura"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"11"	"rse004"	2	"balance"	"feelings"	"feelings"	"meaning"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"12"	"atoe003"	4	"bare tæer"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"13"	"mgs003"	2	"bedragende"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"14"	"hkp009"	5	"bevidsthed"	"feelings"	"concepts"	"feelings"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"15"	"mgs004"	4	"blomster"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"16"	"mgs010"	3	"bod"	"concepts"	"ritual"	"rules"	"objects"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"17"	"atoe010"	4	"buddha"	"god"	"god"	"god"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"18"	"hkp008"	4	"buddhisme"	"institution"	"institution"	"institution"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"19"	"mgs001"	3	"buddhisme"	"institution"	"institution"	"institution"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"20"	"mgs004"	1	"buddhisme"	"institution"	"institution"	"institution"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"21"	"atoe014"	2	"bøn"	"prayer"	"prayer"	"prayer"	"prayer"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"22"	"atoe013"	3	"ceremonier"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"23"	"atoe003"	1	"chakra"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"24"	"rse007"	2	"der er mere mellem himmel og jord"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"25"	"rse006"	5	"det flyvende spaghettimonster"	"concepts"	"concepts"	"concepts"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"26"	"atoe012"	1	"drømme"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"27"	"atoe009"	5	"drømmefangere"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"28"	"mgs013"	4	"dumhed"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"29"	"mgs006"	2	"emotionelt"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"30"	"hkp010"	2	"energi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"31"	"rse008"	5	"energi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"32"	"mgs007"	5	"energi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"33"	"mgs022"	2	"energi"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"34"	"sh001"	5	"energier"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"35"	"mgs005"	2	"energier"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"36"	"mgs016"	3	"energier"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"37"	"atoe009"	1	"farven lilla"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"38"	"mgs001"	1	"flip"	"characteristics"	"characteristics"	"negative"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"39"	"mgs008"	5	"flyvsk"	"characteristics"	"negative"	"feelings"	"negative"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"40"	"hkp009"	4	"foelelse"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"41"	"rse004"	4	"forbundethed"	"meaning"	"meaning"	"community"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"42"	"rse008"	2	"forbundethed"	"meaning"	"meaning"	"community"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"43"	"hkp004"	1	"fordybelse"	"meaning"	"ritual"	"feelings"	"ritual"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"44"	"mgs010"	4	"forretning"	"misc"	"characteristics"	"institution"	"institutions"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"45"	"rse004"	3	"forståelse"	"meaning"	"meaning"	"beliefs"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"46"	"mgs003"	5	"forvirrende"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"47"	"atoe004"	5	"fred"	"feelings"	"meaning"	"meaning"	"feelings"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"48"	"sh008"	3	"fred"	"feelings"	"meaning"	"meaning"	"feelings"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"49"	"sh007"	2	"freestyling"	"misc"	"characteristics"	"beliefs"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"50"	"mgs003"	1	"fup"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"51"	"evj003"	5	"følelser"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"52"	"mgs016"	4	"glaede"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"53"	"atoe011"	1	"halvskøre"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"54"	"mgs022"	4	"harmoni"	"feelings"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"55"	"atoe001"	2	"healing"	"ritual"	"ritual"	"concepts"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"56"	"atoe009"	2	"hekse"	"characteristics"	"characteristics"	"characteristics"	"concepts"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"57"	"mgs013"	2	"helse"	"misc"	"characteristics"	"beliefs"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"58"	"rse005"	1	"hinduisme"	"institution"	"institution"	"institution"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"59"	"atoe001"	5	"hippie"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"60"	"mgs009"	2	"hippie"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"61"	"atoe005"	2	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"62"	"sh014"	1	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"63"	"sh015"	1	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"64"	"hkp010"	4	"hoejere bevidsthed"	"meaning"	"concepts"	"concepts"	"concepts"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"65"	"sh010"	1	"hoejere kraefter"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"66"	"sh012"	1	"hokus pokus"	"negative"	"negative"	"negative"	"negative"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"67"	"hkp009"	3	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"68"	"evj003"	4	"håb"	"meaning"	"meaning"	"beliefs"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"69"	"sh008"	4	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"70"	"mgs005"	5	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"71"	"mgs002"	3	"i sig selv"	"feelings"	"individual"	"individual"	"individual"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"72"	"rse002"	1	"ikke besvaret"	NA	NA	"negative"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"73"	"atoe008"	1	"ikke besvaret"	NA	NA	"individual"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"74"	"hkp003"	2	"ikke virkeligt"	"negative"	"negative"	"individual"	"negative"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"75"	"rse001"	5	"individ"	"individual"	"individual"	"individual"	"individual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"76"	"mgs020"	4	"individ"	"individual"	"individual"	"individual"	"individual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"77"	"sh011"	3	"individualiserende"	"individual"	"individual"	"individual"	"individual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"78"	"sh007"	3	"individualisme"	"individual"	"individual"	"individual"	"individual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"79"	"mgs006"	1	"indivudelt"	"individual"	"individual"	"institution"	"individual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"80"	"atoe010"	5	"indre"	"feelings"	"individual"	"beliefs"	"individual"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"81"	"mgs013"	3	"internettet"	"misc"	"places"	"beliefs"	"places"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"82"	"evj003"	3	"karma"	"concepts"	"concepts"	"characteristics"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"83"	"sh003"	2	"karma"	"concepts"	"concepts"	"institution"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"84"	"mgs012"	4	"katte"	"objects"	"objects"	"beliefs"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"85"	"atoe014"	5	"kirke"	"places"	"places"	"objects"	"places"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"86"	"rse007"	1	"klarsyn"	"meaning"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"87"	"evj004"	5	"kort"	"objects"	"objects"	"individual"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"88"	"evj003"	1	"kraft"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"89"	"rse008"	3	"kropsbevidsthed"	"meaning"	"individual"	"objects"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"90"	"atoe006"	1	"krystal"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"91"	"mgs010"	1	"krystal"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"92"	"evj001"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"93"	"evj002"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"94"	"evj005"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"95"	"atoe001"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"96"	"rse001"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"97"	"atoe005"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"98"	"atoe007"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"99"	"rse006"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"100"	"atoe009"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"101"	"atoe010"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"102"	"atoe013"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"103"	"sh002"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"104"	"sh003"	5	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"105"	"sh004"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"106"	"sh011"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"107"	"sh015"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"108"	"mgs003"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"109"	"mgs005"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"110"	"mgs008"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"111"	"mgs009"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"112"	"mgs012"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"113"	"mgs013"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"114"	"mgs014"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"115"	"mgs016"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"116"	"mgs017"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"117"	"mgs019"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"118"	"mgs021"	2	"krystaller"	"objects"	"objects"	"characteristics"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"119"	"mgs022"	5	"krystaller"	"objects"	"objects"	"characteristics"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"120"	"mgs005"	3	"kvinde"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"121"	"rse001"	3	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"122"	"mgs012"	5	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"123"	"mgs022"	1	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"124"	"atoe003"	5	"langt hår"	"characteristics"	"characteristics"	"rules"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"125"	"mgs009"	3	"langt haard"	"characteristics"	"characteristics"	"rules"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"126"	"mgs007"	3	"law of attraction"	"concepts"	"concepts"	"rules"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"127"	"hkp010"	3	"livsstil"	"meaning"	"rules"	"objects"	"meaning"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"128"	"mgs018"	1	"livsstil"	"meaning"	"rules"	"objects"	"meaning"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"129"	"mgs020"	5	"luft"	"concepts"	"objects"	"objects"	"objects"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"130"	"rse009"	4	"lyd"	"objects"	"objects"	"concepts"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"131"	"sh002"	5	"lys"	"objects"	"objects"	"beliefs"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"132"	"sh007"	5	"magisk taenkning"	"misc"	"concepts"	"meditation"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"133"	"hkp010"	5	"manifestation"	"concepts"	"concepts"	"meditation"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"134"	"hkp006"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"135"	"hkp007"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"136"	"hkp008"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"137"	"evj005"	5	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"138"	"atoe006"	4	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"139"	"rse006"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"140"	"atoe010"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"141"	"atoe013"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"142"	"atoe014"	3	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"143"	"sh001"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"144"	"sh009"	5	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"145"	"sh010"	3	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"146"	"sh013"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"147"	"sh015"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"148"	"mgs002"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"149"	"mgs007"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"150"	"mgs016"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"151"	"mgs017"	2	"meditation"	"meditation"	"meditation"	"meaning"	"meditation"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"152"	"mgs021"	4	"meditation"	"meditation"	"meditation"	"meaning"	"meditation"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"153"	"mgs002"	4	"mening"	"meaning"	"meaning"	"characteristics"	"meaning"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"154"	"sh005"	2	"mening med livet"	"meaning"	"meaning"	"characteristics"	"meaning"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"155"	"hkp006"	1	"mere oestligt"	"places"	"characteristics"	"negative"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"156"	"mgs010"	2	"middelaldrende kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"157"	"atoe001"	4	"midtlivskrise"	"negative"	"negative"	"beliefs"	"negative"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"158"	"sh007"	4	"mode"	"characteristics"	"characteristics"	"beliefs"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"159"	"hkp004"	2	"moderne"	"characteristics"	"characteristics"	"beliefs"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"160"	"sh006"	4	"moderne"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"161"	"hkp008"	5	"moderne tro"	"characteristics"	"characteristics"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"162"	"hkp006"	3	"munke"	"characteristics"	"characteristics"	"beliefs"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"163"	"hkp006"	5	"mystik"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"164"	"rse009"	3	"mystisk"	"characteristics"	"characteristics"	"negative"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"165"	"mgs020"	2	"mystisk"	"characteristics"	"characteristics"	"objects"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"166"	"atoe005"	1	"mærkeligt"	"negative"	"negative"	"objects"	"negative"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"167"	"evj004"	4	"mørke"	"concepts"	"objects"	"missing"	"objects"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"168"	"mgs014"	4	"maane"	"concepts"	"objects"	"missing"	"objects"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"169"	"sh004"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"170"	"sh004"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"171"	"sh005"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"172"	"sh005"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"173"	"sh008"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"174"	"sh010"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"175"	"sh010"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"176"	"sh011"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"177"	"sh011"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"178"	"sh012"	3	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"179"	"sh012"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"180"	"sh012"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"181"	"sh013"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"182"	"sh014"	2	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"183"	"sh014"	3	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"184"	"sh014"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"185"	"sh014"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"186"	"mgs006"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"187"	"mgs010"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"188"	"mgs011"	1	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"189"	"mgs011"	2	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"190"	"mgs011"	3	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"191"	"mgs011"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"192"	"mgs011"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"193"	"mgs013"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"194"	"mgs014"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"195"	"mgs018"	3	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"196"	"mgs018"	4	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"197"	"mgs018"	5	NA	NA	NA	"missing"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"198"	"atoe014"	4	"nadver"	"ritual"	"ritual"	"missing"	"ritual"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"199"	"atoe004"	3	"natur"	"places"	"places"	"ritual"	"places"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"200"	"sh009"	2	"natur"	"places"	"places"	"places"	"places"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"201"	"mgs021"	1	"natur"	"places"	"places"	"places"	"places"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"202"	"atoe001"	3	"naturen"	"places"	"places"	"places"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"203"	"mgs002"	5	"naturligt"	"characteristics"	"characteristics"	"places"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"204"	"evj001"	1	"new age folk"	"characteristics"	"characteristics"	"objects"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"205"	"mgs001"	4	"newage"	"institution"	"institution"	"concepts"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"206"	"mgs012"	3	"noerrebro"	"places"	"places"	"concepts"	"places"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"207"	"mgs002"	2	"omgivelser"	"places"	"places"	"places"	"places"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"208"	"evj004"	2	"overnaturligt"	"negative"	"characteristics"	"places"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"209"	"atoe007"	2	"overnaturligt"	"negative"	"characteristics"	"beliefs"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"210"	"hkp003"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"211"	"hkp005"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"212"	"atoe005"	4	"overtro"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"213"	"sh005"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"214"	"sh012"	2	"overtro"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"215"	"hkp002"	1	"overtroisk"	"negative"	"negative"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"216"	"mgs009"	1	"panteisme"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"217"	"mgs017"	4	"panteisme"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"218"	"mgs001"	5	"platugler"	"negative"	"negative"	"concepts"	"negative"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"219"	"mgs006"	3	"praksis"	"ritual"	"ritual"	"negative"	"ritual"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"220"	"evj002"	5	"psykose"	"negative"	"negative"	"ritual"	"negative"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"221"	"rse009"	1	"reinkarnation"	"concepts"	"concepts"	"negative"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"222"	"atoe004"	1	"Religion"	"institution"	"institution"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"223"	"mgs004"	3	"religion"	"institution"	"institution"	"institution"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"224"	"mgs019"	2	"resakralisering"	"misc"	"concepts"	"institution"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"225"	"rse009"	5	"ritual"	"ritual"	"ritual"	"concepts"	"ritual"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"226"	"hkp004"	4	"ro"	"feelings"	"feelings"	"ritual"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"227"	"hkp007"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"228"	"atoe004"	4	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"229"	"rse004"	1	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"230"	"rse008"	1	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"231"	"mgs021"	5	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"232"	"mgs022"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"233"	"mgs015"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"234"	"hkp007"	5	"roegelse"	"objects"	"objects"	"feelings"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"235"	"sh002"	4	"roegelse"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"236"	"mgs016"	5	"rummelighed"	"feelings"	"community"	"objects"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"237"	"sh013"	4	"røgelse"	"objects"	"objects"	"feelings"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"238"	"sh015"	4	"røgelse"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"239"	"rse006"	3	"selvhjælpsbøger"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"240"	"hkp004"	3	"selvudvikling"	"meaning"	"individual"	"objects"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"241"	"evj001"	3	"shakraer"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"242"	"rse001"	2	"sjæl"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"243"	"mgs014"	3	"sol"	"concepts"	"objects"	"beliefs"	"objects"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"244"	"hkp006"	4	"spaendende"	"feelings"	"feelings"	"objects"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"245"	"mgs008"	2	"spoegelser"	"concepts"	"concepts"	"feelings"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"246"	"atoe006"	5	"spøgelse"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"247"	"evj005"	3	"spådom"	"ritual"	"ritual"	"concepts"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"248"	"atoe005"	5	"spåkone"	"characteristics"	"characteristics"	"ritual"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"249"	"atoe006"	2	"spåkone"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"250"	"hkp007"	4	"stearinlys"	"objects"	"objects"	"characteristics"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"251"	"evj004"	3	"stearinlys"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"252"	"mgs004"	5	"stearinlys"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"253"	"sh013"	1	"sten"	"objects"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"254"	"sh003"	1	"stjerner"	"concepts"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"255"	"mgs014"	2	"stjerner"	"concepts"	"objects"	"objects"	"objects"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"256"	"rse001"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"257"	"atoe007"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"258"	"atoe009"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"259"	"sh002"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"260"	"sh011"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"261"	"sh013"	3	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"262"	"sh015"	5	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"263"	"mgs006"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"264"	"mgs007"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"265"	"mgs008"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"266"	"mgs012"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"267"	"mgs019"	5	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"268"	"evj002"	3	"svedlugt"	"negative"	"negative"	"objects"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"269"	"sh002"	3	"syngeskaal"	"objects"	"objects"	"characteristics"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"270"	"sh007"	1	"synkretisme"	"misc"	"institution"	"objects"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"271"	"sh001"	3	"tanker"	"feelings"	"feelings"	"institution"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"272"	"atoe003"	3	"tarot"	"objects"	"objects"	"feelings"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"273"	"mgs019"	3	"tatoveringer"	"characteristics"	"characteristics"	"objects"	"characteristics"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"274"	"sh003"	4	"tillid"	"feelings"	"feelings"	"objects"	"feelings"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"275"	"hkp009"	2	"tro"	"belif"	"belief"	"feelings"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"276"	"hkp010"	1	"tro"	"belif"	"belief"	"beliefs"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"277"	"sh003"	3	"tro"	"belif"	"belief"	"beliefs"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"278"	"sh004"	3	"tro"	"belif"	"belief"	"beliefs"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"279"	"mgs018"	2	"tro"	"belif"	"belief"	"beliefs"	"belief"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"280"	"sh005"	3	"troest"	"meaning"	"meaning"	"beliefs"	"belief"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"281"	"evj005"	2	"tørklæder"	"objects"	"objects"	"feelings"	"objects"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"282"	"evj003"	2	"uforklarligheder"	"misc"	"concepts"	"characteristics"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"283"	"hkp008"	3	"uhaandgribeligt"	"misc"	"concepts"	"beliefs"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"284"	"mgs003"	3	"univers"	"concepts"	"concepts"	"beliefs"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"285"	"hkp009"	1	"universet"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"286"	"sh001"	4	"universet"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"287"	"mgs007"	2	"universet"	"concepts"	"concepts"	"objects"	"concepts"	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA
-"288"	"ateo002"	1	"Ved ikke hvad det er"	NA	NA	"objects"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-"289"	"evj001"	5	"vegetarer"	"characteristics"	"characteristics"	"characteristics"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"290"	"mgs019"	4	"vel i livet"	"meaning"	"meaning"	"meaning"	"meaning"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"291"	"sh006"	3	"vesten"	"places"	"characteristics"	"institution"	"characteristics"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"292"	"sh008"	1	"videnskab"	"misc"	"institution"	"beliefs"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"293"	"sh009"	3	"videnskab"	"misc"	"institution"	"beliefs"	"concepts"	NA	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA
-"294"	"evj001"	4	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"295"	"evj005"	4	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"296"	"atoe003"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"297"	"atoe006"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"298"	"rse006"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"299"	"atoe010"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"300"	"sh006"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"301"	"sh009"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"302"	"sh010"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"303"	"mgs001"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"304"	"mgs004"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"305"	"mgs009"	5	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"306"	"mgs015"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"307"	"mgs017"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"308"	"mgs020"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"309"	"hkp007"	2	"zen"	"ritual"	"concepts"	"concepts"	"concepts"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"310"	"mgs015"	5	"aabent"	"feelings"	"feelings"	"feelings"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"311"	"sh001"	2	"aand"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"312"	"mgs020"	1	"aand"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"313"	"atoe004"	2	"åndelighed"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"314"	"rse003"	1	"åndelighed"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"315"	"mgs021"	3	"aandelighed"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"316"	"mgs015"	4	"aandeligt"	"concepts"	"concepts"	"concepts"	"characteristics"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"317"	"evj004"	1	"åndelæsning"	"concepts"	"ritual"	"ritual"	"ritual"	NA	NA	NA	NA	"x"	NA	NA	NA	NA	NA	NA
-"318"	"evj002"	1	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"319"	"rse009"	2	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"320"	"atoe014"	1	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"321"	"sh008"	2	"aander"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"322"	"sh009"	4	"aander"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"323"	"mgs008"	1	"aander"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
-"324"	"atoe007"	1	"åndeskabninger"	"concepts"	"concepts"	"concepts"	"concepts"	NA	NA	"x"	NA	NA	NA	NA	NA	NA	NA	NA
+""	"PARTID"	"order"	"item"	"CODE.E"	"CODE"	"CODE.H"	"CODE.S"
+"1"	"hkp009"	2	"tro"	"belif"	"belief"	"feelings"	"belief"
+"2"	"hkp010"	1	"tro"	"belif"	"belief"	"beliefs"	"belief"
+"3"	"sh003"	3	"tro"	"belif"	"belief"	"beliefs"	"belief"
+"4"	"sh004"	3	"tro"	"belif"	"belief"	"beliefs"	"belief"
+"5"	"mgs018"	2	"tro"	"belif"	"belief"	"beliefs"	"belief"
+"6"	"atoe003"	4	"bare tæer"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"7"	"atoe009"	1	"farven lilla"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"8"	"mgs001"	1	"flip"	"characteristics"	"characteristics"	"negative"	"characteristics"
+"9"	"mgs010"	4	"forretning"	"misc"	"characteristics"	"institution"	"institutions"
+"10"	"sh007"	2	"freestyling"	"misc"	"characteristics"	"beliefs"	"characteristics"
+"11"	"atoe009"	2	"hekse"	"characteristics"	"characteristics"	"characteristics"	"concepts"
+"12"	"mgs013"	2	"helse"	"misc"	"characteristics"	"beliefs"	"concepts"
+"13"	"atoe001"	5	"hippie"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"14"	"mgs009"	2	"hippie"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"15"	"atoe005"	2	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"16"	"sh014"	1	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"17"	"sh015"	1	"hippier"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"18"	"mgs005"	3	"kvinde"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"19"	"rse001"	3	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"20"	"mgs012"	5	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"21"	"mgs022"	1	"kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"22"	"atoe003"	5	"langt hår"	"characteristics"	"characteristics"	"rules"	"characteristics"
+"23"	"mgs009"	3	"langt haard"	"characteristics"	"characteristics"	"rules"	"characteristics"
+"24"	"hkp006"	1	"mere oestligt"	"places"	"characteristics"	"negative"	"characteristics"
+"25"	"mgs010"	2	"middelaldrende kvinder"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"26"	"sh007"	4	"mode"	"characteristics"	"characteristics"	"beliefs"	"characteristics"
+"27"	"hkp004"	2	"moderne"	"characteristics"	"characteristics"	"beliefs"	"characteristics"
+"28"	"sh006"	4	"moderne"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"29"	"hkp008"	5	"moderne tro"	"characteristics"	"characteristics"	"beliefs"	"belief"
+"30"	"hkp006"	3	"munke"	"characteristics"	"characteristics"	"beliefs"	"characteristics"
+"31"	"rse009"	3	"mystisk"	"characteristics"	"characteristics"	"negative"	"characteristics"
+"32"	"mgs020"	2	"mystisk"	"characteristics"	"characteristics"	"objects"	"characteristics"
+"33"	"mgs002"	5	"naturligt"	"characteristics"	"characteristics"	"places"	"characteristics"
+"34"	"evj001"	1	"new age folk"	"characteristics"	"characteristics"	"objects"	"characteristics"
+"35"	"evj004"	2	"overnaturligt"	"negative"	"characteristics"	"places"	"characteristics"
+"36"	"atoe007"	2	"overnaturligt"	"negative"	"characteristics"	"beliefs"	"characteristics"
+"37"	"atoe005"	5	"spåkone"	"characteristics"	"characteristics"	"ritual"	"characteristics"
+"38"	"atoe006"	2	"spåkone"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"39"	"mgs019"	3	"tatoveringer"	"characteristics"	"characteristics"	"objects"	"characteristics"
+"40"	"evj001"	5	"vegetarer"	"characteristics"	"characteristics"	"characteristics"	"characteristics"
+"41"	"sh006"	3	"vesten"	"places"	"characteristics"	"institution"	"characteristics"
+"42"	"mgs016"	5	"rummelighed"	"feelings"	"community"	"objects"	"characteristics"
+"43"	"mgs015"	2	"astrologi"	"concepts"	"concepts"	"concepts"	"concepts"
+"44"	"mgs017"	5	"astrologi"	"concepts"	"concepts"	"concepts"	"concepts"
+"45"	"mgs005"	4	"aura"	"concepts"	"concepts"	"concepts"	"concepts"
+"46"	"atoe007"	5	"aura"	"concepts"	"concepts"	"concepts"	"concepts"
+"47"	"sh004"	2	"aura"	"concepts"	"concepts"	"concepts"	"concepts"
+"48"	"hkp009"	5	"bevidsthed"	"feelings"	"concepts"	"feelings"	"concepts"
+"49"	"atoe003"	1	"chakra"	"concepts"	"concepts"	"concepts"	"concepts"
+"50"	"rse007"	2	"der er mere mellem himmel og jord"	"concepts"	"concepts"	"beliefs"	"concepts"
+"51"	"rse006"	5	"det flyvende spaghettimonster"	"concepts"	"concepts"	"concepts"	"belief"
+"52"	"atoe012"	1	"drømme"	"concepts"	"concepts"	"beliefs"	"concepts"
+"53"	"hkp010"	2	"energi"	"concepts"	"concepts"	"concepts"	"concepts"
+"54"	"rse008"	5	"energi"	"concepts"	"concepts"	"concepts"	"concepts"
+"55"	"mgs007"	5	"energi"	"concepts"	"concepts"	"concepts"	"concepts"
+"56"	"mgs022"	2	"energi"	"concepts"	"concepts"	"concepts"	"concepts"
+"57"	"sh001"	5	"energier"	"concepts"	"concepts"	"concepts"	"concepts"
+"58"	"mgs005"	2	"energier"	"concepts"	"concepts"	"concepts"	"concepts"
+"59"	"mgs016"	3	"energier"	"concepts"	"concepts"	"concepts"	"concepts"
+"60"	"mgs022"	4	"harmoni"	"feelings"	"concepts"	"beliefs"	"concepts"
+"61"	"hkp010"	4	"hoejere bevidsthed"	"meaning"	"concepts"	"concepts"	"concepts"
+"62"	"sh010"	1	"hoejere kraefter"	"concepts"	"concepts"	"concepts"	"concepts"
+"63"	"evj003"	3	"karma"	"concepts"	"concepts"	"characteristics"	"concepts"
+"64"	"sh003"	2	"karma"	"concepts"	"concepts"	"institution"	"concepts"
+"65"	"rse007"	1	"klarsyn"	"meaning"	"concepts"	"beliefs"	"concepts"
+"66"	"evj003"	1	"kraft"	"concepts"	"concepts"	"objects"	"concepts"
+"67"	"mgs007"	3	"law of attraction"	"concepts"	"concepts"	"rules"	"concepts"
+"68"	"sh007"	5	"magisk taenkning"	"misc"	"concepts"	"meditation"	"concepts"
+"69"	"hkp010"	5	"manifestation"	"concepts"	"concepts"	"meditation"	"concepts"
+"70"	"hkp006"	5	"mystik"	"concepts"	"concepts"	"beliefs"	"concepts"
+"71"	"mgs009"	1	"panteisme"	"concepts"	"concepts"	"beliefs"	"concepts"
+"72"	"mgs017"	4	"panteisme"	"concepts"	"concepts"	"concepts"	"concepts"
+"73"	"rse009"	1	"reinkarnation"	"concepts"	"concepts"	"negative"	"concepts"
+"74"	"mgs019"	2	"resakralisering"	"misc"	"concepts"	"institution"	"concepts"
+"75"	"evj001"	3	"shakraer"	"concepts"	"concepts"	"beliefs"	"concepts"
+"76"	"rse001"	2	"sjæl"	"concepts"	"concepts"	"concepts"	"concepts"
+"77"	"mgs008"	2	"spoegelser"	"concepts"	"concepts"	"feelings"	"concepts"
+"78"	"atoe006"	5	"spøgelse"	"concepts"	"concepts"	"concepts"	"concepts"
+"79"	"rse001"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"80"	"atoe007"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"81"	"atoe009"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"82"	"sh002"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"83"	"sh011"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"84"	"sh013"	3	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"85"	"sh015"	5	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"86"	"mgs006"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"87"	"mgs007"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"88"	"mgs008"	4	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"89"	"mgs012"	2	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"90"	"mgs019"	5	"stjernetegn"	"concepts"	"concepts"	"objects"	"concepts"
+"91"	"evj003"	2	"uforklarligheder"	"misc"	"concepts"	"characteristics"	"concepts"
+"92"	"hkp008"	3	"uhaandgribeligt"	"misc"	"concepts"	"beliefs"	"characteristics"
+"93"	"mgs003"	3	"univers"	"concepts"	"concepts"	"beliefs"	"concepts"
+"94"	"hkp009"	1	"universet"	"concepts"	"concepts"	"objects"	"concepts"
+"95"	"sh001"	4	"universet"	"concepts"	"concepts"	"objects"	"concepts"
+"96"	"mgs007"	2	"universet"	"concepts"	"concepts"	"objects"	"concepts"
+"97"	"hkp007"	2	"zen"	"ritual"	"concepts"	"concepts"	"concepts"
+"98"	"sh001"	2	"aand"	"concepts"	"concepts"	"concepts"	"concepts"
+"99"	"mgs020"	1	"aand"	"concepts"	"concepts"	"concepts"	"concepts"
+"100"	"atoe004"	2	"åndelighed"	"concepts"	"concepts"	"concepts"	"concepts"
+"101"	"rse003"	1	"åndelighed"	"concepts"	"concepts"	"concepts"	"concepts"
+"102"	"mgs021"	3	"aandelighed"	"concepts"	"concepts"	"concepts"	"concepts"
+"103"	"mgs015"	4	"aandeligt"	"concepts"	"concepts"	"concepts"	"characteristics"
+"104"	"evj002"	1	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"
+"105"	"rse009"	2	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"
+"106"	"atoe014"	1	"ånder"	"concepts"	"concepts"	"concepts"	"concepts"
+"107"	"sh008"	2	"aander"	"concepts"	"concepts"	"concepts"	"concepts"
+"108"	"sh009"	4	"aander"	"concepts"	"concepts"	"concepts"	"concepts"
+"109"	"mgs008"	1	"aander"	"concepts"	"concepts"	"concepts"	"concepts"
+"110"	"atoe007"	1	"åndeskabninger"	"concepts"	"concepts"	"concepts"	"concepts"
+"111"	"rse008"	4	"accept"	"feelings"	"feelings"	"feelings"	"feelings"
+"112"	"sh006"	5	"afslappet"	"feelings"	"feelings"	"feelings"	"feelings"
+"113"	"rse004"	2	"balance"	"feelings"	"feelings"	"meaning"	"feelings"
+"114"	"mgs006"	2	"emotionelt"	"feelings"	"feelings"	"feelings"	"feelings"
+"115"	"hkp009"	4	"foelelse"	"feelings"	"feelings"	"feelings"	"feelings"
+"116"	"evj003"	5	"følelser"	"feelings"	"feelings"	"feelings"	"feelings"
+"117"	"mgs016"	4	"glaede"	"feelings"	"feelings"	"feelings"	"feelings"
+"118"	"hkp004"	4	"ro"	"feelings"	"feelings"	"ritual"	"feelings"
+"119"	"hkp007"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"120"	"atoe004"	4	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"121"	"rse004"	1	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"122"	"rse008"	1	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"123"	"mgs021"	5	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"124"	"mgs022"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"125"	"mgs015"	3	"ro"	"feelings"	"feelings"	"feelings"	"feelings"
+"126"	"hkp006"	4	"spaendende"	"feelings"	"feelings"	"objects"	"characteristics"
+"127"	"sh001"	3	"tanker"	"feelings"	"feelings"	"institution"	"concepts"
+"128"	"sh003"	4	"tillid"	"feelings"	"feelings"	"objects"	"feelings"
+"129"	"mgs015"	5	"aabent"	"feelings"	"feelings"	"feelings"	"characteristics"
+"130"	"atoe010"	4	"buddha"	"god"	"god"	"god"	"belief"
+"131"	"evj002"	4	"alternativer"	"misc"	"individual"	"beliefs"	"characteristics"
+"132"	"hkp008"	2	"alternativt"	"misc"	"individual"	"beliefs"	"characteristics"
+"133"	"mgs002"	3	"i sig selv"	"feelings"	"individual"	"individual"	"individual"
+"134"	"rse001"	5	"individ"	"individual"	"individual"	"individual"	"individual"
+"135"	"mgs020"	4	"individ"	"individual"	"individual"	"individual"	"individual"
+"136"	"sh011"	3	"individualiserende"	"individual"	"individual"	"individual"	"individual"
+"137"	"sh007"	3	"individualisme"	"individual"	"individual"	"individual"	"individual"
+"138"	"mgs006"	1	"indivudelt"	"individual"	"individual"	"institution"	"individual"
+"139"	"atoe010"	5	"indre"	"feelings"	"individual"	"beliefs"	"individual"
+"140"	"rse008"	3	"kropsbevidsthed"	"meaning"	"individual"	"objects"	"concepts"
+"141"	"hkp004"	3	"selvudvikling"	"meaning"	"individual"	"objects"	"characteristics"
+"142"	"hkp008"	4	"buddhisme"	"institution"	"institution"	"institution"	"belief"
+"143"	"mgs001"	3	"buddhisme"	"institution"	"institution"	"institution"	"belief"
+"144"	"mgs004"	1	"buddhisme"	"institution"	"institution"	"institution"	"belief"
+"145"	"rse005"	1	"hinduisme"	"institution"	"institution"	"institution"	"belief"
+"146"	"mgs001"	4	"newage"	"institution"	"institution"	"concepts"	"belief"
+"147"	"atoe004"	1	"Religion"	"institution"	"institution"	"beliefs"	"belief"
+"148"	"mgs004"	3	"religion"	"institution"	"institution"	"institution"	"belief"
+"149"	"sh007"	1	"synkretisme"	"misc"	"institution"	"objects"	"concepts"
+"150"	"sh008"	1	"videnskab"	"misc"	"institution"	"beliefs"	"concepts"
+"151"	"sh009"	3	"videnskab"	"misc"	"institution"	"beliefs"	"concepts"
+"152"	"rse004"	4	"forbundethed"	"meaning"	"meaning"	"community"	"feelings"
+"153"	"rse008"	2	"forbundethed"	"meaning"	"meaning"	"community"	"feelings"
+"154"	"rse004"	3	"forståelse"	"meaning"	"meaning"	"beliefs"	"feelings"
+"155"	"atoe004"	5	"fred"	"feelings"	"meaning"	"meaning"	"feelings"
+"156"	"sh008"	3	"fred"	"feelings"	"meaning"	"meaning"	"feelings"
+"157"	"hkp009"	3	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"
+"158"	"evj003"	4	"håb"	"meaning"	"meaning"	"beliefs"	"feelings"
+"159"	"sh008"	4	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"
+"160"	"mgs005"	5	"haab"	"meaning"	"meaning"	"beliefs"	"feelings"
+"161"	"mgs002"	4	"mening"	"meaning"	"meaning"	"characteristics"	"meaning"
+"162"	"sh005"	2	"mening med livet"	"meaning"	"meaning"	"characteristics"	"meaning"
+"163"	"sh005"	3	"troest"	"meaning"	"meaning"	"beliefs"	"belief"
+"164"	"mgs019"	4	"vel i livet"	"meaning"	"meaning"	"meaning"	"meaning"
+"165"	"hkp006"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"166"	"hkp007"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"167"	"hkp008"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"168"	"evj005"	5	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"169"	"atoe006"	4	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"170"	"rse006"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"171"	"atoe010"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"172"	"atoe013"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"173"	"atoe014"	3	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"174"	"sh001"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"175"	"sh009"	5	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"176"	"sh010"	3	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"177"	"sh013"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"178"	"sh015"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"179"	"mgs002"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"180"	"mgs007"	1	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"181"	"mgs016"	2	"meditation"	"meditation"	"meditation"	"meditation"	"meditation"
+"182"	"mgs017"	2	"meditation"	"meditation"	"meditation"	"meaning"	"meditation"
+"183"	"mgs021"	4	"meditation"	"meditation"	"meditation"	"meaning"	"meditation"
+"184"	"rse002"	1	"ikke besvaret"	NA	NA	"negative"	NA
+"185"	"atoe008"	1	"ikke besvaret"	NA	NA	"individual"	NA
+"186"	"sh004"	4	NA	NA	NA	"missing"	NA
+"187"	"sh004"	5	NA	NA	NA	"missing"	NA
+"188"	"sh005"	4	NA	NA	NA	"missing"	NA
+"189"	"sh005"	5	NA	NA	NA	"missing"	NA
+"190"	"sh008"	5	NA	NA	NA	"missing"	NA
+"191"	"sh010"	4	NA	NA	NA	"missing"	NA
+"192"	"sh010"	5	NA	NA	NA	"missing"	NA
+"193"	"sh011"	4	NA	NA	NA	"missing"	NA
+"194"	"sh011"	5	NA	NA	NA	"missing"	NA
+"195"	"sh012"	3	NA	NA	NA	"missing"	NA
+"196"	"sh012"	4	NA	NA	NA	"missing"	NA
+"197"	"sh012"	5	NA	NA	NA	"missing"	NA
+"198"	"sh013"	5	NA	NA	NA	"missing"	NA
+"199"	"sh014"	2	NA	NA	NA	"missing"	NA
+"200"	"sh014"	3	NA	NA	NA	"missing"	NA
+"201"	"sh014"	4	NA	NA	NA	"missing"	NA
+"202"	"sh014"	5	NA	NA	NA	"missing"	NA
+"203"	"mgs006"	5	NA	NA	NA	"missing"	NA
+"204"	"mgs010"	5	NA	NA	NA	"missing"	NA
+"205"	"mgs011"	1	NA	NA	NA	"missing"	NA
+"206"	"mgs011"	2	NA	NA	NA	"missing"	NA
+"207"	"mgs011"	3	NA	NA	NA	"missing"	NA
+"208"	"mgs011"	4	NA	NA	NA	"missing"	NA
+"209"	"mgs011"	5	NA	NA	NA	"missing"	NA
+"210"	"mgs013"	5	NA	NA	NA	"missing"	NA
+"211"	"mgs014"	5	NA	NA	NA	"missing"	NA
+"212"	"mgs018"	3	NA	NA	NA	"missing"	NA
+"213"	"mgs018"	4	NA	NA	NA	"missing"	NA
+"214"	"mgs018"	5	NA	NA	NA	"missing"	NA
+"215"	"ateo002"	1	"Ved ikke hvad det er"	NA	NA	"objects"	NA
+"216"	"mgs003"	2	"bedragende"	"negative"	"negative"	"negative"	"negative"
+"217"	"mgs013"	4	"dumhed"	"negative"	"negative"	"negative"	"negative"
+"218"	"mgs008"	5	"flyvsk"	"characteristics"	"negative"	"feelings"	"negative"
+"219"	"mgs003"	5	"forvirrende"	"negative"	"negative"	"negative"	"negative"
+"220"	"mgs003"	1	"fup"	"negative"	"negative"	"negative"	"negative"
+"221"	"atoe011"	1	"halvskøre"	"negative"	"negative"	"negative"	"negative"
+"222"	"sh012"	1	"hokus pokus"	"negative"	"negative"	"negative"	"negative"
+"223"	"hkp003"	2	"ikke virkeligt"	"negative"	"negative"	"individual"	"negative"
+"224"	"atoe001"	4	"midtlivskrise"	"negative"	"negative"	"beliefs"	"negative"
+"225"	"atoe005"	1	"mærkeligt"	"negative"	"negative"	"objects"	"negative"
+"226"	"hkp003"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"
+"227"	"hkp005"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"
+"228"	"atoe005"	4	"overtro"	"negative"	"negative"	"beliefs"	"belief"
+"229"	"sh005"	1	"overtro"	"negative"	"negative"	"beliefs"	"belief"
+"230"	"sh012"	2	"overtro"	"negative"	"negative"	"beliefs"	"belief"
+"231"	"hkp002"	1	"overtroisk"	"negative"	"negative"	"beliefs"	"belief"
+"232"	"mgs001"	5	"platugler"	"negative"	"negative"	"concepts"	"negative"
+"233"	"evj002"	5	"psykose"	"negative"	"negative"	"ritual"	"negative"
+"234"	"evj002"	3	"svedlugt"	"negative"	"negative"	"objects"	"characteristics"
+"235"	"mgs004"	4	"blomster"	"objects"	"objects"	"objects"	"objects"
+"236"	"atoe009"	5	"drømmefangere"	"objects"	"objects"	"objects"	"objects"
+"237"	"mgs012"	4	"katte"	"objects"	"objects"	"beliefs"	"objects"
+"238"	"evj004"	5	"kort"	"objects"	"objects"	"individual"	"objects"
+"239"	"atoe006"	1	"krystal"	"objects"	"objects"	"objects"	"objects"
+"240"	"mgs010"	1	"krystal"	"objects"	"objects"	"objects"	"objects"
+"241"	"evj001"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"242"	"evj002"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"243"	"evj005"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"244"	"atoe001"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"245"	"rse001"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"246"	"atoe005"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"247"	"atoe007"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"248"	"rse006"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"249"	"atoe009"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"250"	"atoe010"	2	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"251"	"atoe013"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"252"	"sh002"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"253"	"sh003"	5	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"254"	"sh004"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"255"	"sh011"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"256"	"sh015"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"257"	"mgs003"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"258"	"mgs005"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"259"	"mgs008"	3	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"260"	"mgs009"	4	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"261"	"mgs012"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"262"	"mgs013"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"263"	"mgs014"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"264"	"mgs016"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"265"	"mgs017"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"266"	"mgs019"	1	"krystaller"	"objects"	"objects"	"objects"	"objects"
+"267"	"mgs021"	2	"krystaller"	"objects"	"objects"	"characteristics"	"objects"
+"268"	"mgs022"	5	"krystaller"	"objects"	"objects"	"characteristics"	"objects"
+"269"	"mgs020"	5	"luft"	"concepts"	"objects"	"objects"	"objects"
+"270"	"rse009"	4	"lyd"	"objects"	"objects"	"concepts"	"objects"
+"271"	"sh002"	5	"lys"	"objects"	"objects"	"beliefs"	"objects"
+"272"	"evj004"	4	"mørke"	"concepts"	"objects"	"missing"	"objects"
+"273"	"mgs014"	4	"maane"	"concepts"	"objects"	"missing"	"objects"
+"274"	"hkp007"	5	"roegelse"	"objects"	"objects"	"feelings"	"objects"
+"275"	"sh002"	4	"roegelse"	"objects"	"objects"	"objects"	"objects"
+"276"	"sh013"	4	"røgelse"	"objects"	"objects"	"feelings"	"objects"
+"277"	"sh015"	4	"røgelse"	"objects"	"objects"	"objects"	"objects"
+"278"	"rse006"	3	"selvhjælpsbøger"	"objects"	"objects"	"objects"	"objects"
+"279"	"mgs014"	3	"sol"	"concepts"	"objects"	"beliefs"	"objects"
+"280"	"hkp007"	4	"stearinlys"	"objects"	"objects"	"characteristics"	"objects"
+"281"	"evj004"	3	"stearinlys"	"objects"	"objects"	"objects"	"objects"
+"282"	"mgs004"	5	"stearinlys"	"objects"	"objects"	"objects"	"objects"
+"283"	"sh013"	1	"sten"	"objects"	"objects"	"objects"	"objects"
+"284"	"sh003"	1	"stjerner"	"concepts"	"objects"	"objects"	"objects"
+"285"	"mgs014"	2	"stjerner"	"concepts"	"objects"	"objects"	"objects"
+"286"	"sh002"	3	"syngeskaal"	"objects"	"objects"	"characteristics"	"objects"
+"287"	"atoe003"	3	"tarot"	"objects"	"objects"	"feelings"	"objects"
+"288"	"evj005"	2	"tørklæder"	"objects"	"objects"	"feelings"	"objects"
+"289"	"sh006"	2	"asien"	"places"	"places"	"characteristics"	"places"
+"290"	"mgs013"	3	"internettet"	"misc"	"places"	"beliefs"	"places"
+"291"	"atoe014"	5	"kirke"	"places"	"places"	"objects"	"places"
+"292"	"atoe004"	3	"natur"	"places"	"places"	"ritual"	"places"
+"293"	"sh009"	2	"natur"	"places"	"places"	"places"	"places"
+"294"	"mgs021"	1	"natur"	"places"	"places"	"places"	"places"
+"295"	"atoe001"	3	"naturen"	"places"	"places"	"places"	"concepts"
+"296"	"mgs012"	3	"noerrebro"	"places"	"places"	"concepts"	"places"
+"297"	"mgs002"	2	"omgivelser"	"places"	"places"	"places"	"places"
+"298"	"atoe014"	2	"bøn"	"prayer"	"prayer"	"prayer"	"prayer"
+"299"	"mgs010"	3	"bod"	"concepts"	"ritual"	"rules"	"objects"
+"300"	"atoe013"	3	"ceremonier"	"ritual"	"ritual"	"ritual"	"ritual"
+"301"	"hkp004"	1	"fordybelse"	"meaning"	"ritual"	"feelings"	"ritual"
+"302"	"atoe001"	2	"healing"	"ritual"	"ritual"	"concepts"	"concepts"
+"303"	"atoe014"	4	"nadver"	"ritual"	"ritual"	"missing"	"ritual"
+"304"	"mgs006"	3	"praksis"	"ritual"	"ritual"	"negative"	"ritual"
+"305"	"rse009"	5	"ritual"	"ritual"	"ritual"	"concepts"	"ritual"
+"306"	"evj005"	3	"spådom"	"ritual"	"ritual"	"concepts"	"concepts"
+"307"	"evj001"	4	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"308"	"evj005"	4	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"309"	"atoe003"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"310"	"atoe006"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"311"	"rse006"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"312"	"atoe010"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"313"	"sh006"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"314"	"sh009"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"315"	"sh010"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"316"	"mgs001"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"317"	"mgs004"	2	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"318"	"mgs009"	5	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"319"	"mgs015"	1	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"320"	"mgs017"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"321"	"mgs020"	3	"yoga"	"ritual"	"ritual"	"ritual"	"ritual"
+"322"	"evj004"	1	"åndelæsning"	"concepts"	"ritual"	"ritual"	"ritual"
+"323"	"hkp010"	3	"livsstil"	"meaning"	"rules"	"objects"	"meaning"
+"324"	"mgs018"	1	"livsstil"	"meaning"	"rules"	"objects"	"meaning"

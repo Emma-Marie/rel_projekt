@@ -13,36 +13,8 @@ library(AnthroTools)
 d <- read.table("data/RawProjektData.txt")
 d.r <- d # create new object containing data in order to be able to clean data
 
-# create function for information about observations with numeric values
-statinfo <- function(x){
-  numobs <- sum(table(x)) # number of inputs
-  minobs <- min(x, na.rm = T) # minimum value
-  meanobs <- round(mean(x, na.rm = T), 2) # mean values (two decimals)
-  maxobs <- max(x, na.rm = T) # max value
-  sdobs <- round(sd(x, na.rm = T), 2) # standard deviation (two decimals)
-  df <- data.frame(n = numobs, min = minobs, 
-                   M = meanobs, max = maxobs, SD = sdobs) # create data frame
-  return(df)
-}
 
-### Investigate AGE - the independent variable ###
-statinfo(d$ALDER)
-summary(d$ALDER) # median at age 28
-
-pdf(file = "fig_output/age_distribution.pdf", width = 4, height = 4)
-barplot(table(d$ALDER), main = "Age distribution", xlab = "Age", ylim = c(0,20), col = "cadetblue") # plot age
-dev.off()
-
-####### investigate sample generally
-
-## Religious upbringing
-no <- sum(d.r$OPREL == 0, na.rm = TRUE)
-yes <- sum(d.r$OPREL == 1, na.rm = TRUE)
-df_oprel <- data.frame(upbringrel = c("no", "yes"),
-                       Count = c(no, yes)) # create data frame
-print(df_oprel)
-
-## Gender
+### investigate sample -> gender
 female <- sum(d.r$KON == 0)
 male <- sum(d$KON == 1)
 other <- sum(d$KON == 3)
@@ -50,8 +22,7 @@ df_kon <- data.frame(Kon = c("Female", "Male", "Other"),
                      Count = c(female, male, other)) # create data frame
 print(df_kon)
 
-
-### Investigate RELIGIOUSITY (the dependent variable) ###
+### Investigate religiosity (the dependent variable) ###
 
 # function to calculate the Cronbach's alpha
 alpha.fun <- function(data, interval){
@@ -86,13 +57,35 @@ hist(d.r$RELSCOR, xlab = "Religiosity score", ylab = "Number of participants", m
 dev.off()
 
 #######################################################
-##### other descriptions of sample and variables #####
+##### Investigate independent variables ##############
+
+### Age
+
+# create function for information about observations with numeric values
+statinfo <- function(x){
+  numobs <- sum(table(x)) # number of inputs
+  minobs <- min(x, na.rm = T) # minimum value
+  meanobs <- round(mean(x, na.rm = T), 2) # mean values (two decimals)
+  maxobs <- max(x, na.rm = T) # max value
+  sdobs <- round(sd(x, na.rm = T), 2) # standard deviation (two decimals)
+  df <- data.frame(n = numobs, min = minobs, 
+                   M = meanobs, max = maxobs, SD = sdobs) # create data frame
+  return(df)
+}
+
+statinfo(d$ALDER)
+summary(d$ALDER) # median at age 28
+
+pdf(file = "fig_output/age_distribution.pdf", width = 4, height = 4)
+barplot(table(d$ALDER), main = "Age distribution", xlab = "Age", ylab = "Number of participants", ylim = c(0,20), col = "cadetblue") # plot age
+dev.off()
 
 ### Mental health
 table(d.r$HELB) # check values
 d.r$HELB[which(d.r$HELB == "0.2")] <- 0 # replaces invalid value
 
-labs_ment <- c("BEKYMFYS", "BEKYMMENT", "DEPRI", "ALSYG", "HELB") # create object of variable names to capture the mental health questions
+# create scale
+labs_ment <- c("BEKYMFYS", "BEKYMMENT", "DEPRI", "ALSYG", "HELB") #create object of variable names
 mentsub <- d.r[labs_ment] # subtract the health data
 mentsubs <- mentsub[complete.cases(mentsub),] # delete missing values
 
@@ -117,10 +110,30 @@ d.r$MAT <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND# create column of income sco
 hist(d.r$MAT, main  ="Material insecurity of participants", xlab = "Material insecurity", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
 ########################################################
-##### For the free list script ####
-# create new age variable to differentiate between "young" and "older"
+
+# create new age variable to differentiate between "young" and "older" (for freelist)
 d.r$UNG[d.r$ALDER <= 28] <- 0
 d.r$UNG[d.r$ALDER > 28] <- 1
+
+########################################################
+### Investigating spirituality
+
+# create scale
+spir_labs <- c("REL76", "REL102", "REL117", "REL122") # the chosen spirituality questions
+spirscor <- d[spir_labs]
+
+# Cronsbach's alpha on religiosity questions
+alpha(spirscor) # Cronbachs alpha
+spirscor <- na.omit(spirscor) # remove rows with NA
+alpha.fun(spirscor, 0.95) # get 95% CI for Cronbachs alpha
+
+# create new column with religiosity scores
+d.r$SPIRSCOR <- d$REL76 + d$REL102 + d$REL117 + d$REL122
+
+# plot histogram
+pdf(file = "fig_output/spir_distribution.pdf", width = 4, height = 4)
+hist(d.r$SPIRSCOR, xlab = "Spirituality score", ylab = "Number of participants", main = "SPirituality distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue2") # plot rel scores
+dev.off()
 
 ########################################################
 
