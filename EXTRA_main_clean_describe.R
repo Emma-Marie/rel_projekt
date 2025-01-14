@@ -6,6 +6,8 @@
 setwd("/Users/Emma-Marie/Documents/AU/ka_2.semester/rel_projekt/rel_projekt") # set working directory
 
 library("psych")
+# library("devtools")
+# library(AnthroTools)
 
 # load raw data
 d <- read.table("data/RawProjektData.txt")
@@ -78,7 +80,7 @@ statinfo <- function(x){
 statinfo(d$ALDER)
 summary(d$ALDER) # median age = 28
 
-# Plot age distribution
+# Plot age destribution
 pdf(file = "fig_output/age_distribution.pdf", width = 4, height = 4)
 barplot(table(d$ALDER), main = "Age distribution", xlab = "Age", ylab = "Number of participants", ylim = c(0,20), col = "cadetblue") # plot age
 dev.off()
@@ -99,12 +101,6 @@ alpha(mentsub) # check reliability if items are dropped
 # create new column with health insecurity scores
 d.r$HELSCOR <- d.r$BEKYMFYS + d.r$BEKYMMENT + d.r$DEPRI + d.r$ALSYG + d.r$HELB
 
-# plot distribution of health insecurity
-par(mar = c(4, 4, 2, 1)) # set margins for plot
-hist(d.r$HELSCOR, main  ="Health insecurity of participants", 
-     xlab = "Health insecurity", ylab = "Number of participants", 
-     col = "lightskyblue2", ylim = c(0,50))
-
 # Investigate connection between health insecurity and religiosity
 plot(jitter(HELSCOR, factor = 1) ~ RELSCOR, data = d.r,
      xlab = "Religiosity", ylab = "Health insecurity",
@@ -119,14 +115,10 @@ matsubs <- matsub[complete.cases(matsub),] # delete missing values
 alpha.fun(matsubs, 0.95) # run our function calculating Cronbach's alpha 
 alpha(matsub) # check reliability if items are dropped 
 
-# create column of for material insecurity scores
-d.r$MAT <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND
-
 # plot distribution of material insecurity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
-hist(d.r$MAT, main  ="Material insecurity of participants", 
-     xlab = "Material insecurity", ylab = "Number of participants", 
-     col = "lightskyblue2", ylim = c(0,50))
+d.r$MAT <- d.r$BEKYMJOB + d.r$BEKYMLIV + d.r$LSTAND# create column of income scores
+hist(d.r$MAT, main  ="Material insecurity of participants", xlab = "Material insecurity", ylab = "Number of participants", col = "lightskyblue2", ylim = c(0,50)) # plot distribution
 
 # Investigate connection between material insecurity and religiosity
 par(mar = c(4, 4, 2, 1)) # set margins for plot
@@ -139,6 +131,26 @@ plot(jitter(MAT, factor = 1) ~ RELSCOR, data = d.r,
 # create new age variable to differentiate between "young" and "older" (for freelist)
 d.r$UNG[d.r$ALDER <= 28] <- 0
 d.r$UNG[d.r$ALDER > 28] <- 1
+
+########################################################
+### Investigating spirituality
+
+# create scale
+spir_labs <- c("REL76", "REL102", "REL117", "REL122") # the chosen spirituality questions
+spirscor <- d[spir_labs]
+
+# Cronsbach's alpha on religiosity questions
+alpha(spirscor) # Cronbachs alpha
+spirscor <- na.omit(spirscor) # remove rows with NA
+alpha.fun(spirscor, 0.95) # get 95% CI for Cronbachs alpha
+
+# create new column with religiosity scores
+d.r$SPIRSCOR <- d$REL76 + d$REL102 + d$REL117 + d$REL122
+
+# plot histogram
+pdf(file = "fig_output/spir_distribution.pdf", width = 4, height = 4)
+hist(d.r$SPIRSCOR, xlab = "Spirituality score", ylab = "Number of participants", main = "SPirituality distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue2") # plot rel scores
+dev.off()
 
 ########################################################
 
