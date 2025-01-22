@@ -136,7 +136,7 @@ d.r$UNG[d.r$ALDER > 28] <- 1
 ### Investigating spirituality
 
 # create scale
-spir_labs <- c("REL76", "REL102", "REL117", "REL122") # the chosen spirituality questions
+spir_labs <- c("REL76", "REL90", "REL102", "REL114", "REL117", "REL122") # the chosen spirituality questions
 spirscor <- d[spir_labs]
 
 # Cronsbach's alpha on religiosity questions
@@ -145,11 +145,11 @@ spirscor <- na.omit(spirscor) # remove rows with NA
 alpha.fun(spirscor, 0.95) # get 95% CI for Cronbachs alpha
 
 # create new column with religiosity scores
-d.r$SPIRSCOR <- d$REL76 + d$REL102 + d$REL117 + d$REL122
+d.r$SPIRSCOR <- d$REL76 + d$REL90 + d$REL102 + d$REL114 + d$REL117 + d$REL122
 
 # plot histogram
 pdf(file = "fig_output/spir_distribution.pdf", width = 4, height = 4)
-hist(d.r$SPIRSCOR, xlab = "Spirituality score", ylab = "Number of participants", main = "SPirituality distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue2") # plot rel scores
+hist(d.r$SPIRSCOR, xlab = "Spirituality score", ylab = "Number of participants", main = "Spirituality distribution", xlim = c(-15,15), ylim = c(0,80), col = "cadetblue2") # plot rel scores
 dev.off()
 
 ########################################################
